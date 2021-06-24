@@ -1,63 +1,18 @@
-# Chirpy Starter
+# Hey there
 
-[![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)](https://rubygems.org/gems/jekyll-theme-chirpy)
-[![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
+### Hello World 👋 It's me [Harshit Yadav!](https://github.com/harshityadav95)
 
-The startup template for [**Jekyll Theme Chirpy**][chirpy].
+<p align="center">
+  <img align="center" src="https://media.giphy.com/media/1fhj2FW0661V3Nb2Me/giphy.gif" width="130">
+  <br>
 
-When installing the **Chirpy** theme through [RubyGems][gem], Jekyll can only read files in the folders `_includes`, `_layout`, `_sass` and `assets`, as well as a small part of options of the `_config.yml` file from the theme's gem. (You can find the gem files by using the command `bundle info --path jekyll-theme-chirpy`). To fully use all the features of **Chirpy**, you need to copy the other critical files/directories from the theme's gem to your Jekyll site.
+[![Linkedin Badge](https://img.shields.io/badge/-Harshit_Yadav-blue?style=flat&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/harshityadav95/)](https://www.linkedin.com/in/harshityadav95/)
+[![Website Badge](https://img.shields.io/badge/-resume-site?style=flat&logo=Google-Chrome&logoColor=white&link=https:https://harshityadav.in)](https://harshityadav.in/)
+[![Twitter Badge](https://img.shields.io/badge/-@harshityadav95-blue?style=flat&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https:https://twitter.com/harshityadav95)](https://twitter.com/harshityadav95)
+[![Gmail Badge](https://img.shields.io/badge/-mail_me-blue?style=flat&logo=Gmail&logoColor=white&link=mailto:harshityadav95@gmail.com)](mailto:harshityadav95@gmail.com)
+<br>
 
-The critical files/directories to run or build the **Chirpy** theme are as follows:
-
-```shell
-.
-├── _data
-├── _plugins
-├── _tabs
-├── _config.yml
-└──  index.html
-```
-
-So we've extracted all the **Chirpy** gem necessary content here to help you get started quickly.
-
-## Installation
-
-[Use this template][usetemplate] to generate a new repository, and then execute:
-
-[usetemplate]: https://github.com/cotes2020/chirpy-starter/generate
-
-```
-$ bundle
-```
-
-## Usage
-
-### Customing Stylesheet
-
-Creare a new file `/assets/css/style.scss` in your Jekyll site.
-
-And then add the following content:
-
-```scss
----
----
-
-@import "{{ site.theme }}";
-
-// add your style below
-```
-
-### Changing the Number of Tabs
-
-When adding or deleting files in the `_tabs` folder, you need to complete the section [Customing Stylesheet](#customing-stylesheet) first, and then add a new line before `@import`:
-
-```scss
-$tab-count: {{ site.tabs | size | plus: 1 }};
-```
-
-### Publishing to GitHub Pages
-
-See the [deployment instructions](https://github.com/cotes2020/jekyll-theme-chirpy#deployment) of `jekyll-theme-chirpy`.
+Hi,I'm Harshit Yadav ! I'm a Software Engineer interested in working on everything from Skynet to cross platform development and Dev-Ops,and I'm an hobbiyist electronics guy too. Glad that you visited my profile!
 
 ### Upgrading
 
@@ -68,10 +23,6 @@ After that, execute the following command:
 ```console
 $ bundle update jekyll-theme-chirpy
 ```
-
-## Documentation
-
-See the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy#documentation).
 
 ## License
 
