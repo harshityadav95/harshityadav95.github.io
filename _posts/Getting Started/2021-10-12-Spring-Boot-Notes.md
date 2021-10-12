@@ -1,16 +1,17 @@
 ---
-title: Notes : Spring Boot
+title: New Workspace 2021
 author: Harshit Yadav
-date: 2021-10-12 00:00:00 +0530
-categories: [Java,Web Development]
-tags: [Notes]
+date: 2021-08-21 00:00:00 +0530
+categories: [Blogger]
+tags: [personal, development]
+
 ---
 
 
 
 # Spring Boot
 
-![](<https://github.com/harshityadav95/staticfiles/blob/1a05a4ce729dda5d517a8b8d5ef699a566514c6b/springboot1.png>)
+![](https://github.com/harshityadav95/staticfiles/blob/1a05a4ce729dda5d517a8b8d5ef699a566514c6b/springboot1.png)
 
 ## Before Spring
 
