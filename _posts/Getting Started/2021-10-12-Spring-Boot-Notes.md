@@ -2,9 +2,11 @@
 title: Notes : Spring Boot
 author: Harshit Yadav
 date: 2021-10-12 00:00:00 +0530
-categories: [Java]
-tags: [Java,Development]
+categories: [Java,Web Development]
+tags: [Notes]
 ---
+
+
 
 # Spring Boot
 
