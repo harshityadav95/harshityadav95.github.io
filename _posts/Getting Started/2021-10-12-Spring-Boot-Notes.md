@@ -105,10 +105,10 @@ It is also called dependency injection where we let the spring container instant
 * Core component of spring framework  provides the IoC container
 * there are two types of implementation of spring containers
   * Bean Factory
-    * It acts as a single IoC Container for instantiation application objects 
-    * It also configures and assembles dependencies between these objects  
+   * It acts as a single IoC Container for instantiation application objects 
+   * It also configures and assembles dependencies between these objects  
   * Application Context
-    * It provides a central configuration for an application 
+   * It provides a central configuration for an application 
 
 #### Spring ORM Module
 
@@ -163,7 +163,7 @@ It is also called dependency injection where we let the spring container instant
 
 ### Spring Framework Modules
 
-![](<https://github.com/harshityadav95/staticfiles/blob/1a05a4ce729dda5d517a8b8d5ef699a566514c6b/springboot2.png>)
+![](https://github.com/harshityadav95/staticfiles/blob/1a05a4ce729dda5d517a8b8d5ef699a566514c6b/springboot2.png)
 
 #### 1. Core Container
 
@@ -320,7 +320,7 @@ Servlets --> JSP --> JSTL (collection of useful JSP tags for common tasks)
 * Run on a Java-enabled web or app server
 * Handle incoming HTTP requests
 
-![](<https://github.com/harshityadav95/staticfiles/blob/1a05a4ce729dda5d517a8b8d5ef699a566514c6b/springboot3.png>)
+![](https://github.com/harshityadav95/staticfiles/blob/1a05a4ce729dda5d517a8b8d5ef699a566514c6b/springboot3.png)
 
 * Servlet (Java program) runs within the environment of Servlet Engine 
 * Servlet Engine also referred to as Servlet Container
@@ -366,7 +366,7 @@ Servlets --> JSP --> JSTL (collection of useful JSP tags for common tasks)
 * Controller - Dispatcher Servlet
 * useful for classic 3 tier architecture
 
-![](<https://github.com/harshityadav95/staticfiles/blob/1a05a4ce729dda5d517a8b8d5ef699a566514c6b/springboot4.png>)
+![](https://github.com/harshityadav95/staticfiles/blob/1a05a4ce729dda5d517a8b8d5ef699a566514c6b/springboot4.png)
 
 ### REST based Controller
 
