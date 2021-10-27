@@ -20,10 +20,10 @@ timezone: Asia/Shanghai
 
 title: Harshit Yadav                          # the main title
 
-tagline: End of Line .  # it will display as the sub-title
+tagline: End of Line .   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-   anything and everything from machine learning
+  anything and everything from machine learning
   data sceince, projects & progress, SolvePao 
   Tron Legacy ,system design and maybe food ?
 
@@ -44,7 +44,7 @@ social:
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/harshityadav95      # change to your twitter homepage
-    - https://github.com/harshittadav95       # change to your github homepage
+    - https://github.com/harshityadav95       # change to your github homepage
     # Uncomment below to add more social links
     - https://www.facebook.com/harshityadav95
     - https://www.linkedin.com/in/harshityadav95
@@ -72,14 +72,14 @@ google_analytics:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode:   light
+theme_mode:  light
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn:
+img_cdn: 
 
 # the avatar on sidebar, support local or CORS resources
 avatar: https://avatars.githubusercontent.com/u/14792490?v=4
@@ -169,4 +169,3 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
-
