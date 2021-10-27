@@ -651,6 +651,113 @@ What annotation must be specified for the public class of your application to in
 * Cache Disabling  
 * Live Reload 
 
+#### Q. What is group id and Artifact ID?
+
+Ans : **groupId specifies the id of the project group while the artifactId specifies the id of the project.**
+
+
+
+#### Q. What is aspect orinted programming ?
+
+Ans : In a typical enterprise application there are 3 layers 
+
+1. UI Layer
+2. Business Layer
+3. Data Access Layer. 
+
+Across these threee layers there are some cross cutting functionalitty that are required in all the three layers like 
+
+- logging
+- Profiling 
+- security 
+- transaction management
+
+In " Object oriented programaing " there is a class and an object is the key unit that represents that class ,
+
+in " Aspect oriented programming " there is aspect (key unit)  or a specialised unit that address the cross cutting concern like onf of the 4 listed cross cutting functionlaity listed 
+
+- Through AOP we can address  the concerning cross cutting functionality 
+- Reuse : Once we develope Aspect we can use it across enterprise application ,
+- Quick Development : focus more on business logic and can add these functionality any point in time
+- Focus on Aspect : one dev can focus and build on one aspect while the other dev can work on another
+- Enabled / Disabled : Enabling and disabling aspects at runtime of the project during the configuration
+
+Libraries that use AOP : Spring AspectJ
+
+
+
+#### Q. What is dependency Injection ?
+
+Ans : Dependency is basic things that a code depends upon  to run. ( a computer needs a cpu and ram as dependency to run ) , one way to implement this in code is using dependency constructor , 
+
+- With dependency injection , we inject the dependency into the class instead of preparing in the class which needs it
+- No need to use "new" operator inside the class , or object of fancy container
+- Pushing the dependency in the class model and accesing using the constructor parameter or via setter  
+
+Source : https://www.youtube.com/watch?v=IKD2-MAkXyQ&ab_channel=AnthonyFerrara
+
+
+#### Q. What is Dependency Inversion Principle ?
+
+Ans : Code shouldnt depend on depenendcy rather then its abstraction (Interface)
+
+- By depending on Abstraction we we are decoupling on Implementation  
+
+
+#### Q. What is Dependency Injection Container ?
+
+Ans. : It is a map of dependency that a class needs  
+
+-  with the logic to create those dependency if they haven't been created yet
+
+So every time we ask for dependency while creating bean
+
+- The map will figure out which dependency to use 
+
+- Containe will see if it has one of those dependency already , if yes it will use that one 
+
+- If No , create dependency , store it 
+
+  
+
+#### Q. What is Inversion of Control ?
+
+Ans : Commonly we write and start our code , and move control to the library logic wherever needed and once that is needed the code execution flow is back in our code , in Ioc the framework starts and has the control flow and call our code whenver is needed and when our code use is over the flow goes back to the framework
+
+Source : https://youtu.be/oLxsTnH_peI
+
+in Spring. : dependency is with the interface 
+
+#### Q. Configuration,
+
+- This annotation is the main artifact used by the Java-based Spring configuration; it is itself meta-annotated with *@Component*, which makes
+- the annotated classes standard beans and as such, also candidates for component-scanning. 
+- The main purpose of *@Configuration* classes is to be sources of bean definitions for the Spring IoC Containe
+
+#### Q.  Autowiring
+
+- By declaring all the bean dependencies in a Spring configuration file, Spring container can autowire relationships between collaborating beans. This is called Spring bean autowiring.
+
+- After enabling annotation injection, **we can use autowiring on properties, setters, and constructors**.
+
+#### Q. Application Context
+
+- Spring IoC container is responsible for instantiating, wiring, configuring, and managing the entire life cycle of objects. 
+
+- BeanFactory and ApplicationContext represent the Spring IoC Containers.
+
+- ApplicationContext is the sub-interface of BeanFactory.
+
+- BeanFactory provides basic functionalities and is recommended to use for lightweight applications like mobile and applets. 
+
+  ApplicationContext provides basic features in addition to enterprise-specific functionalities which are as follows:
+
+  - Publishing events to registered listeners by resolving property files.
+  - Methods for accessing application components.
+  - Supports Internationalization.
+  - Loading File resources in a generic fashion.
+  
+
 ### Reference
 
 * [https://docs.spring.io/spring-framework/docs/2.5.x/reference/aop.html](https://docs.spring.io/spring-framework/docs/2.5.x/reference/aop.html)
