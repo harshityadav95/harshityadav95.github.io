@@ -6,3 +6,9 @@ categories: [Books]
 tags: [Reading, Year Goals]
 
 ---
+
+
+
+# Clean Code
+
+![](https://images-na.ssl-images-amazon.com/images/I/41xShlnTZTL._SX376_BO1,204,203,200_.jpg)
