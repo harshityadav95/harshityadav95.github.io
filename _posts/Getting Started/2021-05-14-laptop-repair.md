@@ -2,7 +2,7 @@
 title: Fixing my Hot Laptop
 author: Harshit Yadav
 date: 2021-05-14 00:00:00 +0530
-categories: [Projects, Repair]
+categories: [Projects]
 tags: [project, repair]
 ---
 
