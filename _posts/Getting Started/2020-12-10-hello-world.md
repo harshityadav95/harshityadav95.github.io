@@ -2,8 +2,8 @@
 title: Hello World 2020 
 author: Harshit Yadav
 date: 2020-12-10 14:10:00 +0530
-categories: [Projects, Github]
-tags: [jekyll,personal,GithubPages,Blogging]
+categories: [Projects]
+tags: [jekyll,personal,Github,Blogging]
 ---
 
 ## New Blog Setup
