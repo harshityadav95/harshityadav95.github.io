@@ -33,7 +33,7 @@ However, SSL is still used colloquially in conversation, e.g. "SSL certificate" 
 
 ## Why do we need a Certificate?
 
-Video Explanation: What are SSL/TLS Certificates? Why do we need them? Work?
+[Video Explanation: What are SSL/TLS Certificates? Why do we need them? Work?](https://youtu.be/r1nJT63BFQ0)
 
 - Suppose I want to visit ABC.XYZ and want to consume content from the server
 - I will send the GET request to the server
