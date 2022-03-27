@@ -27,7 +27,7 @@ TLS 1.1 uses a version encoded in two bytes that should mean "SSL 3.2", TLS 1.2 
 - **In short, *TECHNICALLY* the only thing that exists is TLS.**
 - The implementation history is SSL 3.0 < TLS 1.0 ... 1.3
 
-![Untitled](2022-03-25%2021e4c/Untitled.png)
+![Untitled](https://raw.githubusercontent.com/harshityadav95/staticfiles/231bb7d052f98a46396553e11eb9cb05846ff42d/2022-03-25%2021e4c/Untitled.png)
 
 However, SSL is still used colloquially in conversation, e.g. "SSL certificate" and in many legacy config flags For best clarity, check the details of all those settings, even the SSL ones. But TLS is the term for modern standards.
 
@@ -39,7 +39,7 @@ Video Explanation: What are SSL/TLS Certificates? Why do we need them? Work?
 - I will send the GET request to the server
 - Since the request can be intercepted by anyone in the middle, therefore, we don't send the request in plain text therefore we encrypt it.
 
-![Untitled](2022-03-25%2021e4c/Untitled%201.png)
+![Untitled](https://raw.githubusercontent.com/harshityadav95/staticfiles/231bb7d052f98a46396553e11eb9cb05846ff42d/2022-03-25%2021e4c/Untitled%201.png)
 
 There are two types of Encryption - Symmetric, and Asymmetric 
 
@@ -61,7 +61,7 @@ There are two types of Encryption - Symmetric, and Asymmetric
 - Now we as clients will Encrypt the Green key with BLUE (Public Key of the Server) and send it to the server which can only be decrypted by the RED Private key of the Server
 - From then on all the communication between client and server will be encrypted using the GREEN Key
 
-![Screenshot 2022-03-17 at 7.42.37 PM.png](2022-03-25%2021e4c/Screenshot_2022-03-17_at_7.42.37_PM.png)
+![Screenshot 2022-03-17 at 7.42.37 PM.png](https://raw.githubusercontent.com/harshityadav95/staticfiles/231bb7d052f98a46396553e11eb9cb05846ff42d/2022-03-25%2021e4c/Screenshot_2022-03-17_at_7.42.37_PM.png)
 
 ### Problems with Key Exchange (OLD Method)
 
@@ -74,21 +74,21 @@ There are two types of Encryption - Symmetric, and Asymmetric
 - Let's see we have a client-side server  (Port 443) and server (www.google.com) , set up a TCP Connection (Stateful) now to get data we create a TLS handshake to share data between client and server without anyone in the middle reading the data (sharing the same key across to exchange data)
 - HTTPS is one of the many applications of SSL/TLS: when you interact with an HTTPS (S for ‘secure’) website like [https://harshityadav.in](https://harshityadav.in), it is SSL/TLS that secures the web-traffic (made of HTTP interactions) between your browser and the website.
 
-![Untitled](2022-03-25%2021e4c/Untitled%202.png)
+![Untitled](https://raw.githubusercontent.com/harshityadav95/staticfiles/231bb7d052f98a46396553e11eb9cb05846ff42d/2022-03-25%2021e4c/Untitled%202.png)
 
 - Client Sends Data encrypted using the shared key and the server decrypts it using  the shared key
 - The server then Sends back the data to the client again in encrypted form using the key which can be decrypted by the client
 
 ## How TLS Relates to TCP/IP Protocol Stack
 
-![Untitled](2022-03-25%2021e4c/Untitled%203.png)
+![Untitled](https://raw.githubusercontent.com/harshityadav95/staticfiles/231bb7d052f98a46396553e11eb9cb05846ff42d/2022-03-25%2021e4c/Untitled%203.png)
 
 - As illustrated by the yellow box in the figure, it sits between application layer protocols such as HTTP, SMTP, FTP, NNTP, LDAP, and POP, and the transport protocol TCP. Sitting in the middle of the two layers, TLS secures application layer data transmitted over TCP. For instance, in HTTPS, TLS secures HTTP traffic transmitted over TCP.
 - DTLS — a sibling of TLS — is to UDP what TLS is to TCP.
 
 ## Message Flow in Full Handshake Protocol
 
-![Untitled](2022-03-25%2021e4c/Untitled%204.png)
+![Untitled](https://raw.githubusercontent.com/harshityadav95/staticfiles/231bb7d052f98a46396553e11eb9cb05846ff42d/2022-03-25%2021e4c/Untitled%204.png)
 
 [Video Explanation : Youtube](https://youtu.be/64geP_LAZ5U)
 
@@ -109,7 +109,7 @@ Video Explanation: [Certificates and Certificate Authority Explained](https://ww
 - The certificate has some information signed by the “ Certificate Authority “ which is in turn signed by “ root certificate “ which is in turn self-signed (Chain of Trust)
 - ie so when talking to [google.com](http://google.com) we receive a certificate from google signed by (Let’s Encrypt ) verifying google identity and we trust the  (Let’s Encrypt Claim) since it was signed by Root Certificate which we already have on client-side pre-installed
 
-![Screenshot 2022-03-17 at 4.19.05 PM.png](2022-03-25%2021e4c/Screenshot_2022-03-17_at_4.19.05_PM.png)
+![Screenshot 2022-03-17 at 4.19.05 PM.png](https://raw.githubusercontent.com/harshityadav95/staticfiles/231bb7d052f98a46396553e11eb9cb05846ff42d/2022-03-25%2021e4c/Screenshot_2022-03-17_at_4.19.05_PM.png)
 
 - Once the TLS Certificate reach the client, the client validates the certificate (the Certificate in the Browser or OS does the validation)
 
@@ -120,7 +120,7 @@ Video Explanation: [Certificates and Certificate Authority Explained](https://ww
 - These Root Certificates are trusted globally
 - Hard to fake a signature since no one else has the private key of the certificate authority
 
-![Screenshot 2022-03-17 at 4.48.57 PM.png](2022-03-25%2021e4c/Screenshot_2022-03-17_at_4.48.57_PM.png)
+![Screenshot 2022-03-17 at 4.48.57 PM.png](https://raw.githubusercontent.com/harshityadav95/staticfiles/231bb7d052f98a46396553e11eb9cb05846ff42d/2022-03-25%2021e4c/Screenshot_2022-03-17_at_4.48.57_PM.png)
 
 ### Now Consider the Scenario
 
@@ -129,7 +129,7 @@ Video Explanation: [Certificates and Certificate Authority Explained](https://ww
 - If this happens then our laptop will validate the website and accept the (aa.com instead of [abc.com](http://ab.com) ) as the genuine website or even ab.com if the attack was done using DNS poisoning
 - The attacker will terminate the connection in the middle and intercept the traffic on behalf of the original server and can steal the data
 
-![Screenshot 2022-03-17 at 5.13.37 PM.png](2022-03-25%2021e4c/Screenshot_2022-03-17_at_5.13.37_PM.png)
+![Screenshot 2022-03-17 at 5.13.37 PM.png](https://raw.githubusercontent.com/harshityadav95/staticfiles/231bb7d052f98a46396553e11eb9cb05846ff42d/2022-03-25%2021e4c/Screenshot_2022-03-17_at_5.13.37_PM.png)
 
 ### Note :
 
@@ -139,7 +139,7 @@ If Super paranoid check the certificate authority of the page when connected to 
 
 ## SSL/TLS Certificate Pinning
 
-![Untitled](2022-03-25%2021e4c/Untitled%205.png)
+![Untitled](https://raw.githubusercontent.com/harshityadav95/staticfiles/231bb7d052f98a46396553e11eb9cb05846ff42d/2022-03-25%2021e4c/Untitled%205.png)
 
 - More Concerned with Frontend Application and focusing and delivering to the end-user (What about how we secure and establish trust between backend Applications)
 - The attacker can always easily install a wrong certificate in the client device in the device like android that will make the client trust the incoming certificate from a malicious website
@@ -148,7 +148,7 @@ If Super paranoid check the certificate authority of the page when connected to 
 
 ## What are the Cases when the Certificate don't match?
 
-![Untitled](2022-03-25%2021e4c/Untitled%206.png)
+![Untitled](https://raw.githubusercontent.com/harshityadav95/staticfiles/231bb7d052f98a46396553e11eb9cb05846ff42d/2022-03-25%2021e4c/Untitled%206.png)
 
 - If someone is intercepting in the middle the certificate sent by them won't match, ie the certificate validation will pass but at runtime when the code kicks in  the hashed certificate won't match  thus detecting man the middle attack
 
