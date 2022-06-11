@@ -2,8 +2,8 @@
 title: Understanding Aggregate Functions Performance
 author: Harshit Yadav
 date: 2022-06-01 00:00:00 +0530
-categories: [Networking & Communication]
-tags: [Web Development, Network]
+categories: [Database Engineering]
+tags: [Backend Development, Database]
 
 ---
 
