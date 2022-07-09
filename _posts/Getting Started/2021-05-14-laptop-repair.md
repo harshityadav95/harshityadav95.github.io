@@ -48,7 +48,7 @@ Let's see how long it works without another technical issue until it is replaced
 
 [![Watch the video](https://img.youtube.com/vi/T-D1KVIuvjA/maxresdefault.jpg)](https://youtu.be/T-D1KVIuvjA)
 
-[<img src="https://img.youtube.com/vi/<VIDEO ID>/maxresdefault.jpg" width="50%">](https://youtu.be/<VIDEO ID>)
+[<img src="https://img.youtube.com/vi/T-D1KVIuvjA/maxresdefault.jpg" width="50%">](https://youtu.be/T-D1KVIuvjA)
 
 
 
