@@ -46,11 +46,4 @@ The Idle temp is now about 45 Degree and even under max load the temp never reac
 
 Let's see how long it works without another technical issue until it is replaced by an ARM device :)
 
-[![Watch the video](https://img.youtube.com/vi/T-D1KVIuvjA/maxresdefault.jpg)](https://youtu.be/T-D1KVIuvjA)
-
-
-{% youtube oHg5SJYRHA0 %}
-
-
-
 

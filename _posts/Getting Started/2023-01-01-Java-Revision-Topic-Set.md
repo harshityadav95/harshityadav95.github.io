@@ -147,3 +147,15 @@ tags: [Programming, Interview Preparation]
 5. Webservices
 
 ![Untitled](https://raw.githubusercontent.com/harshityadav95/staticfiles/main/Java%20RoadMap%20313b68f6b13844cd9a6317100afdf6c8/Untitled%201.png)
+
+## Some Java Motivation Video :
+
+- [World Without Java](https://youtu.be/wpabFkTpeUY)
+
+- [Java Forever And Ever Movie (Java vs Windows .Net)](https://youtu.be/RnqAXuLZlaE)
+
+
+
+
+
+
