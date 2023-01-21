@@ -49,11 +49,6 @@ Let's see how long it works without another technical issue until it is replaced
 [![Watch the video](https://img.youtube.com/vi/T-D1KVIuvjA/maxresdefault.jpg)](https://youtu.be/T-D1KVIuvjA)
 
 
-
-The html code to insert a youtube video can be produced in Jekyll using a simple plugin as described in https://gist.github.com/1805814.
-
-The syntax becomes as simple as:
-
 {% youtube oHg5SJYRHA0 %}
 
 
