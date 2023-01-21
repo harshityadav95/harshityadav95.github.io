@@ -8,11 +8,11 @@ tags: [Web Development, Network]
 
 ## Proxy vs Reverse Proxy
 
-![](https://github.com/harshityadav95/staticfiles/blob/main/Understanding%20Layer%204%20vs%20Layer%207%20Reverse%20Proxy/Untitled.png?raw=true)
+![](https://raw.githubusercontent.com/harshityadav95/staticfiles/main/Understanding%20Layer%204%20vs%20Layer%207%20Reverse%20Proxy/Untitled.png)
 
 ## Layer 7 Proxying
 
-![](https://github.com/harshityadav95/staticfiles/blob/main/Understanding%20Layer%204%20vs%20Layer%207%20Reverse%20Proxy/Untitled%201.png?raw=true)
+![](https://raw.githubusercontent.com/harshityadav95/staticfiles/main/Understanding%20Layer%204%20vs%20Layer%207%20Reverse%20Proxy/Untitled%201.png)
 
 Consider the scenario
 
@@ -32,7 +32,7 @@ Consider the scenario
 
 ## Layer 4 Proxying
 
-![](https://github.com/harshityadav95/staticfiles/blob/main/Understanding%20Layer%204%20vs%20Layer%207%20Reverse%20Proxy/Untitled%202.png?raw=true)
+![](https://raw.githubusercontent.com/harshityadav95/staticfiles/main/Understanding%20Layer%204%20vs%20Layer%207%20Reverse%20Proxy/Untitled%202.png)
 
 Consider the following scenario
 
@@ -45,7 +45,7 @@ Consider the following scenario
 
 ## TLS in Layer 4 Proxy** (1 of implementation)
 
-![](https://github.com/harshityadav95/staticfiles/blob/main/Understanding%20Layer%204%20vs%20Layer%207%20Reverse%20Proxy/Untitled%203.png?raw=true)
+![](https://raw.githubusercontent.com/harshityadav95/staticfiles/main/Understanding%20Layer%204%20vs%20Layer%207%20Reverse%20Proxy/Untitled%203.png)
 
 Consider the following scenario
 

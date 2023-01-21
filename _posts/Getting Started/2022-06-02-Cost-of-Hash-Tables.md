@@ -9,7 +9,7 @@ tags: [Backend Development, Hashing]
 
 
 
-![Untitled](https://github.com/harshityadav95/staticfiles/blob/main/Cost%20of%20Hash%20Tables/Untitled.png?raw=true)
+![Untitled](https://raw.githubusercontent.com/harshityadav95/staticfiles/main/Cost%20of%20Hash%20Tables/Untitled.png)
 
 Hash Tables are effective in many  places like
 
@@ -40,7 +40,7 @@ Hash Tables are effective in many  places like
 
   
 
-![Untitled](https://github.com/harshityadav95/staticfiles/blob/main/Cost%20of%20Hash%20Tables/Untitled%201.png?raw=true)
+![Untitled](https://raw.githubusercontent.com/harshityadav95/staticfiles/main/Cost%20of%20Hash%20Tables/Untitled%201.png)
 
 - To overcome this limitation by bringing the memory closer to the CPU apple has implemented a unified memory concept in the Apple Silicon by integrating the CPU and Memory together on a single chip with M1 max with both the CPU placed together that the cost of 1 CPU accessing the memory local to the other CPU is negligible
 

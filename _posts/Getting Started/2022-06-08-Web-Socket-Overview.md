@@ -7,7 +7,7 @@ tags: [Web Development, Network]
 ---
 
 
-![](https://github.com/harshityadav95/staticfiles/blob/main/Web%20Socket%20Overview/Untitled.png?raw=true)
+![](https://raw.githubusercontent.com/harshityadav95/staticfiles/main/Web%20Socket%20Overview/Untitled.png)
 
 ## What is Web Socket
 
@@ -16,7 +16,7 @@ tags: [Web Development, Network]
 
 ## HTTP 1.0
 
-![](https://github.com/harshityadav95/staticfiles/blob/main/Web%20Socket%20Overview/Untitled%201.png?raw=true)
+![](https://raw.githubusercontent.com/harshityadav95/staticfiles/main/Web%20Socket%20Overview/Untitled%201.png)
 
 - HTTP Protocol 1.0 Recap, is built on TCP protocol when it was first built as a request-response system
 - The Server cannot randomly send requests to clients it needs to  be requested for something to respond to ie client has to initiate the request first
@@ -25,7 +25,7 @@ tags: [Web Development, Network]
 
 ## HTTP 1.1
 
-![](https://github.com/harshityadav95/staticfiles/blob/main/Web%20Socket%20Overview/Untitled%202.png?raw=true)
+![](https://raw.githubusercontent.com/harshityadav95/staticfiles/main/Web%20Socket%20Overview/Untitled%202.png)
 
 - Realizing the previous implementation of HTTP 1.1 was made which once made a request to keep the connection open
 - It keeps the connection open using the Header “ keep-alive” in the header which is an epithermal header and cannot be propagated through proxies
@@ -34,7 +34,7 @@ tags: [Web Development, Network]
 
 ## Web Sockets
 
-![](https://github.com/harshityadav95/staticfiles/blob/main/Web%20Socket%20Overview/Untitled%203.png?raw=true)
+![](https://raw.githubusercontent.com/harshityadav95/staticfiles/main/Web%20Socket%20Overview/Untitled%203.png)
 
 - Web Socket uses HTTP 1.1 between client and server
 - It's a stateful protocol since the client and server are both aware of each other
@@ -48,13 +48,13 @@ tags: [Web Development, Network]
 
 ## WebSockets Handshake
 
-![](https://github.com/harshityadav95/staticfiles/blob/main/Web%20Socket%20Overview/Untitled%204.png?raw=true)
+![](https://raw.githubusercontent.com/harshityadav95/staticfiles/main/Web%20Socket%20Overview/Untitled%204.png)
 
 - WS:// or wss://  similar to HTTP and HTTPS
 - The First request we make is normal HTTP GET request, which asks the server to upgrade to 1.1
 - The Server will reply 101 Switching protocol, and become binary protocol
 
-![](https://github.com/harshityadav95/staticfiles/blob/main/Web%20Socket%20Overview/Untitled%205.png?raw=true)
+![](https://raw.githubusercontent.com/harshityadav95/staticfiles/main/Web%20Socket%20Overview/Untitled%205.png)
 
 - The key is used for seeding and hashing to generate a new key
 - Can you use the Existing Server or a do it manually to implement the same
