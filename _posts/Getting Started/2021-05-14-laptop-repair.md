@@ -48,15 +48,13 @@ Let's see how long it works without another technical issue until it is replaced
 
 [![Watch the video](https://img.youtube.com/vi/T-D1KVIuvjA/maxresdefault.jpg)](https://youtu.be/T-D1KVIuvjA)
 
-<iframe
-    width="640"
-    height="480"
-    src="https://www.youtube.com/embed/UmX4kyB2wfg"
-    frameborder="0"
-    allow="autoplay; encrypted-media"
-    allowfullscreen
->
-</iframe>
+
+
+The html code to insert a youtube video can be produced in Jekyll using a simple plugin as described in https://gist.github.com/1805814.
+
+The syntax becomes as simple as:
+
+{% youtube oHg5SJYRHA0 %}
 
 
 
