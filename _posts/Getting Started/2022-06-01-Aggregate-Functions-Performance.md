@@ -14,7 +14,7 @@ tags: [Backend Development, Database]
 
 Functions like AVG(A), COUNT(*), MAX (A), and MIN(A) used in DB are useful but if used in the wrong way they can show visible performance aggregation 
 
-![Untitled](https://github.com/harshityadav95/staticfiles/blob/8196c9b1688e8cb3922fc66a849f04c5356ff2d0/Understanding%20Aggregate%20Functions%20Performance/Untitled.png?raw=true)
+![Untitled](https://raw.githubusercontent.com/harshityadav95/staticfiles/main/Understanding%20Aggregate%20Functions%20Performance/Untitled.png)
 
 If asked which of the following is more **likely** to use the index, the answer will be MAX(A), but why and not count (*)? , as by initial thinking the COUNT(*) seems more likely to be using the index to calculate the total count of the rows 
 
@@ -78,7 +78,7 @@ In a nutshell, MAX(*) and MIN(*) are the best when it comes to utilizing the ind
 - If we look at column-based storage values, they are best for aggregation as a single read will give a collection of values and nothing else giving a lot of IO (ie instead of getting all the non-required details like the student details name, etc instead of required just the marks in subject maths)
 - This is approach is best utilized in OLAP
 
-![Untitled](https://github.com/harshityadav95/staticfiles/blob/8196c9b1688e8cb3922fc66a849f04c5356ff2d0/Understanding%20Aggregate%20Functions%20Performance/Untitled%201.png?raw=true)
+![Untitled](https://raw.githubusercontent.com/harshityadav95/staticfiles/main/Understanding%20Aggregate%20Functions%20Performance/Untitled%201.png)
 
 ## Clustered Index
 
