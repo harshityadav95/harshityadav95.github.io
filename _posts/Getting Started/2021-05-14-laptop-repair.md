@@ -45,5 +45,3 @@ the repair went easier than thought and components were easy to take apart and f
 The Idle temp is now about 45 Degree and even under max load the temp never reaches beyond 70 Degree even after hours of usage and no meltdown now 
 
 Let's see how long it works without another technical issue until it is replaced by an ARM device :)
-
-
