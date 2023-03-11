@@ -4,13 +4,14 @@ author: Harshit Yadav
 date: 2023-03-30 00:00:00 +0530
 categories: [Event]
 tags: [event,google]
+
 ---
 
 # Event: Women TechMaker 2023
 
 [https://youtu.be/8T0fgmZR94g](https://youtu.be/8T0fgmZR94g)
 
-{% include embed/{youtube}.html id='{8T0fgmZR94g}' %}
+
 
 ## Program Links
 
@@ -21,7 +22,6 @@ tags: [event,google]
 
 [https://youtu.be/MBZ4UmXvStM](https://youtu.be/MBZ4UmXvStM)
 
-{% include embed/{youtube}.html id='{MBZ4UmXvStM}' %}
 
 ## Me @ event
 
