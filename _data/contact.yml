@@ -28,3 +28,18 @@
   type: stack-overflow
   icon: 'fab fa-stack-overflow'
   url:  'https://stackoverflow.com/users/5006393/harshityadav95'                  # Fill with your stackoverflow homepage
+  
+  ## Template › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/advanced-usage.md#setting-author-url
+# -------------------------------------
+# {author_id}:
+#   name: {full name}
+#   twitter: {twitter_of_author}
+#   url: {homepage_of_author}
+# -------------------------------------
+
+harshityadav95:
+  name: Harshit Yadav
+  twitter: harshityadav95
+  url: https://github.com/harshityadav95/
+
+
