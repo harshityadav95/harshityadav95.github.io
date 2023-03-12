@@ -1,5 +1,5 @@
 ---
-title: Completing Ai 900
+title: Event: Woment Techmaker 2023
 author: Harshit Yadav
 date: 2023-03-30 00:00:00 +0530
 categories: [Event]
