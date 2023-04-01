@@ -8,7 +8,7 @@ tags: [Programming, Interview Preparation]
 
 # Java RoadMap [InUpdate] 
 
-![Untitled](https://raw.githubusercontent.com/harshityadav95/staticfiles/main/Java%20RoadMap%20313b68f6b13844cd9a6317100afdf6c8/Untitled.png)
+{% include embed/youtube.html id='l9AzO1FMgM8' %}
 
 ## SET 1:
 
