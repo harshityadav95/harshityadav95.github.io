@@ -86,7 +86,7 @@ Solution: Oblivious HTTPS over DNS  ODOH
 
 ## Recap 
 
-![Untitled](https://raw.githubusercontent.com/harshityadav95/staticfiles/main/DNS%20Domain%20Name%20Server%20Note/Untitled.png)w
+![Untitled](https://raw.githubusercontent.com/harshityadav95/staticfiles/main/DNS%20Domain%20Name%20Server%20Note/Untitled.png)
 
 ## Video Reference
 
