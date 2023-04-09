@@ -1,5 +1,5 @@
 ---
-title: DNS Domain Name Server : Notes
+title: DNS Domain Name Server Notes
 author: Harshit Yadav
 date: 2023-01-03 00:00:00 +0530
 categories: [Networking & Communication]
