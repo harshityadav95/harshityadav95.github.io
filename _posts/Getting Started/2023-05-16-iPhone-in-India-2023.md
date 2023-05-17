@@ -5,7 +5,6 @@ date: 2023-05-16 00:00:00 +0530
 categories: [Tech]
 tags: [iOS,Apple,iPhone]
 ---
-# iPhone in India 2023
 
 ![image](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/0c12493c-0e69-4afc-bcde-c8ee0c7a5d7a)
 
