@@ -18,3 +18,9 @@ One small post for the biggest tech fanboy moment Android vs iOS
 - When picking calls and Bluetooth is paired the call is default picked on phone many times until set in settings
 - While calling a number switching retrying and switching SIM card is better implemented on Android
 - Weather forecast in the iOS weather app is way too inaccurate as compared to Google weather feeds in Bangalore, India
+- When call connection fails hard to troubleshoot the cause vowifi/volte etc ?
+
+## DaytoDay irks
+
+- Whatsapp cannot send photos as documents straight forwards as one can do it in Android
+- Notification mangement in iOS is boon & bane in disguise as notifications keep piling up easily without affecting screen on time
