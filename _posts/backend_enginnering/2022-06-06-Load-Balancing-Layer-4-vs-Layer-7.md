@@ -1,6 +1,6 @@
 ---
 title: Load Balancing Layer 4 vs Layer 7
-author: Harshit Yadav
+author: harshityadav95
 date: 2022-06-06 00:00:00 +0530
 categories: [Networking & Communication]
 tags: [Web Development, Network]

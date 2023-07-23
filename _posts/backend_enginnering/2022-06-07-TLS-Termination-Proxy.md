@@ -1,6 +1,6 @@
 ---
 title: TLS Termination Proxy
-author: Harshit Yadav
+author: harshityadav95
 date: 2022-06-07 00:00:00 +0530
 categories: [Networking & Communication]
 tags: [Web Development, Network]

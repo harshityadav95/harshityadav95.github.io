@@ -1,6 +1,6 @@
 ---
 title: What is Result Set in Database ?
-author: Harshit Yadav
+author: harshityadav95
 date: 2022-06-03 00:00:00 +0530
 categories: [Database Engineering]
 tags: [Backend Development, Database]

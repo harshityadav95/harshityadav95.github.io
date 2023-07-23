@@ -1,6 +1,6 @@
 ---
 title: Spring Boot Notes
-author: Harshit Yadav
+author: harshityadav95
 date: 2021-10-12 00:00:00 +0530
 categories: [Java]
 tags: [SpringBoot, webdevelopment]

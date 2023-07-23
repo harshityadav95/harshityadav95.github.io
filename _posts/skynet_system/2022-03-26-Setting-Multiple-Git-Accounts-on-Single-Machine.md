@@ -1,6 +1,6 @@
 ---
 title: Setup Multiple Git Accounts on Machine
-author: Harshit Yadav
+author: harshityadav95
 date: 2022-03-26 00:00:00 +0530
 categories: [Software Development]
 tags: [Git, Github]

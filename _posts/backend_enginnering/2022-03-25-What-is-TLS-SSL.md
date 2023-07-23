@@ -1,6 +1,6 @@
 ---
 title: What is SSL/TLS ?
-author: Harshit Yadav
+author: harshityadav95
 date: 2022-03-25 00:00:00 +0530
 categories: [Networking & Communication]
 tags: [Web Development, Network]

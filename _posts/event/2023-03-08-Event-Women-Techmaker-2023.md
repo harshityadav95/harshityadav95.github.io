@@ -1,6 +1,6 @@
 ---
 title: Event Women Techmaker 2023
-author: Harshit Yadav
+author: harshityadav95
 date: 2023-03-08 00:00:00 +0530
 categories: [Event]
 tags: [event,google]

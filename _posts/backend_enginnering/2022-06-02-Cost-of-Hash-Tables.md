@@ -1,6 +1,6 @@
 ---
 title: Cost of Hash Tables
-author: Harshit Yadav
+author: harshityadav95
 date: 2022-06-02 00:00:00 +0530
 categories: [Backend Engineering]
 tags: [Backend Development, Hashing]

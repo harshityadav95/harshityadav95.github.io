@@ -1,6 +1,6 @@
 ---
 title: Indian Dataset for Data Science Projects
-author: Harshit Yadav
+author: harshityadav95
 date: 2021-01-29 00:00:00 +0530
 categories: [Projects]
 tags: [project, Machine Learning, Indian Dataset]
