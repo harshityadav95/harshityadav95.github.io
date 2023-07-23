@@ -1,6 +1,9 @@
 # Use the official Jekyll Docker image as the base image
 FROM jekyll/jekyll
 
+# # Making user as the root user
+# USER root
+
 # Set the working directory inside the container
 WORKDIR /srv/jekyll
 
