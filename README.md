@@ -1,28 +1,38 @@
-# Hey there
+# Chirpy Starter [![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)](https://rubygems.org/gems/jekyll-theme-chirpy) [![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
 
-### Hello World 👋 It's me [Harshit Yadav!](https://github.com/harshityadav95)
+When installing the [**Chirpy**][chirpy] theme through [RubyGems.org][gem], Jekyll can only read files in the folders `/_data`, `/_layouts`, `/_includes`, `/_sass` and `/assets`, as well as a small part of options of the `/_config.yml` file from the theme's gem. If you have ever installed this theme gem, you can use the command `bundle info --path jekyll-theme-chirpy` to locate these files.
 
-<p align="center">
-  <img align="center" src="https://media.giphy.com/media/1fhj2FW0661V3Nb2Me/giphy.gif" width="130">
-  <br>
+The Jekyll team claims that this is to leave the ball in the user’s court, but this also results in users not being able to enjoy the out-of-the-box experience when using feature-rich themes.
 
-[![Linkedin Badge](https://img.shields.io/badge/-Harshit_Yadav-blue?style=flat&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/harshityadav95/)](https://www.linkedin.com/in/harshityadav95/)
-[![Website Badge](https://img.shields.io/badge/-resume-site?style=flat&logo=Google-Chrome&logoColor=white&link=https:https://harshityadav.in)](https://harshityadav.in/)
-[![Twitter Badge](https://img.shields.io/badge/-@harshityadav95-blue?style=flat&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https:https://twitter.com/harshityadav95)](https://twitter.com/harshityadav95)
-[![Gmail Badge](https://img.shields.io/badge/-mail_me-blue?style=flat&logo=Gmail&logoColor=white&link=mailto:harshityadav95@gmail.com)](mailto:harshityadav95@gmail.com)
-<br>
+To fully use all the features of **Chirpy**, you need to copy the other critical files from the theme's gem to your Jekyll site. The following is a list of targets:
 
-Hi,I'm Harshit Yadav ! I'm a Software Engineer interested in working on everything from Skynet to cross platform development and Dev-Ops,and I'm an hobbiyist electronics guy too. Glad that you visited my profile!
-
-### Upgrading
-
-First, please modify the target version number of `jekyll-theme-chirpy` in the `Gemfile` (e.g., `gem "jekyll-theme-chirpy", "~> 4.0", ">= 4.0.1"`). In addition, if the major version number is updated, you need to update the critical files to keep them the same as this project.
-
-After that, execute the following command:
-
-```console
-$ bundle update jekyll-theme-chirpy
+```shell
+.
+├── _config.yml
+├── _plugins
+├── _tabs
+└── index.html
 ```
+
+To save you time, and also in case you lose some files while copying, we extract those files/configurations of the latest version of the **Chirpy** theme and the [CD][CD] workflow to here, so that you can start writing in minutes.
+
+## Prerequisites
+
+Follow the instructions in the [Jekyll Docs](https://jekyllrb.com/docs/installation/) to complete the installation of the basic environment. [Git](https://git-scm.com/) also needs to be installed.
+
+## Installation
+
+Sign in to GitHub and [**use this template**][use-template] to generate a brand new repository and name it `USERNAME.github.io`, where `USERNAME` represents your GitHub username.
+
+Then clone it to your local machine and run:
+
+```
+$ bundle
+```
+
+## Usage
+
+Please see the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy#documentation).
 
 ## License
 
@@ -30,4 +40,6 @@ This work is published under [MIT][mit] License.
 
 [gem]: https://rubygems.org/gems/jekyll-theme-chirpy
 [chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
+[use-template]: https://github.com/cotes2020/chirpy-starter/generate
+[CD]: https://en.wikipedia.org/wiki/Continuous_deployment
 [mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE

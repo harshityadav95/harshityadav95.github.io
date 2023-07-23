@@ -1,9 +1,7 @@
 ---
-title: About
+# the default layout is 'page'
 icon: fas fa-info-circle
 order: 4
-
-
 ---
 
 
@@ -14,7 +12,6 @@ Tron Legacy ,system design and maybe food ?
 
 You can click the button above to visit my Project website. If you’d like to get in touch, feel free to say hello through any of the social links below.
 
-- [Facebook](https://www.facebook.com/harshityadav95)
 - [Github](https://github.com/harshityadav95)
 - [Instagram](https://instagram.com/harshityadav95)
 - [LinkedIn](https://in.linkedin.com/in/harshityadav95)
