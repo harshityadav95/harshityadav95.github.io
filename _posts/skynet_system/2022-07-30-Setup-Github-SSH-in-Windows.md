@@ -86,6 +86,7 @@ You are now ready to access Github via SSH.
 ## Accessing Repositories
 
 When accessing a repository and using SSH authentication, make sure to always use the SSH address of the repository.
+![](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/8facebb1-87db-47cb-8773-a1e12f140fca)
 
-![image](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/49255c37-cc88-44bc-919c-0085a229bcc4)
+
 
