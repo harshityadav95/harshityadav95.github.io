@@ -11,6 +11,10 @@ tags: [Web Development, Network]
 
 {% include embed/youtube.html id='UVR9lhUGAyU' %}
 
+## 10,000 FT View
+
+![image](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/1402ae58-79f7-435d-bd93-75968d4e21a3)
+
 ## DNS Resolver Providers
 
 ![Untitled](https://raw.githubusercontent.com/harshityadav95/staticfiles/main/DNS%20Domain%20Name%20Server%20Note/Untitled%201.png)
