@@ -7,7 +7,6 @@ tags: [Azure, Windows, VM]
 
 ---
 
-# AutoMount  a Azure Storage Account in Windows VM
 To let the FileShare connection script be autorun at the start of the virtual machine instance and the fileshare be mounted using the same drive letter in VMSS where Talend is deployed
 
 1. Create the file named script.ps1 in the following folder location
