@@ -7,6 +7,8 @@ tags: [Azure, Windows, VM]
 
 ---
 
+![image](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/c3938c94-49de-4ba2-8bc1-6ae3b0d0e923)
+
 To let the FileShare connection script be autorun at the start of the virtual machine instance and the fileshare be mounted using the same drive letter in VMSS where Talend is deployed
 
 1. Create the file named script.ps1 in the following folder location
