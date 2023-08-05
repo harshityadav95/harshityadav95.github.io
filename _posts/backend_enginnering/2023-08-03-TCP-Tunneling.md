@@ -1,5 +1,5 @@
 ---
-title: TCP Tunnerling
+title: TCP Tunneling
 author: harshityadav95
 date: 2023-08-03 00:00:00 +0530
 categories: [Backend Engineering]
@@ -18,7 +18,7 @@ tags: [Backend Development, Networking]
 
 - Client C1 wants to connect to System S1, IP address with an open port on 22
 - To establish a bi-directional connection
-- We add the frames to data with info on source, client, port of receiver, and port from the receiver and send it to the client and server processes the request and sends back the data response in the similar format
+- We add the frames to date with info on the source, client, port of receiver, and port from the receiver and send it to the client and server processes the request and sends back the data response in the similar format
 
 ### TCP Tunneling
 
@@ -43,12 +43,12 @@ tags: [Backend Development, Networking]
 ![image](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/b6b86565-d76f-4a51-8e62-ea0a7dd0a2a4)
 
 
-- The Client received the data response as  intended as if it was receiving the repsonse from S2
+- The Client received the data response as  intended as if it was receiving the response from S2
 - There are a lot of TCP connections going
 
 ## Applications
 
-- By bypassing the firewall on blocked ports, firewall can see the TCP port and cannot see the data and the port number being smuggled into the pocket
+- By bypassing the firewall on blocked ports, the firewall can see the TCP port and cannot see the data and the port number being smuggled into the pocket
 ![image](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/3c5bf05b-ed9c-4985-98d0-af4a955ea972)
 
 
@@ -73,7 +73,7 @@ tags: [Backend Development, Networking]
 
 
 - SOCKS proxy (dynamic port) tunneling, we create a proxy on a machine and make all the requests coming from our machine go through that proxy (Used by Fiddler for HTTP proxy debugging) all our traffic goes through the proxy and captures it
-- We make a request to Server 1 and [localhost](http://localhost) 8080 to smuggle the requests , all the traffic goes through it (similar to VPN) , ISP is not aware of it
+- We make a request to Server 1 and [localhost](http://localhost) 8080 to smuggle the requests, all the traffic goes through it (similar to VPN) , ISP is not aware of it
 
 ![image](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/ff490ee1-a2e5-4d06-95af-a0a36144d1b8)
 
