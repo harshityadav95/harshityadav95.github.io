@@ -90,22 +90,13 @@ Some important aspects of the Network Security groups include:
 
 ## Reference :
 
-[Azure Load Balancer + NSG Rules - Remove Access Directly](https://stackoverflow.com/questions/41559854/azure-load-balancer-nsg-rules-remove-access-directly)
-
-[Microsoft Azure: NSGs & ASGs Simplified | Kainos](https://www.kainos.com/insights/blogs/microsoft-azure-nsgs-asgs-simplified)
-
-[Azure Network Watcher](https://learn.microsoft.com/en-us/azure/network-watcher/network-watcher-monitoring-overview)
-
-[](https://azure.microsoft.com/en-us/blog/network-security-groups/)
-
-[Azure network security groups overview](https://learn.microsoft.com/en-us/azure/virtual-network/network-security-groups-overview)
-
-[How to create network security groups (NSGs) in Azure | Aviatrix](https://aviatrix.com/learn-center/cloud-security/create-network-security-groups-in-azure/)
-
-[Azure subscription limits and quotas - Azure Resource Manager](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/azure-subscription-service-limits#networking-limits)
-
-[Create, change, or delete an Azure network security group](https://learn.microsoft.com/en-us/azure/virtual-network/manage-network-security-group?tabs=network-security-group-portal)
-
-[Azure traffic analytics](https://learn.microsoft.com/en-gb/azure/network-watcher/traffic-analytics)
-
-[Introduction to flow logging for NSGs - Azure Network Watcher](https://learn.microsoft.com/en-us/azure/network-watcher/network-watcher-nsg-flow-logging-overview)
+- [Azure Load Balancer + NSG Rules - Remove Access Directly](https://stackoverflow.com/questions/41559854/azure-load-balancer-nsg-rules-remove-access-directly)
+- [Microsoft Azure: NSGs & ASGs Simplified | Kainos](https://www.kainos.com/insights/blogs/microsoft-azure-nsgs-asgs-simplified)
+- [Azure Network Watcher](https://learn.microsoft.com/en-us/azure/network-watcher/network-watcher-monitoring-overview)
+- [network-security-group](https://azure.microsoft.com/en-us/blog/network-security-groups)
+- [Azure network security groups overview](https://learn.microsoft.com/en-us/azure/virtual-network/network-security-groups-overview)
+- [How to create network security groups (NSGs) in Azure | Aviatrix](https://aviatrix.com/learn-center/cloud-security/create-network-security-groups-in-azure)
+- [Azure subscription limits and quotas - Azure Resource Manager](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/azure-subscription-service-limits#networking-limits)
+- [Create, change, or delete an Azure network security group](https://learn.microsoft.com/en-us/azure/virtual-network/manage-network-security-group?tabs=network-security-group-portal)
+- [Azure traffic analytics](https://learn.microsoft.com/en-gb/azure/network-watcher/traffic-analytics)
+- [Introduction to flow logging for NSGs - Azure Network Watcher](https://learn.microsoft.com/en-us/azure/network-watcher/network-watcher-nsg-flow-logging-overview)
