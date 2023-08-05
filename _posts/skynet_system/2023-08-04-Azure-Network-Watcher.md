@@ -91,7 +91,7 @@ Some important aspects of the Network Security groups include:
 ## Reference :
 
 - [Azure Load Balancer + NSG Rules - Remove Access Directly](https://stackoverflow.com/questions/41559854/azure-load-balancer-nsg-rules-remove-access-directly)
-- [Microsoft Azure: NSGs & ASGs Simplified | Kainos](https://www.kainos.com/insights/blogs/microsoft-azure-nsgs-asgs-simplified)
+- [Microsoft Azure: NSGs & ASGs Simplified Kainos](https://www.kainos.com/insights/blogs/microsoft-azure-nsgs-asgs-simplified)
 - [Azure Network Watcher](https://learn.microsoft.com/en-us/azure/network-watcher/network-watcher-monitoring-overview)
 - [network-security-group](https://azure.microsoft.com/en-us/blog/network-security-groups)
 - [Azure network security groups overview](https://learn.microsoft.com/en-us/azure/virtual-network/network-security-groups-overview)
