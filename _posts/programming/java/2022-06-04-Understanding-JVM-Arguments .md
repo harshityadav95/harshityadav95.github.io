@@ -37,7 +37,7 @@ If the application's address space is fragmented so that there is no contiguous 
 
 ## Topic Like these be [Overwhelming](https://youtu.be/6G0E4O5yxks?t=289)
 
-![](https://raw.githubusercontent.com/harshityadav95/staticfiles/main/Understanding%20JVM%20Arguments/Untitled%201.png)
+![harshityadav95](https://raw.githubusercontent.com/harshityadav95/staticfiles/main/Understanding%20JVM%20Arguments/Untitled%201.png)
 
 While working across application the popular ones one might come across for brief understanding we will glance through these 7: 
 
@@ -45,9 +45,9 @@ While working across application the popular ones one might come across for brie
 
 - `Xmx` is probably the most important JVM argument. `Xmx` defines the maximum amount of heap size you are allocating to your application. (To learn about different memory regions in a JVM, you may watch [this short video clip](https://www.youtube.com/watch?v=uJLOlCuOR4k&t=9s)). You can define your application’s heap size like this:
 
-![](https://raw.githubusercontent.com/harshityadav95/staticfiles/main/Understanding%20JVM%20Arguments/Untitled%202.png)
+![harshityadav95](https://raw.githubusercontent.com/harshityadav95/staticfiles/main/Understanding%20JVM%20Arguments/Untitled%202.png)
 
-![](https://raw.githubusercontent.com/harshityadav95/staticfiles/main/Understanding%20JVM%20Arguments/Untitled%203.png)
+![harshityadav95](https://raw.githubusercontent.com/harshityadav95/staticfiles/main/Understanding%20JVM%20Arguments/Untitled%203.png)
 
 # **2. GC Algorithm**
 
@@ -61,7 +61,7 @@ As of March 2020, there are 7 different GC algorithms in OpenJDK:
 6. Z GC.
 7. Epsilon GC.
 
-![](https://raw.githubusercontent.com/harshityadav95/staticfiles/main/Understanding%20JVM%20Arguments/Untitled%204.png)
+![harshityadav95](https://raw.githubusercontent.com/harshityadav95/staticfiles/main/Understanding%20JVM%20Arguments/Untitled%204.png)
 
 If you don’t specify the GC algorithm explicitly, then JVM will choose the default algorithm. Until Java 8, Parallel GC is the default GC algorithm. Since Java 9, G1 GC is the default GC algorithm.
 
@@ -73,7 +73,7 @@ Typically, GC logs are used for tuning garbage collection performance. However, 
 
 In this article, we would like to highlight one such micrometric: ‘**GC Throughput**‘ (to read more on other available micrometrics, you may refer [to this article](https://blog.gceasy.io/2019/03/13/micrometrics-to-forecast-application-performance/)).
 
-![](https://raw.githubusercontent.com/harshityadav95/staticfiles/main/Understanding%20JVM%20Arguments/Untitled%205.png)
+![harshityadav95](https://raw.githubusercontent.com/harshityadav95/staticfiles/main/Understanding%20JVM%20Arguments/Untitled%205.png)
 
 # **4. -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath**
 
@@ -81,7 +81,7 @@ In this article, we would like to highlight one such micrometric: ‘**GC Throug
 
 As we don’t know when `OutOfMemoryError` will be thrown, it’s hard to capture the heap dump manually at the right around the time. However, capturing heap dumps can be automated by passing following JVM arguments:
 
-![](https://raw.githubusercontent.com/harshityadav95/staticfiles/main/Understanding%20JVM%20Arguments/Untitled%206.png)
+![harshityadav95](https://raw.githubusercontent.com/harshityadav95/staticfiles/main/Understanding%20JVM%20Arguments/Untitled%206.png)
 
 # **5. -Xss**
 

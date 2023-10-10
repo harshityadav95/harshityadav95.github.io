@@ -13,7 +13,7 @@ TLS or SSL  Termination proxy is a proxy that terminates the TLS session and sen
 
 TLS 1.2 Recap
 
-![](https://raw.githubusercontent.com/harshityadav95/staticfiles/main/TLS%20Termination%20Proxy/Untitled.png)
+![harshityadav95](https://raw.githubusercontent.com/harshityadav95/staticfiles/main/TLS%20Termination%20Proxy/Untitled.png)
 
 - The goal is to establish an HTTPS connection
 - Before that, we establish a TCP connection
@@ -24,7 +24,7 @@ TLS 1.2 Recap
 
 ## TLS Termination Proxy
 
-![](https://raw.githubusercontent.com/harshityadav95/staticfiles/main/TLS%20Termination%20Proxy/Untitled%201.png)
+![harshityadav95](https://raw.githubusercontent.com/harshityadav95/staticfiles/main/TLS%20Termination%20Proxy/Untitled%201.png)
 
 - A proxy that is facing the client and the proxy will agree on the key and exchange encrypted traffic
 - The Proxy could be a load balancer/service mesh proxy
@@ -32,11 +32,11 @@ TLS 1.2 Recap
 - We decrypt the data for better decision, load balancing (L7)
 - Once we terminate the proxy we send the data to the backend server unencrypted
 
-![](https://raw.githubusercontent.com/harshityadav95/staticfiles/main/TLS%20Termination%20Proxy/Untitled%202.png)
+![harshityadav95](https://raw.githubusercontent.com/harshityadav95/staticfiles/main/TLS%20Termination%20Proxy/Untitled%202.png)
 
 ## TLS Forward Proxy
 
-![](https://raw.githubusercontent.com/harshityadav95/staticfiles/main/TLS%20Termination%20Proxy/Untitled%203.png)
+![harshityadav95](https://raw.githubusercontent.com/harshityadav95/staticfiles/main/TLS%20Termination%20Proxy/Untitled%203.png)
 
 - To encrypt the traffic between proxy to backend we can encrypt it again
 - We can negotiate another proxy session between proxy and backend
