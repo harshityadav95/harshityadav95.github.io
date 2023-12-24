@@ -2,7 +2,7 @@
 title: iPhone in India 2023
 author: harshityadav95
 date: 2023-05-16 00:00:00 +0530
-categories: [Tech]
+categories: [Timeline]
 tags: [iOS,Apple,iPhone]
 ---
 

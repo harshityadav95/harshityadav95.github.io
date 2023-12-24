@@ -2,8 +2,8 @@
 title: Notes Azure Front Door
 author: harshityadav95
 date: 2023-12-15 00:00:00 +0530
-categories: [Software Development]
-tags: [Azure, AzureFrontDoor]
+categories: [Azure]
+tags: [Azure, Cloud Computing]
 
 ---
 

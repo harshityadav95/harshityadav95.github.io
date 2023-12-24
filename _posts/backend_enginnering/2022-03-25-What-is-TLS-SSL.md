@@ -2,7 +2,7 @@
 title: What is SSL/TLS ?
 author: harshityadav95
 date: 2022-03-25 00:00:00 +0530
-categories: [Networking & Communication]
+categories: [Backend Engineering]
 tags: [Web Development, Network]
 
 ---

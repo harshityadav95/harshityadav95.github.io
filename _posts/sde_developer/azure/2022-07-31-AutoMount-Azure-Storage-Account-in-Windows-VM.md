@@ -2,8 +2,8 @@
 title:  AutoMount Azure Storage Account in Windows VM
 author: harshityadav95
 date: 2023-07-31 00:00:00 +0530
-categories: [Software Development]
-tags: [Azure, Windows, VM]
+categories: [Azure]
+tags: [Azure, Cloud Computing]
 
 ---
 
