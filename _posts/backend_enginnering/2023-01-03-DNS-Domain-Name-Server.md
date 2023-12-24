@@ -2,7 +2,7 @@
 title: DNS Domain Name Server Notes
 author: harshityadav95
 date: 2023-01-03 00:00:00 +0530
-categories: [Networking & Communication]
+categories: [Backend Engineering]
 tags: [Web Development, Network]
 
 ---

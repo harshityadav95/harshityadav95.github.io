@@ -2,7 +2,7 @@
 title: Fixing my Hot Laptop
 author: harshityadav95
 date: 2021-05-14 00:00:00 +0530
-categories: [Projects]
+categories: [Dev Kit]
 tags: [project, repair]
 ---
 
