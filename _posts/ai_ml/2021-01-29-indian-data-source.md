@@ -113,5 +113,4 @@ Link: [https://bharatmaps.gov.in/](https://bharatmaps.gov.in/)
 
 Link: [https://bhuvan.nrsc.gov.in/bhuvan_links.php](https://bhuvan.nrsc.gov.in/bhuvan_links.php)
 
-
-💡 Find or Gather your own data and try to make some use of out it  , the main learning lies in the process
+- Find or Gather your own data and try to make some use of out it  , the main learning lies in the process
