@@ -1,6 +1,6 @@
 ---
 title: Understanding State Transfer in REST
-
+author: harshityadav95
 date: 2023-08-02 00:00:00 +0530
 categories: [Backend Engineering]
 tags: [Backend Development, REST]

@@ -1,6 +1,6 @@
 ---
 title: Understanding JVM Arguments 
-
+author: harshityadav95
 date: 2022-06-04 00:00:00 +0530
 categories: [Java]
 tags: [Software Development, Interview Preparation]
