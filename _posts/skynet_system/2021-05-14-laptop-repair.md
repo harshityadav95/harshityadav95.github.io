@@ -8,6 +8,8 @@ tags: [project, repair]
 
 # Fixing Overheating Laptop
 
+{% include embed/youtube.html id='JT23jxrm8jY' %}
+
 My personal laptop is a Lenovo Thinkpad E430, 2012 Model which apart from its tough built has survived the time but many upgrade and repair to survive through college and even part school also, with $$ spent on both hardware and even appearance upgrade
 
 - RAM Upgrade 
@@ -33,10 +35,7 @@ So with over the year accumulated knowledge of watchings 100's of hours of Linus
 
 ##  Repair
 
-the repair went easier than thought and components were easy to take apart and for fun, I recorded the whole procedure [Video on youtube](http://www.youtube.com/watch?v=JT23jxrm8jY)
-
-![harshityadav95](http://img.youtube.com/vi/JT23jxrm8jY/0.jpg)
-
+the repair went easier than thought and components were easy to take apart and for fun, I recorded the whole procedure [Video on youtube](https://www.youtube.com/watch?v=JT23jxrm8jY)
 
 ## Result 
 

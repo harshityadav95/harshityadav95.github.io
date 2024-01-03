@@ -35,10 +35,10 @@ It was developed by the Indian government to facilitate single window access to 
 
 Link: [https://www.india.gov.in/](https://www.india.gov.in/)
 
-## [3. Ministry Of Statistics And Programme Implementation Dataset](http://mospi.nic.in/data)
+## [3. Ministry Of Statistics And Programme Implementation Dataset](https://www.mospi.gov.in/data)
 The datasets are collected by conducting large-scale sample surveys across India for various parameters, which eventually leads to the creation of the database. The ministry applies standard statistical techniques and large inspection and supervision to enable this.
 
-Link: [http://mospi.nic.in/data](http://mospi.nic.in/data)
+Link: [https://www.mospi.gov.in/data](https://www.mospi.gov.in/data)
 
 ## [4. RBI Database Of Indian Economy](https://dbie.rbi.org.in/DBIE/dbie.rbi?site=home)
  It is loaded with suitable information and data for researchers, analysts, and general users all alike. It has datasets across money and banking, financial markets, national income, saving and employment, and others. The idea is to make easy present-day styles of data analysis that can provide important real-time numbers about economic activity, prices, and more.
@@ -93,10 +93,10 @@ A unique repository of information on India's biodiversity. The Portal aims to a
  Link: [https://indiabiodiversity.org/?lang=en](https://indiabiodiversity.org/?lang=en)
 
 
-## [14. National Health Systems Resource Center](http://nhsrcindia.org/health-systems-database)
+## [14. National Health Systems Resource Center](https://nhsrcindia.org/health-systems-database)
 A Technical Support Institute with National Health Mission with datasets on Healthcare
 
-Link: [http://nhsrcindia.org/health-systems-database](http://nhsrcindia.org/health-systems-database)
+Link: [https://nhsrcindia.org/health-systems-database](https://nhsrcindia.org/health-systems-database)
 
 ## [15. Central Library Indian Statistical InstituteLibrary](https://www.isical.ac.in/~library/data.php)
 In line with the objectives of the institute, over the years, the library has developed a comprehensive collection of peer-reviewed scholarly literature useful for the faculty and the research community of the institute. The other objective is to serve as a resource center for the scholars and scientific community of the country.
