@@ -1,6 +1,6 @@
 ---
 title: Hello World 2020 
-author: harshityadav95
+
 date: 2020-12-10 14:10:00 +0530
 categories: [Projects]
 tags: [jekyll,personal,Github,Blogging]

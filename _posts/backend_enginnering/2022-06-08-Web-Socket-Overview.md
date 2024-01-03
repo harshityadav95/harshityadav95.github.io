@@ -1,6 +1,6 @@
 ---
 title: Web Socket Overview
-author: harshityadav95
+
 date: 2022-06-08 00:00:00 +0530
 categories: [Backend Engineering]
 tags: [Web Development, Network]

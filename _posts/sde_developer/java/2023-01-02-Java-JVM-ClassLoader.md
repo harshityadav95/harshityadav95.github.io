@@ -1,6 +1,6 @@
 ---
 title: JVM Class Loader Notes
-author: harshityadav95
+
 date: 2023-01-02 00:00:00 +0530
 categories: [Java]
 tags: [Software Development, Interview Preparation]

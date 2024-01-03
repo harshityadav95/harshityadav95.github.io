@@ -1,6 +1,6 @@
 ---
 title: Understanding Aggregate Functions Performance
-author: harshityadav95
+
 date: 2022-06-01 00:00:00 +0530
 categories: [Backend Engineering]
 tags: [Backend Development, Database]
