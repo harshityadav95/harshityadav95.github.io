@@ -26,3 +26,10 @@
 # - type: stack-overflow
 #   icon: 'fab fa-stack-overflow'
 #   url:  ''                  # Fill with your stackoverflow homepage
+  type: linkedin
+  icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
+  url:  'https://in.linkedin.com/in/harshityadav95'                  # Fill with your Linkedin homepage
+# -
+  type: stack-overflow
+  icon: 'fab fa-stack-overflow'
+  url:  'https://stackoverflow.com/users/5006393/harshityadav95'                  # Fill with your stackoverflow homepage 
