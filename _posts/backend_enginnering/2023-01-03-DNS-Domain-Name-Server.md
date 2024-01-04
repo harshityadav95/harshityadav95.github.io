@@ -34,7 +34,7 @@ tags: [Web Development, Network]
 - A common misconception is that there are only 13 root servers in the world.
 - In reality, there are many more, but still only 13 IP addresses used to query the different root server networks.
 - Each has associated with it an IP address (and shortly some will have more than one as IPv6 is further rolled out)
-- There are 13 logical root name servers specified, with logical names in the form [letter.root-servers.net](http://letter.root-servers.net/), where the letter ranges from a to m.
+- There are 13 logical root name servers specified, with logical names in the form [letter.root-servers.net](https://letter.root-servers.net/), where the letter ranges from a to m.
 - which specifies a maximum packet size of 512 bytes when using the User Datagram Protocol (UDP).
 - Technically, however, fourteen name servers fit into an IPv4 packet.
 - The addition of IPv6 addresses for the root name servers requires more than 512 bytes, which is facilitated by the EDNS0 extension to the DNS standard.
@@ -56,11 +56,11 @@ Reference : [types of dns servers](https://www.notion.so/The-Benefits-of-the-3-T
 
 The diagram below illustrates how DNS lookup works under the hood:
 
-1. [harshityadav.in](http://harshityadav.in/) is typed into the browser, and the browser sends the domain name to the DNS resolver.
+1. [harshityadav.in](https://harshityadav.in/) is typed into the browser, and the browser sends the domain name to the DNS resolver.
 2. The resolver queries a DNS root name server.
 3. The root server responds to the resolver with the address of a TLD DNS server. In this case, it is .in.
 4. The resolver then makes a request to the .in TLD.
-5. The TLD server responds with the IP address of the domain’s name server, [harshityadav.in](http://harshityadav.in/) (authoritative name server).
+5. The TLD server responds with the IP address of the domain’s name server, [harshityadav.in](https://harshityadav.in/) (authoritative name server).
 6. The DNS resolver sends a query to the domain’s nameserver.
 7. The IP address for harshityadav.in is then returned to the resolver from the nameserver.
 8. The DNS resolver responds to the web browser with the IP address (142.251.46.238) of the domain requested initially.
