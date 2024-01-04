@@ -12,11 +12,11 @@ tags: [project, Machine Learning, Indian Dataset]
 ![harshityadav95](https://miro.medium.com/max/2400/1*NYzLvZ56lWm-q3kPPxmtIA.png)
 Slide from Ai- For Everyone by Deeplearning.ai on Coursera by Andrew Ng 
 
-Starting on my Plan to Build real-world project that serves a function [solvepao.com](https://solvepao.com) the main initial data I needed was GIS data of various coordinates of public utility like school, education, Hospitals, etc for India to start with. These Data sources for other countries are easily available online and used as learning dataset for beginner data science projects and hosted on all major public data set repository, apparently for India there is a rise in the initiative by the government to make the data publicly available, and the NIC (National Informatics Center) working on various projects to make that data more accessible but the GIS data I was looking for is only available in the public domain to preview using [Bharat Map](https://bharatmaps.gov.in/) but not for download, while I was Googling for Data but I did compile a list in the process
+Starting on my Plan to Build real-world project that serves a function [solvepao.com](https://solvepao.com) the main initial data I needed was GIS data of various coordinates of public utility like school, education, Hospitals, etc for India to start with. These Data sources for other countries are easily available online and used as learning dataset for beginner data science projects and hosted on all major public data set repository, apparently for India there is a rise in the initiative by the government to make the data publicly available, and the NIC (National Informatics Center) working on various projects to make that data more accessible but the GIS data I was looking for is only available in the public domain to preview using [Bharat Map](https://bharatmaps.gov.in) but not for download, while I was Googling for Data but I did compile a list in the process
 
 Few really good examples to check out are : 
 
-1. [https://stategisportal.nic.in/stategisportal/](https://stategisportal.nic.in/stategisportal/)
+1. [https://stategisportal.nic.in/stategisportal](https://stategisportal.nic.in/stategisportal)
 2. [https://bhuvan.nrsc.gov.in/bhuvan_links.php](https://bhuvan.nrsc.gov.in/bhuvan_links.php)
 3. [https://indiabiodiversity.org/?lang=en](https://indiabiodiversity.org/?lang=en)
 
@@ -24,17 +24,17 @@ PS: If you look for other specific data like IRIS data for Indian citizens, stre
 
 here is compiled a list of various data sources one can check out when working on the next data science project :
 
-## [1. Data.Gov.In](https://data.gov.in/)
+## [1. Data.Gov.In](https://data.gov.in)
 It publishes datasets, documents, tools, and applications collected by the government for public use and community participation of the products with visualization, APIs, alerts, etc. It is also a collection of all the government based datasets discussed Below.
 
 
-Link: [https://data.gov.in/](https://data.gov.in/)
+Link: [https://data.gov.in](https://data.gov.in)
 
 
-## [2. National Portal of India](https://www.india.gov.in/)
+## [2. National Portal of India](https://www.india.gov.in)
 It was developed by the Indian government to facilitate single window access to information and services of all government entities, A single-point access to a lot of information, has a searchable contact directory, a database of the government website, and others
 
-Link: [https://www.india.gov.in/](https://www.india.gov.in/)
+Link: [https://www.india.gov.in](https://www.india.gov.in)
 
 ## [3. Ministry Of Statistics And Programme Implementation Dataset](https://www.mospi.gov.in/data)
 The datasets are collected by conducting large-scale sample surveys across India for various parameters, which eventually leads to the creation of the database. The ministry applies standard statistical techniques and large inspection and supervision to enable this.
@@ -70,22 +70,22 @@ Link: [https://www.icegate.gov.in/jsp/DailyReport.jsp](https://data.gov.in/datas
 ## [9. Wildlife Institute of India Dataset]()
 An autonomous institution under the Ministry of Environment Forest and Climate change, the Government of India, has datasets on different wildlife species in India. There are a total of 4591 specimens that are housed at WII herbarium, of which 4322 are digitized and published through the GBIF network. The data is mainly used by researchers and field managers from the respective protected areas of the country to prepare for the management plan and other research.
 
-Link : [WII Herbarium Dataset](https://www.gbif.org/dataset/9e7ea106-0bf8-4087-bb61-dfe4f29e0f17), [GBIF](https://www.gbif.org/en/).
+Link : [WII Herbarium Dataset](https://www.gbif.org/dataset/9e7ea106-0bf8-4087-bb61-dfe4f29e0f17), [GBIF](https://www.gbif.org/en).
 
 ## [10. Open Data Telangana](https://data.telangana.gov.in/search/type/dataset)
 Various Data sets on multiple domains, Industry, Sectors, and Agricultural Data for the State of Telangana
 
 Link: [https://data.telangana.gov.in/search/type/dataset](https://data.telangana.gov.in/search/type/dataset)
 
-## [11. National Data Repository](https://www.ndrdgh.gov.in/NDR/)
+## [11. National Data Repository](https://www.ndrdgh.gov.in/NDR)
 A Data repository on Seismic Data, Well & Log Data, Spatial Data, Other G&G data like Drilling, Reservoir, Production, Geological, Gravity & Magnetic, etc. Reports and Documents
 
-Link: [https://www.ndrdgh.gov.in/NDR/](https://www.ndrdgh.gov.in/NDR/)
+Link: [https://www.ndrdgh.gov.in/NDR](https://www.ndrdgh.gov.in/NDR)
 
-## [12. Indiastat](https://www.indiastat.com/)
+## [12. Indiastat](https://www.indiastat.com)
 A Private owned site that combines and categorize data from the above data sources
 
- Link: [https://www.indiastat.com/](https://www.indiastat.com/)
+ Link: [https://www.indiastat.com](https://www.indiastat.com)
 
 ## [13. India Biodiversity Portal](https://indiabiodiversity.org/?lang=en)
 Free and open access to India's biodiversity information
@@ -104,13 +104,13 @@ In line with the objectives of the institute, over the years, the library has de
 
 Link: [https://www.isical.ac.in/~library/data.php](https://www.isical.ac.in/~library/data.php)
 
-## [16. Bharat Map](https://bharatmaps.gov.in/)
+## [16. Bharat Map](https://bharatmaps.gov.in)
 
 NIC/DeitY has created a Multi-Layer GIS Platform named "Bharat Maps" which depicts core foundation data as "NICMAPS", an integrated base map service using 1:50,000 scale reference data from Survey of India, ISRO, FSI, RGI, and so on. This encompasses 23 layers containing administrative boundaries, transport layers such as roads & railways, forest layers, settlement locations, etc., including terrain map services.
 
-Link: [https://stategisportal.nic.in/stategisportal/](https://stategisportal.nic.in/stategisportal/)
+Link: [https://stategisportal.nic.in/stategisportal](https://stategisportal.nic.in/stategisportal)
 
-Link: [https://bharatmaps.gov.in/](https://bharatmaps.gov.in/)
+Link: [https://bharatmaps.gov.in](https://bharatmaps.gov.in)
 
 Link: [https://bhuvan.nrsc.gov.in/bhuvan_links.php](https://bhuvan.nrsc.gov.in/bhuvan_links.php)
 
