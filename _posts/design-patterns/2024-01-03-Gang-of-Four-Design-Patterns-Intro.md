@@ -1,5 +1,5 @@
 ---
-title: Design Pattern Orchestration & Choreography
+title: Gang of Four Intro to Design Patterns
 author: harshityadav95
 date: 2024-01-03 00:00:00 +0530
 categories: [Design Pattern]
@@ -45,35 +45,35 @@ There are many other unofficial and undocumented patterns out there that you mig
 
 ## Behavioral Design Patterns
 
-- [Chain Of Responsibility Pattern](https://harshityadav.in/GoF-Design-Patterns-by-Example-Chain-Of-Responsibility-Pattern) (yet to start)
-- [Command Pattern](https://harshityadav.in/GoF-Design-Patterns-by-Example-Command-Pattern) (yet to start)
-- [Iterator Pattern](https://harshityadav.in/GoF-Design-Patterns-by-Example-Iterator-Pattern) (yet to start)
-- [Mediator Pattern](https://harshityadav.in/GoF-Design-Patterns-by-Example-Mediator-Pattern) (yet to start)
-- [Memento Pattern](https://harshityadav.in/GoF-Design-Patterns-by-Example-Memento-Pattern) (yet to start)
-- [Observer Pattern](https://harshityadav.in/GoF-Design-Patterns-by-Example-Observer-Pattern) ( 4 yet to start)
-- [Visitor Pattern](https://harshityadav.in/GoF-Design-Patterns-by-Example-Visitor-Pattern) (yet to start)
-- [Strategy Pattern](https://harshityadav.in/GoF-Design-Patterns-by-Example-Strategy-Pattern) ( 5 yet to start)
-- [State Pattern](https://harshityadav.in/GoF-Design-Patterns-by-Example-State-Pattern) (yet to start)
-- [Template Method Pattern](https://harshityadav.in/GoF-Design-Patterns-by-Example-Template-Method-Pattern) (yet to start)
+- [Chain Of Responsibility Pattern](https://harshityadav.in/posts/GoF-Design-Patterns-by-Example-Chain-Of-Responsibility-Pattern) (yet to start)
+- [Command Pattern](https://harshityadav.in/posts/GoF-Design-Patterns-by-Example-Command-Pattern) (yet to start)
+- [Iterator Pattern](https://harshityadav.in/posts/GoF-Design-Patterns-by-Example-Iterator-Pattern) (yet to start)
+- [Mediator Pattern](https://harshityadav.in/posts/GoF-Design-Patterns-by-Example-Mediator-Pattern) (yet to start)
+- [Memento Pattern](https://harshityadav.in/posts/GoF-Design-Patterns-by-Example-Memento-Pattern) (yet to start)
+- [Observer Pattern](https://harshityadav.in/posts/GoF-Design-Patterns-by-Example-Observer-Pattern) ( 4 yet to start)
+- [Visitor Pattern](https://harshityadav.in/posts/GoF-Design-Patterns-by-Example-Visitor-Pattern) (yet to start)
+- [Strategy Pattern](https://harshityadav.in/posts/GoF-Design-Patterns-by-Example-Strategy-Pattern) ( 5 yet to start)
+- [State Pattern](https://harshityadav.in/posts/GoF-Design-Patterns-by-Example-State-Pattern) (yet to start)
+- [Template Method Pattern](https://harshityadav.in/posts/GoF-Design-Patterns-by-Example-Template-Method-Pattern) (yet to start)
 
 ## Creational Design Patterns
 
-- [Simple Factory Pattern](https://harshityadav.in/GoF-Design-Patterns-by-Example-Simple-Factory-Pattern) (yet to start)
-- [Factory Method Pattern](https://harshityadav.in/GoF-Design-Patterns-by-Example-Factory-Method-Pattern) ( 2 yet to start)
-- [Abstract Factory Pattern](https://harshityadav.in/GoF-Design-Patterns-by-Example-Abstract-Factory-Pattern) (yet to start)
-- [Builder Pattern](https://harshityadav.in/GoF-Design-Patterns-by-Example-Builder-Pattern) (yet to start)
-- [Prototype Pattern](https://harshityadav.in/GoF-Design-Patterns-by-Example-Prototype-Pattern) (yet to start)
-- [Singleton Pattern](https://harshityadav.in/GoF-Design-Patterns-by-Example-Singleton-Pattern) ( 1 yet to start)
+- [Simple Factory Pattern](https://harshityadav.in/posts/GoF-Design-Patterns-by-Example-Simple-Factory-Pattern) (yet to start)
+- [Factory Method Pattern](https://harshityadav.in/posts/GoF-Design-Patterns-by-Example-Factory-Method-Pattern) ( 2 yet to start)
+- [Abstract Factory Pattern](https://harshityadav.in/posts/GoF-Design-Patterns-by-Example-Abstract-Factory-Pattern) (yet to start)
+- [Builder Pattern](https://harshityadav.in/posts/GoF-Design-Patterns-by-Example-Builder-Pattern) (yet to start)
+- [Prototype Pattern](https://harshityadav.in/posts/GoF-Design-Patterns-by-Example-Prototype-Pattern) (yet to start)
+- [Singleton Pattern](https://harshityadav.in/posts/GoF-Design-Patterns-by-Example-Singleton-Pattern) ( 1 yet to start)
 
 ## Structural Design Patterns
 
-- [Adapter Pattern](https://harshityadav.in/GoF-Design-Patterns-by-Example-Adapter-Pattern) (3 yet to start)
-- [Bridge Pattern](https://harshityadav.in/GoF-Design-Patterns-by-Example-Bridge-Pattern) (yet to start)
-- [Composite Pattern](https://harshityadav.in/GoF-Design-Patterns-by-Example-Composite-Pattern) (yet to start)
-- [Decorator Pattern](https://harshityadav.in/GoF-Design-Patterns-by-Example-Decorator-Pattern) (yet to start)
-- [Facade Pattern](https://harshityadav.in/GoF-Design-Patterns-by-Example-Facade-Pattern) (yet to start)
-- [Flyweight Pattern](https://harshityadav.in/GoF-Design-Patterns-by-Example-Flyweight-Pattern) (yet to start)
-- [Proxy Pattern](https://harshityadav.in/GoF-Design-Patterns-by-Example-Proxy-Pattern) (yet to start)
+- [Adapter Pattern](https://harshityadav.in/posts/GoF-Design-Patterns-by-Example-Adapter-Pattern) (3 yet to start)
+- [Bridge Pattern](https://harshityadav.in/posts/GoF-Design-Patterns-by-Example-Bridge-Pattern) (yet to start)
+- [Composite Pattern](https://harshityadav.in/posts/GoF-Design-Patterns-by-Example-Composite-Pattern) (yet to start)
+- [Decorator Pattern](https://harshityadav.in/posts/GoF-Design-Patterns-by-Example-Decorator-Pattern) (yet to start)
+- [Facade Pattern](https://harshityadav.in/posts/GoF-Design-Patterns-by-Example-Facade-Pattern) (yet to start)
+- [Flyweight Pattern](https://harshityadav.in/posts/GoF-Design-Patterns-by-Example-Flyweight-Pattern) (yet to start)
+- [Proxy Pattern](https://harshityadav.in/posts/GoF-Design-Patterns-by-Example-Proxy-Pattern) (yet to start)
 
 ## Reference
 
