@@ -31,8 +31,7 @@ Whatever data is stored in the DB which lies on the page right now should persis
 
 If we have written a lot of data it will take a long time also to write the data back into the memory, the cost is not the writing time back to the disk but what if the database crash and the data is not written back successfully to the disk or is half-written, should follow and adhere to the ACID transaction (ACIDITY complete or non )
 
-![image](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/fd48e452-4adb-4895-899e-b5751076abe3)
-
+![image](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/681502ed-9fea-4146-8714-0982bb3b98a8)
 
 ### Solution
 
