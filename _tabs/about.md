@@ -4,13 +4,11 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-I am a Software Engineer focusing on infrastructure, platforms, Linux, open source software, Geospatial Computing , distributed computing (Kubernetes), High Performance Computing , containerization, and the cloud
+I am a Software Engineer focusing on infrastructure, platform enginnering, Linux, open source software, Geospatial Computing , Kubernetes, High Performance Computing , Machine Learning and the cloud
 
 I have worked in many different languages and platforms but currently that is primarily Java , Python, Go, and shell scripting.
 
 My non-computer passions are reading, cooking, DIY , and binge-watching. Reach out to me (email address below) if you have any questions about these types of things, or just want to chat!
-
-You can click the button above to visit my Project website. If you’d like to get in touch, feel free to say hello through any of the social links below.
 
 Contact me
 harshityadav@outlook.com
