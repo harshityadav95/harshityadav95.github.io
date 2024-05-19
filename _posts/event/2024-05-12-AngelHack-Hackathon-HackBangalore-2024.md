@@ -42,6 +42,8 @@ My First solo in person 24 hours hackathon with Team Members Me + Copilot + Gemi
 
 ![image](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/21e3b969-7510-4cb4-950d-13404157b43d)
 
+![IMG_6250](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/cbd01775-a8c9-4945-acad-e39854f99683)
+
 
 ## Reference
 
