@@ -44,6 +44,17 @@ My First solo in person 24 hours hackathon with Team Members Me + Copilot + Gemi
 
 ![IMG_6250](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/cbd01775-a8c9-4945-acad-e39854f99683)
 
+## Certificate
+
+- hackbangalore Certificate of Participation
+- Issued by :AngelHack Corporation
+- Certificate ID :055a2455-21f3-47dd-84a8-8dcbc6fd1670
+- Issue date:  20/05/2024
+- Bade Link : https://www.virtualbadge.io/certificate-validator?credential=055a2455-21f3-47dd-84a8-8dcbc6fd1670
+
+
+![Harshit_Yadav-055a](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/98cd3185-5bd4-4114-8628-4a11d380005b)
+
 
 ## Reference
 
