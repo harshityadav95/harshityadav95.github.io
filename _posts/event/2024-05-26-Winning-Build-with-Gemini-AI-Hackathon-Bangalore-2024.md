@@ -36,7 +36,7 @@ author: harshityadav95
 - [https://ai.google.dev/competition/submission](https://ai.google.dev/competition/submission)
 - [http://aistudio.google.com](https://aistudio.google.com)
 - [https://medium.com/@shitalnandre108/initiating-gemma-fine-tuning-on-google-colab-a-comprehensive-guide-b9006f9da138](https://medium.com/@shitalnandre108/initiating-gemma-fine-tuning-on-google-colab-a-comprehensive-guide-b9006f9da138)
-- https://github.com/xprilion/gemini-function-calling-workshop
+- [https://github.com/xprilion/gemini-function-calling-workshop](https://github.com/xprilion/gemini-function-calling-workshop)
 - [https://cloud.google.com/startup/apply?hl=en](https://cloud.google.com/startup/apply?hl=en)
 
 ## Step 5: Amazing Folks I Met 😃
@@ -50,7 +50,7 @@ author: harshityadav95
 
 ## Upcoming Gemini Hackathon
 
-- https://googlevertexai.devpost.com/?ref_feature=challenge&ref_medium=discover
+- [https://googlevertexai.devpost.com/?ref_feature=challenge&ref_medium=discover](https://googlevertexai.devpost.com/?ref_feature=challenge&ref_medium=discover)
 - [https://ai.google.dev/competition/submission](https://ai.google.dev/competition/submission)
 
 ## Special Thanks :
