@@ -25,28 +25,28 @@ author: harshityadav95
 
 ![IMG_6459](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/6e861add-83aa-4e47-80e2-d2feb5b38cfe)
 
-- Team Member 1 : [Harshit Yadav](https://www.linkedin.com/in/harshityadav95/)
+- Team Member 1 : [Harshit Yadav](https://www.linkedin.com/in/harshityadav95)
 
-- Team Member 2 : [Jahnvi Seth](https://www.linkedin.com/in/jahnvi-seth/)
+- Team Member 2 : [Jahnvi Seth](https://www.linkedin.com/in/jahnvi-seth)
 
-- Team Member 3 : [Krishma Sood](https://www.linkedin.com/in/krishmasood/)
+- Team Member 3 : [Krishma Sood](https://www.linkedin.com/in/krishmasood)
 
 ## Step 4 : Checkout for Later
 
 - [https://ai.google.dev/competition/submission](https://ai.google.dev/competition/submission)
-- [http://aistudio.google.com](http://aistudio.google.com/)
+- [http://aistudio.google.com](http://aistudio.google.com)
 - [https://medium.com/@shitalnandre108/initiating-gemma-fine-tuning-on-google-colab-a-comprehensive-guide-b9006f9da138](https://medium.com/@shitalnandre108/initiating-gemma-fine-tuning-on-google-colab-a-comprehensive-guide-b9006f9da138)
 - https://github.com/xprilion/gemini-function-calling-workshop
 - [https://cloud.google.com/startup/apply?hl=en](https://cloud.google.com/startup/apply?hl=en)
 
 ## Step 5: Amazing Folks I Met 😃
 
-- [https://www.linkedin.com/in/madhupsukoon/](https://www.linkedin.com/in/madhupsukoon/)
-- [https://www.linkedin.com/in/agrawaltejas01/](https://www.linkedin.com/in/agrawaltejas01/)
-- [https://www.linkedin.com/in/dev-varun/](https://www.linkedin.com/in/dev-varun/)
-- [https://www.linkedin.com/in/keshav-kr/](https://www.linkedin.com/in/keshav-kr/)
-- [Jaichand R](https://www.linkedin.com/in/jaichand-r-759280146/)
-- [Priyansh Neema](https://www.linkedin.com/in/priyansh-neema-3899a0175/)
+- [https://www.linkedin.com/in/madhupsukoon/](https://www.linkedin.com/in/madhupsukoon)
+- [https://www.linkedin.com/in/agrawaltejas01/](https://www.linkedin.com/in/agrawaltejas01)
+- [https://www.linkedin.com/in/dev-varun/](https://www.linkedin.com/in/dev-varun)
+- [https://www.linkedin.com/in/keshav-kr/](https://www.linkedin.com/in/keshav-kr)
+- [Jaichand R](https://www.linkedin.com/in/jaichand-r-759280146)
+- [Priyansh Neema](https://www.linkedin.com/in/priyansh-neema-3899a0175)
 
 ## Upcoming Gemini Hackathon
 
@@ -55,7 +55,7 @@ author: harshityadav95
 
 ## Special Thanks :
 
-[Nihal Kashinath](https://www.linkedin.com/in/nihalkashinath/)  and [DeepTechStars](https://deeptechstars.com/)
+[Nihal Kashinath](https://www.linkedin.com/in/nihalkashinath)  and [DeepTechStars](https://deeptechstars.com)
 
 ![Untitled 1](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/c98fc6bf-e5f3-41e6-9085-e95259263010)
 
