@@ -34,7 +34,7 @@ author: harshityadav95
 ## Step 4 : Checkout for Later
 
 - [https://ai.google.dev/competition/submission](https://ai.google.dev/competition/submission)
-- [http://aistudio.google.com](http://aistudio.google.com)
+- [http://aistudio.google.com](https://aistudio.google.com)
 - [https://medium.com/@shitalnandre108/initiating-gemma-fine-tuning-on-google-colab-a-comprehensive-guide-b9006f9da138](https://medium.com/@shitalnandre108/initiating-gemma-fine-tuning-on-google-colab-a-comprehensive-guide-b9006f9da138)
 - https://github.com/xprilion/gemini-function-calling-workshop
 - [https://cloud.google.com/startup/apply?hl=en](https://cloud.google.com/startup/apply?hl=en)
