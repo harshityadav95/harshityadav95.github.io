@@ -14,9 +14,10 @@ Contact me
 harshityadav@outlook.com
 
 - [Github](https://github.com/harshityadav95)
+- [Youtube](https://www.youtube.com/@HarshitYadav)
 - [Instagram](https://instagram.com/harshityadav95)
 - [LinkedIn](https://in.linkedin.com/in/harshityadav95)
-- [Twitter](https://twitter.com/harshityadav95)
+- [X.com](https://twitter.com/harshityadav95)
 - [Medium](https://medium.com/@harshityadav95)
 - [Project Solvepao](https://solvepao.com)
 - [PeerList](https://peerlist.io/harshityadav95)
