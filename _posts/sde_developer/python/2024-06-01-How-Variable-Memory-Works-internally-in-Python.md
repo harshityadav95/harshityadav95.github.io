@@ -7,10 +7,12 @@ tags: [Software Development, Interview Preparation]
 
 ---
 
+## Video :
 {% include embed/youtube.html id='0Om2gYU6clE' %}
 
 ![image](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/47698935-e7be-4351-adc4-6fc4dd435ce6)
 
+Notes :
 
 ## Everything is an Object in Python
 
