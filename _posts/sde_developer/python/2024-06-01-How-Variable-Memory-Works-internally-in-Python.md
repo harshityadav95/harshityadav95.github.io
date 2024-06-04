@@ -49,7 +49,8 @@ The pyObjects do not move around in memory and have fixed size and memory addres
 ![image](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/a85a3cfb-97ac-4dfc-b771-5f41fcad41a9)
 
 
-![image](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/56e4672f-5678-49c2-bdf8-2c9b6ae618d4)
+![Screenshot 2024-06-04 183139](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/88b523d0-bdd9-4da8-9090-4e86d9cca262)
+
 
 
 ## Lists in Python
