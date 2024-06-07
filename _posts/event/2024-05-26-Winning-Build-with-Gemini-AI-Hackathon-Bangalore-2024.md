@@ -57,6 +57,8 @@ author: harshityadav95
 
 [Nihal Kashinath](https://www.linkedin.com/in/nihalkashinath)  and [DeepTechStars](https://deeptechstars.com)
 
+{% include embed/youtube.html id='F76dio0Zfxo' %}
+
 ![Untitled 1](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/c98fc6bf-e5f3-41e6-9085-e95259263010)
 
 PS : If you are looking for what we exactly build , well I will be continue building it further so “ This aint the project you are looking for
