@@ -44,6 +44,14 @@ My First solo in person 24 hours hackathon with Team Members Me + Copilot + Gemi
 
 ![IMG_6250](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/cbd01775-a8c9-4945-acad-e39854f99683)
 
+## My Vlog
+
+{% include embed/youtube.html id='DmoNyqbq7kM' %}
+
+## HackBangalore
+
+{% include embed/youtube.html id='kKQHGcVJT54' %}
+
 ## Certificate
 
 - hackbangalore Certificate of Participation
