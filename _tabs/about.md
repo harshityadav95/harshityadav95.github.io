@@ -4,21 +4,25 @@ icon: fas fa-info-circle
 order: 4
 ---
 
+I am a Software Engineer focusing on infrastructure, platform enginnering, Linux, open source software, Geospatial Computing , Kubernetes, High Performance Computing , Machine Learning and the cloud
 
-Hi , I am software developer from India. My interests range from Programming to Cooking. I have a insatiable thirst for learning new technologies , especially those that solve a real world problem.
+I have worked in many different languages and platforms but currently that is primarily Java , Python, Go, and shell scripting.
 
-here i write about anything and everything from machine learning data sceince, projects & progress, SolvePao, 
-Tron Legacy ,system design and maybe food ?
+My non-computer passions are reading, cooking, DIY , and binge-watching. Reach out to me (email address below) if you have any questions about these types of things, or just want to chat!
 
-You can click the button above to visit my Project website. If you’d like to get in touch, feel free to say hello through any of the social links below.
+Contact me
+harshityadav@outlook.com
 
 - [Github](https://github.com/harshityadav95)
+- [Youtube](https://www.youtube.com/@HarshitYadav)
 - [Instagram](https://instagram.com/harshityadav95)
 - [LinkedIn](https://in.linkedin.com/in/harshityadav95)
-- [Twitter](https://twitter.com/harshityadav95)
+- [X.com](https://twitter.com/harshityadav95)
 - [Medium](https://medium.com/@harshityadav95)
-- [Solvepao](https://solvepao.com)
+- [Project Solvepao](https://solvepao.com)
 - [PeerList](https://peerlist.io/harshityadav95)
 
 ## References
 - [Coursera Certificates List](https://github.com/harshityadav95/harshityadav95/blob/master/coursera.md)
+
+

@@ -3,7 +3,6 @@ on:
   push:
     branches:
       - '*'
-      - '!main'
   pull_request:
     branches: ["*"]
 
@@ -16,7 +15,7 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
           # submodules: true
@@ -30,7 +29,7 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3   # reads from a '.ruby-version' or '.tools-version' file if 'ruby-version' is omitted
+          ruby-version: 3.2
           bundler-cache: true
 
       - name: Build site
@@ -40,4 +39,6 @@ jobs:
 
       - name: Test site
         run: |
-          bundle exec htmlproofer _site --disable-external --check-html --allow_hash_href
+          bundle exec htmlproofer _site \
+            \-\-disable-external=true \
+            \-\-ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/"

@@ -2,7 +2,7 @@
 title: What is SSL/TLS ?
 author: harshityadav95
 date: 2022-03-25 00:00:00 +0530
-categories: [Networking & Communication]
+categories: [Backend Engineering]
 tags: [Web Development, Network]
 
 ---
@@ -65,7 +65,7 @@ There are two types of Encryption - Symmetric, and Asymmetric
 
 ### Problems with Key Exchange (OLD Method)
 
-- What if the message got intercepted in between and when we're asking the server for its public key by a Middleman called Thanos and he sends his public key pretending to be [youtube.com](http://youtube.com) server whose public key we wanted
+- What if the message got intercepted in between and when we're asking the server for its public key by a Middleman called Thanos and he sends his public key pretending to be [youtube.com](https://youtube.com) server whose public key we wanted
 - And we accept Thanos Public key and start communicating with it thinking of it as a youtube server
 - So how to verify that the Server is Youtube one Thanos One ?, we need a certificate along with the response that we can verify is coming from the genuine Youtube Server and not the Thanos Server  (Answer Meet Certificate Authority)
 
@@ -96,18 +96,18 @@ There are two types of Encryption - Symmetric, and Asymmetric
 
 Video Explanation: [Certificates and Certificate Authority Explained](https://www.youtube.com/watch?v=x_I6Qc35PuQ)
 
-- How as a client to make sure that you are actually communicating and connecting to the original [www.google.com](http://www.google.com) server instead of someone acting as a google server by intercepting the request in the middle and pretending to be google and sniffing through your data and giving the results it fetches from google by establishing a connection with google.com
-- (You ←——> Thanos ←———→ [google.com](http://google.com) ) Thanos Intercepting like Man in Middle
-- To solve the problem of verifying that the person we are communicating to is Not Thanos in the Middle we introduce Certificate Authority which proves the identity of [google.com](http://google.com) and everyone trusts the Authority
+- How as a client to make sure that you are actually communicating and connecting to the original [www.google.com](https://www.google.com) server instead of someone acting as a google server by intercepting the request in the middle and pretending to be google and sniffing through your data and giving the results it fetches from google by establishing a connection with google.com
+- (You ←——> Thanos ←———→ [google.com](https://google.com) ) Thanos Intercepting like Man in Middle
+- To solve the problem of verifying that the person we are communicating to is Not Thanos in the Middle we introduce Certificate Authority which proves the identity of [google.com](https://google.com) and everyone trusts the Authority
 - Certificate Authority Like IdenTrust, DigiCert, Sectigo, Lets Encrypt, GoDaddy
-- So when establishing a Server for the First time say [google.com](http://google.com) talks to the certificate authority (ex Lets’ Encrypt), telling the address details (like getting a passport, in this case, public Key of Google ) which when are encrypted by the private key of the certificate authority is called the signed certificate which is also previously signed by a root authority
+- So when establishing a Server for the First time say [google.com](https://google.com) talks to the certificate authority (ex Lets’ Encrypt), telling the address details (like getting a passport, in this case, public Key of Google ) which when are encrypted by the private key of the certificate authority is called the signed certificate which is also previously signed by a root authority
 
 ### How Does Certificate Work in General?
 
 - Let's Suppose I am the client and want to establish a TLS connection between the server and Server and Client we do a handshake
 - In Handshake, we exchange the public key of the server and the server sends the certificate
 - The certificate has some information signed by the “ Certificate Authority “ which is in turn signed by “ root certificate “ which is in turn self-signed (Chain of Trust)
-- ie so when talking to [google.com](http://google.com) we receive a certificate from google signed by (Let’s Encrypt ) verifying google identity and we trust the  (Let’s Encrypt Claim) since it was signed by Root Certificate which we already have on client-side pre-installed
+- ie so when talking to [google.com](https://google.com) we receive a certificate from google signed by (Let’s Encrypt ) verifying google identity and we trust the  (Let’s Encrypt Claim) since it was signed by Root Certificate which we already have on client-side pre-installed
 
 ![Screenshot 2022-03-17 at 4.19.05 PM.png](https://raw.githubusercontent.com/harshityadav95/staticfiles/231bb7d052f98a46396553e11eb9cb05846ff42d/2022-03-25%2021e4c/Screenshot_2022-03-17_at_4.19.05_PM.png)
 
@@ -125,8 +125,8 @@ Video Explanation: [Certificates and Certificate Authority Explained](https://ww
 ### Now Consider the Scenario
 
 - Someone taps in the middle and intercepted using techniques like DNS poisoning, terminating the traffic
-- the communication and served a shady clone of the website (from the stolen code of the website )with same API and interface and (like serving [aa.com](http://aa.com) instead of [ab.com](http://ab.com) ) which is intruders own website that has a certificate signed by self-signed or  certificate authority and root certificate that is trusted by the end-user (client)
-- If this happens then our laptop will validate the website and accept the (aa.com instead of [abc.com](http://ab.com) ) as the genuine website or even ab.com if the attack was done using DNS poisoning
+- the communication and served a shady clone of the website (from the stolen code of the website )with same API and interface and (like serving [aa.com](https://aa.com) instead of [ab.com](https://ab.com) ) which is intruders own website that has a certificate signed by self-signed or  certificate authority and root certificate that is trusted by the end-user (client)
+- If this happens then our laptop will validate the website and accept the (aa.com instead of [abc.com](https://ab.com) ) as the genuine website or even ab.com if the attack was done using DNS poisoning
 - The attacker will terminate the connection in the middle and intercept the traffic on behalf of the original server and can steal the data
 
 ![Screenshot 2022-03-17 at 5.13.37 PM.png](https://raw.githubusercontent.com/harshityadav95/staticfiles/231bb7d052f98a46396553e11eb9cb05846ff42d/2022-03-25%2021e4c/Screenshot_2022-03-17_at_5.13.37_PM.png)
@@ -144,7 +144,7 @@ If Super paranoid check the certificate authority of the page when connected to 
 - More Concerned with Frontend Application and focusing and delivering to the end-user (What about how we secure and establish trust between backend Applications)
 - The attacker can always easily install a wrong certificate in the client device in the device like android that will make the client trust the incoming certificate from a malicious website
 - The solution, we hash the certificate along with the URL it points to and stores it locally
-- When we visit the website [ab.com](http://ab.com) we verify the certificate locally using the methods listed above  as the first layer but further checks the hashed certificate stored in the application layer to match the authenticity if it does not match we fail the connection
+- When we visit the website [ab.com](https://ab.com) we verify the certificate locally using the methods listed above  as the first layer but further checks the hashed certificate stored in the application layer to match the authenticity if it does not match we fail the connection
 
 ## What are the Cases when the Certificate don't match?
 
@@ -167,7 +167,7 @@ These may seem like limitations but there are good practices to it that can be d
 
 ## Credit for Explanation
 
-Hussein Nasser, [Youtube Channel](https://www.youtube.com/c/HusseinNasser-software-engineering/about) , [http://www.husseinnasser.co](http://www.husseinnasser.com/)m , twitter: @hnasr
+Hussein Nasser, [Youtube Channel](https://www.youtube.com/c/HusseinNasser-software-engineering/about) , [https://www.husseinnasser.co](https://www.husseinnasser.com/)m , twitter: @hnasr
 
 ## Reference
 

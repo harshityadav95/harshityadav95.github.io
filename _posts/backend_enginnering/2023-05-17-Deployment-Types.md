@@ -2,7 +2,7 @@
 title: Notes Deployment Strategies 
 author: harshityadav95
 date: 2023-05-17 00:00:00 +0530
-categories: [Software Development,Cloud]
+categories: [Backend Engineering]
 tags: [deployment, webdevelopment]
 ---
 
