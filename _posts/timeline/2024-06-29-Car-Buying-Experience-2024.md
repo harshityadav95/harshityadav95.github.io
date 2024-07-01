@@ -37,6 +37,22 @@ tags: [Tata,Hyndai,Honda,Mahinda,Maruti Suzuki]
 
 Tweet : https://x.com/Tataev/status/1806966481994776797
 
+- Social media worked , one mail chain and got a test drive for Punch EV LR
+
+#### Pros
+- The Ride comfort in front seats
+- Performance in the Sports mode , drove 0-120 was just awesome
+- Camera Integreation and views avaialble and soft touch buttons for essential feature on console is huge advantage
+- Build quality and visibility compared to nexon
+
+
+
+#### Cons
+- Leg space available in back seat for tall person
+- Sunroof motor placement in roof has big bump in the roof
+- Feedback and intutiveness of the gear selector dial is poor
+
+
 
 ## Mahindra 
 
