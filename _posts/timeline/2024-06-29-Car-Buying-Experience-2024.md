@@ -44,13 +44,18 @@ Tweet : https://x.com/Tataev/status/1806966481994776797
 - Performance in the Sports mode , drove 0-120 was just awesome
 - Camera Integreation and views avaialble and soft touch buttons for essential feature on console is huge advantage
 - Build quality and visibility compared to nexon
+- Ground Clearance and cabin NVH levels
+  
 
 
 
 #### Cons
 - Leg space available in back seat for tall person
-- Sunroof motor placement in roof has big bump in the roof
+- Sunroof motor placement in roof has big bump in the roof for rear passenger if 3 people are sitting
 - Feedback and intutiveness of the gear selector dial is poor
+- Frunk Installation is add-on
+- Plastic near wireless charger can be improved
+- Horn volume and sensitivty is dead at corners and need to pressed in middle
 
 
 
