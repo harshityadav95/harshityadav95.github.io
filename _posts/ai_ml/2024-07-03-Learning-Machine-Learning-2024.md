@@ -25,3 +25,7 @@ Many times i come across this question by folks of all age groups and domains , 
 ## Alex Net to GPT Journey 
 
 {% include embed/youtube.html id='UZDiGooFs54' %}
+
+
+## Reference
+- https://docs.google.com/document/d/1KV2IwKaLXe8gSzIes1gqGrFSSDeObfJgi2kh-za90Pk/edit
