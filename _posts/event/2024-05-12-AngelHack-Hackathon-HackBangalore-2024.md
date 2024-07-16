@@ -67,4 +67,4 @@ My First solo in person 24 hours hackathon with Team Members Me + Copilot + Gemi
 ## Reference
 
 - [https://tribegroup.notion.site/Project-Submission-46a2956d84f1401f9486721791379527#c9b25cd665b04bc8af30d1efec3fe30a](https://www.notion.so/Project-Submission-46a2956d84f1401f9486721791379527?pvs=21)
-- [https://angelhack.com/hackglobal/bangalore/](https://angelhack.com/hackglobal/bangalore/)
+- [https://angelhack.com/hackglobal/bangalore](https://angelhack.com/hackglobal/bangalore)
