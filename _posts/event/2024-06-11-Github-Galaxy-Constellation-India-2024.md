@@ -25,7 +25,7 @@ author: harshityadav95
 Talk by Thomas Dohmke, CEO of GitHub. You can watch it here: [Thomas Dohmke on CNBC](https://www.youtube.com/watch?v=zRUrk7GrDtU). This interview underscores how generative AI is reshaping industries, and highlights India's potential to lead this transformation globally. more Recaps 
 
 - [How leaders around the world boost developer productivity with GitHub](https://www.youtube.com/watch?v=VBGY6yXNvhI)
-- [Easy way to shift security left | GitHub Advanced Security](https://www.youtube.com/watch?v=EMsoKztSJhA)
+- [Easy way to shift security left GitHub Advanced Security](https://www.youtube.com/watch?v=EMsoKztSJhA)
 - [Automate your software development lifecycle with GitHub Actions](https://www.youtube.com/watch?v=P5YWE7K9oSI)
 - [Embrace AI at an enterprise level with GitHub Copilot](https://www.youtube.com/watch?v=3k4bQXJoy7I)
 - Group CTO-[Sanjay Mohan](https://www.linkedin.com/in/snjymhn/) and CISO –[Jaipal Deswal](https://www.linkedin.com/in/jaipal-deswal-481a372/) from Make My Trip Groups.
@@ -40,7 +40,7 @@ Key highlights:
 
 ## Vlog Github Constellation
 
-{% include embed/youtube.html id='iBU8JcopjkvY0tKh' %}
+{% include embed/youtube.html id='LUSYvjSpyI4' %}
 
 ## How to Network in Community Events
 
