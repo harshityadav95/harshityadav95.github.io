@@ -80,8 +80,8 @@ $ terraform apply
 - [https://formulae.brew.sh/formula/terraform](https://formulae.brew.sh/formula/terraform)
 - [https://k21academy.com/terraform-iac/terraform-beginners-guide/](https://k21academy.com/terraform-iac/terraform-beginners-guide/)
 - [https://k21academy.com/terraform-iac/terraform-cheat-sheet/](https://k21academy.com/terraform-iac/terraform-cheat-sheet/)
-- [Build Infrastructure - Terraform Azure Example | Terraform - HashiCorp Learn](https://learn.hashicorp.com/tutorials/terraform/azure-build?in=terraform/azure-get-started)
-- [Install Terraform | Terraform - HashiCorp Learn](https://learn.hashicorp.com/tutorials/terraform/install-cli)
+- [Build Infrastructure - Terraform Azure Example Terraform - HashiCorp Learn](https://learn.hashicorp.com/tutorials/terraform/azure-build?in=terraform/azure-get-started)
+- [Install Terraform Terraform - HashiCorp Learn](https://learn.hashicorp.com/tutorials/terraform/install-cli)
 
 
 
