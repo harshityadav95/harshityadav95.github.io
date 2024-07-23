@@ -1,5 +1,5 @@
 ---
-title: Apache Avro ?
+title: Apache Avro
 author: harshityadav95
 date: 2022-08-16 00:00:00 +0530
 categories: [Backend Engineering]
