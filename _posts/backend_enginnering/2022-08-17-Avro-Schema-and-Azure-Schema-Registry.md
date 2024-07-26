@@ -111,7 +111,7 @@ Basically, for both **Kafka Producers** and **Kafka Consumers**, Schema Regis
 
 - [https://www.ibm.com/topics/avro](https://www.ibm.com/topics/avro)
 - [azure-schema-registry-for-kafka/java/avro/src/main/java/com/microsoft/azure at master · Azure/azure-schema-registry-for-kafka · GitHub](https://github.com/Azure/azure-schema-registry-for-kafka/tree/master/java/avro/src/main/java/com/microsoft/azure)
-- [Azure Schema Registry in Azure Event Hubs - Azure Event Hubs Microsoft Docs](https://docs.microsoft.com/en-us/azure/event-hubs/schema-registry-overview#what-is-azure-schema-registry)
+- [Azure Schema Registry in Azure Event Hubs - Azure Event Hubs | Microsoft Docs](https://docs.microsoft.com/en-us/azure/event-hubs/schema-registry-overview#what-is-azure-schema-registry)
 - [Kafka, Avro Serialization, and the Schema Registry - DZone Big Data](https://dzone.com/articles/kafka-avro-serialization-and-the-schema-registry#:~:text=The%20Schema%20Registry%20provides%20a,evolution%20of%20schemas%20using%20Avro.)
 - [https://spark.apache.org/docs/2.4.5/sql-data-sources-avro.html](https://spark.apache.org/docs/2.4.5/sql-data-sources-avro.html)
 - [https://medium.com/@knoldus/all-you-need-to-know-about-avro-schema-9f98ca1c1450#:~:text=Apache Avro is a data,deserialized by any other application](https://medium.com/@knoldus/all-you-need-to-know-about-avro-schema-9f98ca1c1450#:~:text=Apache%20Avro%20is%20a%20data,deserialized%20by%20any%20other%20application)
