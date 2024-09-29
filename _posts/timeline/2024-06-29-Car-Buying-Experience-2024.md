@@ -6,9 +6,11 @@ categories: [Timeline]
 tags: [Tata,Hyndai,Honda,Mahinda,Maruti Suzuki]
 ---
 
+# First Car as Mahindra 2024 ??
+
 ## Requirements 
 
-- Should be 4+  safety rated
+- Should have good saftey rating and past record
 - Should have automatic transmission to face bangalore traffic as well as traffic in ghats for roadtrips
 - Should have head room space for 6'1 height in all seats
 - Should have a cabin insulation and lower NVH levels 
