@@ -6,6 +6,13 @@ categories: [Timeline]
 tags: [personal, development]
 ---
 
-## Meet the Team Lets Nach
+## Meet the Team Lets Nachos
 
--- > Under Writing <- 
+- Harshit Yadav
+- Uday Yadav
+- Umang Bhargava
+- Ashwin Singla
+- Gouthami
+- Monika
+- Jahnvi Seth
+  
