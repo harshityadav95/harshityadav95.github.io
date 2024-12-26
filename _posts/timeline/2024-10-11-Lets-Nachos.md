@@ -10,7 +10,11 @@ tags: [personal, development]
 When Software Enginners made one day food startup of Nachos and Desert
 
 ### Background
-During college days seeing our canteen wale bhaiya , to Xerox wale bhaiya priniting money sabka plan ya cost calculation toh zaroor hota per customer X order Value X 365 , motivated by that and our love for tasty food and passion for cooking we thought why not give it a try and setup our own Food Startup for a day and experience it , with countless hours
+During college days seeing our canteen wale bhaiya , to Xerox wale bhaiya priniting money sabka plan ya cost calculation toh zaroor hota per customer X order Value X 365 , motivated by that and our love for tasty food and passion for cooking we thought why not give it a try and setup our own Food Startup for a day and experience it , with countless hours on planning and gaathering required materials to getting the right recipie one which we love and would like to sell 
+
+
+## R&D Testing 
+
 
 
 
