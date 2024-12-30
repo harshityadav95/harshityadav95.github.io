@@ -10,10 +10,24 @@ tags: [personal, development]
 When Software Enginners made one day food startup of Nachos and Desert
 
 ### Background
-During college days seeing our canteen wale bhaiya , to Xerox wale bhaiya priniting money sabka plan ya cost calculation toh zaroor hota per customer X order Value X 365 , motivated by that and our love for tasty food and passion for cooking we thought why not give it a try and setup our own Food Startup for a day and experience it , with countless hours on planning and gaathering required materials to getting the right recipie one which we love and would like to sell 
+During college days seeing our canteen , to Xerox wale bhaiya priniting money sabka plan ya cost calculation toh zaroor hota no_customer X order_Value X 365 , motivated by that and our love for tasty food and passion for cooking we thought why not give it a try and setup our own Food Startup for a day and experience it , with countless hours on planning and gaathering required materials keep expenses minimal to getting the right recipie one which we love to eat ourselves and would like to sell 300 plates of same.
 
 
-## R&D Testing 
+## R&D Food Lab
+
+
+
+
+
+
+
+
+## Our Findings from the Adventure 
+With our learning and lessons in all domains at every aspect from team work , coordination , planning , ordering system, logistics, food science to optimising our order here are a few highlights  being an engineer i found interesting 
+
+- Food Order systems are cool to design and overenginner , tricky to implement in reallife and realtime
+- Even with UPI in place , the limitations for avg users are not known and also there is not even a single free APP 
+
 
 
 
