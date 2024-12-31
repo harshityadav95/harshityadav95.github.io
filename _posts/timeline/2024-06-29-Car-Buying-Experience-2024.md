@@ -55,6 +55,9 @@ Tweet : https://x.com/Tataev/status/1806966481994776797
 - Social media worked , one mail chain and got a test drive for Punch EV LR
 
 
+![image](https://github.com/user-attachments/assets/02e1f996-0eaf-4ffa-841d-57d4b1a5788b)
+
+
 
 #### Pros
 - The Ride comfort in front seats , armrest on both the sides for driver
@@ -93,6 +96,9 @@ Kia Sonnet was in competition with 3xo in terms of pricing headspace , legroom a
 Tried booking through there website , worked flawlessly , got a person assigned on the day of booking being told to postpone for a day but got the test drive on time , and car slowly started checking all my boxes with 100s of youtube videos reviews , my own expereince previous generation 300 reviews and 3xo enginnering presentation at launch presentation was something i as person appreciated more when buying a product rather then showing marketing keywords with no numbers in a launch 
 Took 3 drives at Different showrooms across bangalore all automatic and all MX3 pro or AX5 varients 
 
+![image](https://github.com/user-attachments/assets/adfb72aa-b890-4dbc-b8ac-28b86e784162)
+
+
 ### Note to Mahindra  on Test Drives 
 Know your audience in the test drive and what they are looking for , the car has personality  for both smooth silent and comfortable city rides which can handles all the bumpes and potholes with ease at same time it has the SUV characters in its DNA to jump on palces where there are no proper roads and high speed fun , so tha person giving demo should consider this while giving demo rides and accordingly set the zip,zap,zoom mode so the rides are what the person is looking for as in one of my test rides the ride was so bumpy and with hard braking and start pushes the drive didnt feel comfortable as the demo was set in zoom mood and when i got the car which almost made me doubt the comfort factor of the car
 
@@ -100,6 +106,12 @@ Know your audience in the test drive and what they are looking for , the car has
 Dealership expereince was good at all 3 Showrooms be it follow ups and test drive availability for car and the sales representative knowledge of the vechile ( better then Nexa and Kia and Honda )  
 
 Finally booked my Car on 
+
+![image](https://github.com/user-attachments/assets/40685e75-5d03-42c6-85bc-e514bae7ee93)
+
+
+![image](https://github.com/user-attachments/assets/1bb77319-4104-464c-abec-a5395c4b6fc8)
+
 
 
 
