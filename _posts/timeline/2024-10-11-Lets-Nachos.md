@@ -22,6 +22,7 @@ When Engineers assemble for a one-day food startup of Nachos and Desert in silic
 - [![Mounika_Reddy](https://img.shields.io/badge/-Mounika_Reddy-blue?logo=linkedin&style=for-the-badge)](https://www.linkedin.com/in/mounika-reddy-3968a079/)
 - [![Umang_Bhargava](https://img.shields.io/badge/-Umang_Bhargava-blue?logo=linkedin&style=for-the-badge)](https://www.linkedin.com/in/umang-bhargava-1b1803112/)
 - [![Bala Aparna M](https://img.shields.io/badge/-Bala_Aparna-blue?logo=linkedin&style=for-the-badge)](https://www.linkedin.com/in/bala-aparna-m-30957924/)
+- [![Akanksha Chandna](https://img.shields.io/badge/-Akanksha_Chandna-blue?logo=linkedin&style=for-the-badge)](https://https://www.linkedin.com/in/akanksha-chandna28/)
 
 ### Background
 During college days seeing our canteen, to Xerox wale bhaiya printing money sabka plan ya cost calculation toh zaroor hota no_customer X order_Value X 365 , motivated by that and our love for tasty food and passion for cooking we thought why not give it a try and set up our own Food Startup for a day and experience it , with countless hours on planning and gathering required materials keep expenses minimal to getting the right recipe one which we love to eat ourselves and would like to sell 300 plates of same.
