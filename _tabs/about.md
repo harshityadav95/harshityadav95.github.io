@@ -24,5 +24,3 @@ harshityadav@outlook.com
 
 ## References
 - [Coursera Certificates List](https://github.com/harshityadav95/harshityadav95/blob/master/coursera.md)
-
-
