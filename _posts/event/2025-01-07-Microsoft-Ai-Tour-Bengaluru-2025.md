@@ -9,7 +9,7 @@ author: harshityadav95
 
 # Microsoft Ai Tour
 
-![IMG_0113.jpeg](Microsoft%20Ai%20Tour%2017e69efe282680128fcbfc4406570b97/IMG_0113.jpeg)
+
 
 ## Keynote by Satya Nadella
 
