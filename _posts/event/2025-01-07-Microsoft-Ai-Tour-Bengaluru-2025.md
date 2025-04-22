@@ -9,17 +9,17 @@ author: harshityadav95
 
 # Microsoft Ai Tour
 
-
+![IMG_0113.jpeg](https://raw.githubusercontent.com/harshityadav95/staticfiles/refs/heads/main/microsoft_ai_tour_2025/IMG_0113.jpeg)
 
 ## Keynote by Satya Nadella
 
-![image.png](Microsoft%20Ai%20Tour%2017e69efe282680128fcbfc4406570b97/image.png)
+![image.png](https://raw.githubusercontent.com/harshityadav95/staticfiles/refs/heads/main/microsoft_ai_tour_2025/image.png)
 
-![IMG_0071.jpeg](Microsoft%20Ai%20Tour%2017e69efe282680128fcbfc4406570b97/IMG_0071.jpeg)
+![IMG_0071.jpeg](https://raw.githubusercontent.com/harshityadav95/staticfiles/refs/heads/main/microsoft_ai_tour_2025/IMG_0071.jpeg)
 
 - Microsoft announces US $3bn investment over two years in India cloud and AI infrastructure to accelerate adoption of AI, skilling and innovation
 
-![IMG_0072.jpeg](Microsoft%20Ai%20Tour%2017e69efe282680128fcbfc4406570b97/IMG_0072.jpeg)
+![IMG_0072.jpeg](https://raw.githubusercontent.com/harshityadav95/staticfiles/refs/heads/main/microsoft_ai_tour_2025/IMG_0072.jpeg)
 
 - AI Agents are coming , unlike the CRUD problem in blockchain network agents brings the missing piece we software developers were looking to bring LLM in out day to day workflows
 
@@ -30,33 +30,33 @@ author: harshityadav95
 - https://news.microsoft.com/en-in/microsoft-inks-strategic-partnerships-to-make-indias-core-sectors-ai-first/
 - https://news.microsoft.com/en-in/microsoft-announces-us-3bn-investment-over-two-years-in-india-cloud-and-ai-infrastructure-to-accelerate-adoption-of-ai-skilling-and-innovation/
 
-![IMG_0077.jpeg](Microsoft%20Ai%20Tour%2017e69efe282680128fcbfc4406570b97/IMG_0077.jpeg)
+![IMG_0077.jpeg](https://raw.githubusercontent.com/harshityadav95/staticfiles/refs/heads/main/microsoft_ai_tour_2025/IMG_0077.jpeg)
 
-![IMG_0076.jpeg](Microsoft%20Ai%20Tour%2017e69efe282680128fcbfc4406570b97/IMG_0076.jpeg)
+![IMG_0076.jpeg](https://raw.githubusercontent.com/harshityadav95/staticfiles/refs/heads/main/microsoft_ai_tour_2025/IMG_0076.jpeg)
 
 - AI Agents are coming , unlike the CRUD problem in blockchain network agents brings the missing piece we software developers were looking to bring LLM in out day to day workflows
 
-![IMG_0101.jpeg](Microsoft%20Ai%20Tour%2017e69efe282680128fcbfc4406570b97/IMG_0101.jpeg)
+![IMG_0101.jpeg](https://raw.githubusercontent.com/harshityadav95/staticfiles/refs/heads/main/microsoft_ai_tour_2025/IMG_0101.jpeg)
 
-![IMG_0061.jpeg](Microsoft%20Ai%20Tour%2017e69efe282680128fcbfc4406570b97/IMG_0061.jpeg)
+![IMG_0061.jpeg](https://raw.githubusercontent.com/harshityadav95/staticfiles/refs/heads/main/microsoft_ai_tour_2025/IMG_0061.jpeg)
 
-![IMG_0057.jpeg](Microsoft%20Ai%20Tour%2017e69efe282680128fcbfc4406570b97/IMG_0057.jpeg)
+![IMG_0057.jpeg](https://raw.githubusercontent.com/harshityadav95/staticfiles/refs/heads/main/microsoft_ai_tour_2025/IMG_0057.jpeg)
 
-![IMG_0060.jpeg](Microsoft%20Ai%20Tour%2017e69efe282680128fcbfc4406570b97/IMG_0060.jpeg)
+![IMG_0060.jpeg](https://raw.githubusercontent.com/harshityadav95/staticfiles/refs/heads/main/microsoft_ai_tour_2025/IMG_0060.jpeg)
 
-![IMG_0052.jpeg](Microsoft%20Ai%20Tour%2017e69efe282680128fcbfc4406570b97/IMG_0052.jpeg)
+![IMG_0052.jpeg](https://raw.githubusercontent.com/harshityadav95/staticfiles/refs/heads/main/microsoft_ai_tour_2025/IMG_0052.jpeg)
 
-![IMG_0037.jpeg](Microsoft%20Ai%20Tour%2017e69efe282680128fcbfc4406570b97/IMG_0037.jpeg)
+![IMG_0037.jpeg](https://raw.githubusercontent.com/harshityadav95/staticfiles/refs/heads/main/microsoft_ai_tour_2025/IMG_0037.jpeg)
 
-![IMG_0035.jpeg](Microsoft%20Ai%20Tour%2017e69efe282680128fcbfc4406570b97/IMG_0035.jpeg)
+![IMG_0035.jpeg](https://raw.githubusercontent.com/harshityadav95/staticfiles/refs/heads/main/microsoft_ai_tour_2025/IMG_0035.jpeg)
 
 ## GitHub Copilot
 
-![IMG_0045.jpeg](Microsoft%20Ai%20Tour%2017e69efe282680128fcbfc4406570b97/IMG_0045.jpeg)
+![IMG_0045.jpeg](https://raw.githubusercontent.com/harshityadav95/staticfiles/refs/heads/main/microsoft_ai_tour_2025/IMG_0045.jpeg)
 
-![IMG_0049.jpeg](Microsoft%20Ai%20Tour%2017e69efe282680128fcbfc4406570b97/IMG_0049.jpeg)
+![IMG_0049.jpeg](https://raw.githubusercontent.com/harshityadav95/staticfiles/refs/heads/main/microsoft_ai_tour_2025/IMG_0049.jpeg)
 
-![IMG_0048.jpeg](Microsoft%20Ai%20Tour%2017e69efe282680128fcbfc4406570b97/IMG_0048.jpeg)
+![IMG_0048.jpeg](https://raw.githubusercontent.com/harshityadav95/staticfiles/refs/heads/main/microsoft_ai_tour_2025/IMG_0048.jpeg)
 
 ## Microsoft  Autogen
 
@@ -102,6 +102,6 @@ https://github.com/microsoft/Customer-Service-Conversational-Insights-with-Azure
 
 ## Insta Recap :
 
-![IMG_0091.jpeg](Microsoft%20Ai%20Tour%2017e69efe282680128fcbfc4406570b97/IMG_0091.jpeg)
+![IMG_0091.jpeg](https://raw.githubusercontent.com/harshityadav95/staticfiles/refs/heads/main/microsoft_ai_tour_2025/IMG_0091.jpeg)
 
-![IMG_2021.jpeg](Microsoft%20Ai%20Tour%2017e69efe282680128fcbfc4406570b97/IMG_2021.jpeg)
+![IMG_2021.jpeg](https://raw.githubusercontent.com/harshityadav95/staticfiles/refs/heads/main/microsoft_ai_tour_2025/IMG_2021.jpeg)
