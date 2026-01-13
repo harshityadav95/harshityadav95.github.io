@@ -116,7 +116,3 @@ This blog will continue to be what it's always been - a log, a repository, a ref
 The 100+ drafts aren't a burden - they're potential. Each one represents a thought worth exploring, a connection worth making, or an experience worth sharing. With AI as a collaborator, 2026 might just be the year they finally see the light of day.
 
 Let's see where this journey takes us.
-
----
-
-*Written by a human, refined with AI assistance, read by both.*
