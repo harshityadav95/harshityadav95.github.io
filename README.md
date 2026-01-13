@@ -5,7 +5,7 @@
 [![Chirpy Theme](https://img.shields.io/badge/Theme-Chirpy-blue)](https://github.com/cotes2020/jekyll-theme-chirpy)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-> Personal tech blog covering machine learning, data science, backend engineering, system design, events, and more.
+> Personal tech blog covering machine learning, data science, backend engineering, system design, events, and more
 
 **Live Site:** [harshityadav.in](https://harshityadav.in)
 
