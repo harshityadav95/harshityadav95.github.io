@@ -1,7 +1,7 @@
 ---
 title: Understanding Package Manager Version Symbols - A Complete Guide
 author: harshityadav95
-date: 2026-01-16 00:00:00 +0530
+date: 2025-01-16 00:00:00 +0530
 categories: [Software Development]
 tags: [Software Development, Package Management, Dependency Management, Version Control]
 
@@ -631,7 +631,7 @@ Allow patch versions for security fixes:
 "express": "~4.17.1"  # Allows 4.17.x patches
 
 # Python
-express~=4.17.1  # Allows 4.17.x patches
+requests~=4.17.1  # Allows 4.17.x patches
 
 # Java
 <version>[4.17,4.18)</version>  # Allows 4.17.x
