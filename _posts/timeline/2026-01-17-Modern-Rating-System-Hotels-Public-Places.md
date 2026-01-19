@@ -57,6 +57,15 @@ In an increasingly digital world, payment flexibility is crucial:
 - **Type**: Filtered / Bottled / RO
 - **Self-service**: Available / Server assisted
 
+#### Washroom Hygiene
+- **Cleanliness Level**: Excellent / Good / Average / Poor
+- **Maintenance**: Well-maintained / Needs improvement
+- **Soap & Water**: Available / Not available
+- **Hand Dryer/Towels**: Available / Not available
+- **Odor Control**: Good / Acceptable / Poor
+- **Toilet Paper**: Adequately stocked / Needs attention
+- **Accessibility**: Wheelchair accessible / Standard only
+
 ### 4. Menu & Food Information
 
 - **Menu Type**: Digital (QR code) / Physical copy / Both
@@ -107,6 +116,13 @@ In an increasingly digital world, payment flexibility is crucial:
 - **Background Music**: Yes / No
 - **Conversation Friendly**: Can you have a peaceful conversation?
 - **Noise Level Rating**: Scale of 1-10 (1 being library-quiet, 10 being club-loud)
+
+#### Aesthetic Timing
+- **Best Time to Visit**: Daytime / Evening / Night
+- **Lighting**: Natural light during day / Ambient lighting at night
+- **Visual Appeal**: When does the place look most aesthetic?
+- **Peak Aesthetic Hours**: Specify time range (e.g., sunset hours, golden hour)
+- **Photography Recommended**: Morning / Afternoon / Evening / Night
 
 ### 7. Accessibility Features
 
@@ -163,7 +179,11 @@ Making places accessible to everyone should be a standard, not an exception:
 - **Wait Time**: Average wait time during peak hours
 - **Family Friendly**: Kids menu / High chairs / Play area
 - **Pet Friendly**: Yes / No / Outdoor only
-- **Smoking Zone**: Designated area / Not allowed / Outdoor only
+- **Smoking Policy**: 
+  - Completely smoke-free / Non-smoking area available
+  - Designated smoking zone (Indoor / Outdoor / Separate section)
+  - Smoking allowed everywhere / Not specified
+  - Ventilation in smoking areas: Good / Poor / None
 - **Photography**: Allowed / Restricted / Instagram-friendly spots
 - **Group Bookings**: Minimum / Maximum capacity
 
@@ -223,6 +243,7 @@ Hygiene: 4/5
 - Multiple handwash stations
 - Napkins on tables
 - Filtered water complimentary
+- Washrooms: Clean and well-maintained
 
 Menu: 5/5
 - Digital and physical menu
@@ -238,6 +259,7 @@ Seating: 4/5
 - Both indoor and outdoor
 - Moderate noise levels
 - Good for conversations
+- Best aesthetic: Evening hours with ambient lighting
 
 Accessibility: 5/5
 - Wheelchair accessible
@@ -253,6 +275,11 @@ Reservation: 4/5
 - Online booking on Zomato
 - Phone reservations accepted
 - 10% off on direct booking
+
+Additional: 5/5
+- Completely smoke-free environment
+- Non-smoking area well-maintained
+- Family and pet friendly
 
 Overall: 4.2/5
 ```
