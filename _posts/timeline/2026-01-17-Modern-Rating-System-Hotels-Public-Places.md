@@ -278,8 +278,8 @@ Reservation: 4/5
 
 Additional: 5/5
 - Completely smoke-free environment
-- Non-smoking area well-maintained
 - Family and pet friendly
+- Photography allowed
 
 Overall: 4.2/5
 ```
