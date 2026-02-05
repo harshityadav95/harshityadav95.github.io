@@ -126,7 +126,7 @@ Not a web API. Kafka messages are:
 
 ## Kafka Partition
 
-![Kafka Partition](/assets/img/posts/apache-kafka-part1/image 2.webp)
+![Kafka Partition](/assets/img/posts/apache-kafka-part1/image-2.webp)
 
 - What happens when database becomes larger , we do Sharding
 - Same sharding concept is called partitions in kafka
