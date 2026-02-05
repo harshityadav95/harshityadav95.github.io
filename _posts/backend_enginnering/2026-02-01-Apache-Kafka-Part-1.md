@@ -63,7 +63,7 @@ This decision alone is responsible for Kafka's performance characteristics.
 
 Before going packet-level, let's align on the big picture.
 
-![Kafka Architecture](/assets/img/posts/apache-kafka-part1/kafka-architecture.webp)
+![Kafka Architecture](/assets/img/posts/apache-kafka-part1/kafkarch.png)
 
 No REST endpoints. No URLs. No HTTP verbs.
 
@@ -114,7 +114,7 @@ Not a web API. Kafka messages are:
 
 ## Producer
 
-![Producer](/assets/img/posts/apache-kafka-part1/image-0.webp)
+![Producer](/assets/img/posts/apache-kafka-part1/image.webp)
 
 - Producer publish a message to a topic in the broker , which is append only in the topic and there is position operation which keeps a track of every message in the broker
 
