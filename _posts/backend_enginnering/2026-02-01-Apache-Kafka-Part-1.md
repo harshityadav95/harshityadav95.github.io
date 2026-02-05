@@ -12,7 +12,7 @@ tags: [Apache Kafka, Distributed Systems, Message Queue, Event Streaming]
 
 {% include embed/youtube.html id='uvb00oaa3k8' %}
 
-too fast too much data lets slow down the pace a little and lets understand apache kafka
+too fast too much data let's slow down the pace a little and let's understand apache kafka
 
 {% include embed/youtube.html id='LN_HcJVbySw' %}
 
@@ -23,13 +23,13 @@ too fast too much data lets slow down the pace a little and lets understand apac
 - **Producers:** Producers are the applications that write data to Kafka topics. They can be any application that generates data, such as a website, mobile app, or IoT device.
 - **Consumers:** Consumers are the applications that read data from Kafka topics. They can be any application that needs to process data, such as a data warehouse, real-time analytics engine, or machine learning model.
 
-## Now lets understand them in detail more
+## Now let's understand them in more detail
 
 # Connection
 
-- Producer Produces content to the broker , conusmer consumes content from the broker
+- Producer Produces content to the broker, consumer consumes content from the broker
 - The process of connection in Kafka is abstracted , the producer connects to kafka broker using custom binary relying on a request-response message pair system to stream data, rather than common protocols like AMQP or HTTP. TCP connection is bidirectional ( broker and producer both can send information to each other
-- Consumer also establish a TCP connection to the broker ,using  a custom binary protocol over TCP with the client intiatiing a direct socket connection to the broker ti excgange request response message without requiring a complex handshake on the configured port
+- Consumer also establish a TCP connection to the broker, using a custom binary protocol over TCP with the client initiating a direct socket connection to the broker to exchange request response message without requiring a complex handshake on the configured port
 - Producers and consumers talk directly to brokers
 - TLS may encrypt traffic, but it's **not HTTPS !**
 - Batching and persistent connections are first-class citizens
@@ -122,7 +122,7 @@ Not a web API. Kafka messages are:
 
 ![Consumer](/assets/img/posts/apache-kafka-part1/image-1.webp)
 
-- Consumer consumes from the topic from position zero, and asks for mores after reading from topic
+- Consumer consumes from the topic from position zero, and asks for more after reading from topic
 
 ## Kafka Partition
 
@@ -131,7 +131,7 @@ Not a web API. Kafka messages are:
 - What happens when database becomes larger , we do Sharding
 - Same sharding concept is called partitions in kafka
 - the moment the partitions are introduced the producer and consumer should know which partition to read from and from which partition to write to
-- All due to scalability factor the Producer should know about it , now when the producer writes to the paritition it recieves the position
+- All due to scalability factor the Producer should know about it, now when the producer writes to the partition it receives the position
 - When consumers  reads from position zero and reads until it reaches the end position , and it will keep updating the position until it reaches the end position when there is nothing else more left to read
 - This is fast because one stars and process using the position and not using any filter and random position
 
@@ -192,7 +192,7 @@ The key is that Kafka achieves both patterns through consumer groups: different 
 
 Example :
 
-A producer wants to write to partition it asks the zookeper where should i write to where to write it so The producer sends a Metadata request with a list of topics to one of the brokers in the broker-list you supplied when configuring the producer. The broker responds with a list of partitions in those topics and the leader for each partition. The producer caches this information and knows where to redirect its produce messages. In case of failure while producing, failed broker's data (topics and its partitions) dynamically linked to existing replica which is present on another broker via topic's replication and new leader's information is communicated to the client (producer).
+A producer wants to write to partition it asks the zookeeper where should I write to where to write it so The producer sends a Metadata request with a list of topics to one of the brokers in the broker-list you supplied when configuring the producer. The broker responds with a list of partitions in those topics and the leader for each partition. The producer caches this information and knows where to redirect its produce messages. In case of failure while producing, failed broker's data (topics and its partitions) dynamically linked to existing replica which is present on another broker via topic's replication and new leader's information is communicated to the client (producer).
 
 ![Metadata Flow](/assets/img/posts/apache-kafka-part1/image-9.webp)
 
