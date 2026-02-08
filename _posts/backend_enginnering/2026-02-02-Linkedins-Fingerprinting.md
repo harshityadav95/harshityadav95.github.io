@@ -8,6 +8,8 @@ tags: [Security, Browser Extensions, Fingerprinting, Web Security, LinkedIn]
 
 # LinkedIn's Fingerprinting
 
+![Linkedin Fingerprimts](/assets/img/posts/linkedin-fingerprints/2.webp)
+
 So, I saw this on Hacker News the other day and I **had** to talk about it. LinkedIn is scanning your browser for nearly 3,000 specific extensions. People are noticing their CPU fans are spinning up, even more than Windows :P ?
 
 ## The Architecture: Linkedin Fan Spin Tech
