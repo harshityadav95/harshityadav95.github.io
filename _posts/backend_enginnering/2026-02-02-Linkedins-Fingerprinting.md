@@ -79,7 +79,7 @@ Why? **Architecture.**
 Mozilla realized years ago that static IDs are a privacy leak. When you install an extension in Firefox, the browser generates a **random UUID** for that specific instance.
 
 ```
-moz-extension:///icon.png
+moz-extension://<uuid>/icon.png
 ```
 
 Because `fingerprint.js` cannot guess your random UUID, it cannot build the URL, and every request 404s. Chrome is trying to fix this in **Manifest V3** with a property called `use_dynamic_url`, but it's optional, and most extensions haven't enabled it yet.
