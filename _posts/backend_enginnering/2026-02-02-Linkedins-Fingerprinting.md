@@ -1,20 +1,20 @@
 ---
-title: Linkedins Fingerprinting
+title: LinkedIn's Fingerprinting
 author: harshityadav95
 date: 2026-02-02 00:00:00 +0530
 categories: [Backend Engineering]
 tags: [Security, Browser Extensions, Fingerprinting, Web Security, LinkedIn]
 ---
 
-# Linkedins Fingerprinting
+# LinkedIn's Fingerprinting
 
-So, I saw this on Hacker News the other day and I **had** to talk about it. LinkedIn is scanning your browser for nearly 3,000 specific extensions. People are noticing out, their CPU fans are spinning up , even more then windows :P ?
+So, I saw this on Hacker News the other day and I **had** to talk about it. LinkedIn is scanning your browser for nearly 3,000 specific extensions. People are noticing their CPU fans are spinning up, even more than Windows :P ?
 
 ## The Architecture: Linkedin Fan Spin Tech
 
 One might think they are using some super advanced zero-day exploit. They aren't. They are using a feature of the web that has been around forever: **Web Accessible Resources**.
 
-When you install a Chrome extension, it lives on your storage drive. To allow websites to interact with it (like when a password manager injects an icon into a login field), the extension exposes certain files via a specific protocol:`chrome-extension:///`
+When you install a Chrome extension, it lives on your storage drive. To allow websites to interact with it (like when a password manager injects an icon into a login field), the extension exposes certain files via a specific protocol: `chrome-extension:///`
 
 Here is the kicker: In Chrome (and Chromium browsers like Edge or Brave), that **Extension ID** is static. It is derived from the public key of the extension. It never changes. `uBlock Origin` has the same 32-character ID for me, for you, and for everyone else.
 
