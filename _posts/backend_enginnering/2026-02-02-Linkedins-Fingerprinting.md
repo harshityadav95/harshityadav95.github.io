@@ -49,7 +49,7 @@ As a backend engineer, we must look at this from the perspective of **Risk Scori
 
 - LinkedIn has a massive problem with data scraping. Tools like *Dux-Soup*, *LinkedHelper*, or *PhantomBuster* are browser extensions that automate connection requests and scrape profiles.
 - LinkedIn wants to ban these people. But detecting them behaviorally (e.g., "is he clicking too fast?") is hard and prone to false positives.
-Detecting the **source code** of the tool installed in your browser? That is a **deterministic signal**. If you have the *LinkedHelper* extension ID installed, there is a 99.9% chance you are violating their Terms of Service. It allows them to ban you with confidence.
+Detecting the presence of specific browser extensions installed in your browser via their extension IDs and web-accessible resources? That is a **deterministic signal**. If you have the *LinkedHelper* extension ID installed, there is a 99.9% chance you are violating their Terms of Service. It allows them to ban you with confidence.
 
 They are also checking for:
 
