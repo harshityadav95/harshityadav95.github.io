@@ -39,7 +39,7 @@ extensions.forEach(ext => {
 });
 ```
 
-They try to load an image from your local file system. If the browser says "200 OK," they know you have the extension. If it says "Error," you don't. It's a simple boolean check.
+They try to load an image from the extension's packaged resources via the `chrome-extension://` scheme. If the browser says "200 OK," they know you have the extension. If it says "Error," you don't. It's a simple boolean check.
 
 ## The "Why": Bots, Scrapers, and Trust
 
