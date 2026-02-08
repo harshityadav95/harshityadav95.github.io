@@ -12,7 +12,7 @@ tags: [Security, Browser Extensions, Fingerprinting, Web Security, LinkedIn]
 
 So, I saw this on Hacker News the other day and I **had** to talk about it. LinkedIn is scanning your browser for nearly 3,000 specific extensions. People are noticing their CPU fans are spinning up, even more than Windows :P ?
 
-## The Architecture: Linkedin Fan Spin Tech
+## The Architecture: LinkedIn Fan Spin Tech
 
 One might think they are using some super advanced zero-day exploit. They aren't. They are using a feature of the web that has been around forever: **Web Accessible Resources**.
 
