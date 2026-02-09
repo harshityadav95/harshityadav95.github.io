@@ -6,8 +6,6 @@ categories: [Backend Engineering]
 tags: [OpenClaw, AI, Architecture, Node.js, WebSockets, SQLite, Docker, Backend]
 ---
 
-# OpenClaw Architecture Part 1
-
 ![](/assets/img/posts/OpenClaw-Architecture-Part-1/image.webp)
 
 
