@@ -8,6 +8,9 @@ tags: [OpenClaw, AI, Architecture, Node.js, WebSockets, SQLite, Docker, Backend]
 
 # OpenClaw Architecture Part 1
 
+![](/assets/img/posts/OpenClaw-Architecture-Part-1/image.webp)
+
+
 # The Engineering Behind Clawdbot: A Deep Dive into Local-First AI Orchestration
 
 So, I was looking at this project, **Clawdbot** (or OpenClaw, as it's being rebranded). This is fascinating. Most people look at AI assistants and think, "Oh, it's just a wrapper around an LLM API." But when you look under the hood of how this thing is actually architected, it's not just a wrapper—it's a sophisticated piece of backend engineering designed to solve the problem of 
@@ -73,6 +76,8 @@ Why Markdown? Because it's **human-readable and version-controllable**. If the A
 - You can configure the **workspace access** to be `none`, `ro` (read-only), or `rw` (read-write). It even has a **DM Pairing Protocol**—if an unknown number messages you on WhatsApp, the bot won't even process the message until you manually approve the pairing code on the server.
 
 ## Summary of the Tech Stack
+
+![](/assets/img/posts/OpenClaw-Architecture-Part-1/image-1.webp)
 
 - **Runtime:** Node.js 22+ (Non-blocking I/O is perfect for this).
 - **Languages:** TypeScript (Core/Gateway), Swift (macOS/iOS), Kotlin (Android).
