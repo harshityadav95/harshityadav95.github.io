@@ -199,7 +199,6 @@ Copyright (c) 2024 Harshit Yadav
 
 ## 📚 Resources
 
-- [Jekyll Documentation](https://jekyllrb.com/docs/)
 - [Chirpy Theme Getting Started](https://chirpy.cotes.page/posts/getting-started/)
 - [Markdown Guide](https://www.markdownguide.org/)
 
