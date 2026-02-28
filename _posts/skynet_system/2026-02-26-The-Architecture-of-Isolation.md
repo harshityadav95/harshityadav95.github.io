@@ -14,17 +14,17 @@ In modern backend engineering, there is a pervasive tendency to hide complexity 
 
 At the lowest level of computing architecture, the processor operates in distinct privilege rings. The operating system kernel resides in Ring 0, possessing unfettered access to hardware, memory, and CPU scheduling. User applications reside in Ring 3, an unprivileged state. Whenever an application needs to read a file, allocate memory, or send a network packet, it cannot do so directly; it must issue a system call (syscall), transitioning execution from user mode to kernel mode.
 
-![image.png](/assets/img/architecture-isolation/image.webp)
+![image.png](/assets/img/posts/isolationkernel/image.webp)
 
 The transition between states requires a context switch. In a native Linux environment, the overhead of a standard context switch between processes or during a syscall is incredibly small, typically measured in the range of 100 to 150 nanoseconds. The kernel merely saves the execution state (registers and control structures) of the current process, flushes or updates necessary memory mappings, and loads the state of the next process.
 
 Hardware virtualization, however, introduces a massive shift in this paradigm. 
 
-![image.png](/assets/img/architecture-isolation/image-1.webp)
+![image.png](/assets/img/posts/isolationkernel/image-1.webp)
 
 A Type-1 hypervisor, such as Proxmox Virtual Environment (which leverages the Kernel-based Virtual Machine, or KVM), runs directly on the bare metal. It utilizes hardware-assisted virtualization extensions, such as Intel VT-x or AMD-V, to run complete guest operating systems. 
 
-![image.png](/assets/img/architecture-isolation/image-2.webp)
+![image.png](/assets/img/posts/isolationkernel/image-2.webp)
 
 when we talk about virtualization, we’re usually talking about the **Hypervisor** (the VMM) lying to the Guest OS. In the old days, this was expensive because the CPU didn't know how to handle two "masters." The Hypervisor had to intercept every sensitive instruction,  and emulate it. Absolute performance killer.
 
@@ -40,7 +40,7 @@ This microsecond overhead cascades. Every disk read, every network packet, and e
 
 ## The OS-Level Illusion: Namespaces, Cgroups, and Seccomp
 
-![image.png](/assets/img/architecture-isolation/image-3.webp)
+![image.png](/assets/img/posts/isolationkernel/image-3.webp)
 
 A container is not a tangible entity. It is not a virtual machine, and it does not possess its own kernel. A container is simply a standard Linux process wrapped in a carefully orchestrated illusion, constructed from three primary kernel primitives: 
 
@@ -50,43 +50,43 @@ A container is not a tangible entity. It is not a virtual machine, and it does n
 
 ### Namespaces: The Illusion of Solitude
 
-![image.png](/assets/img/architecture-isolation/image-4.webp)
+![image.png](/assets/img/posts/isolationkernel/image-4.webp)
 
 Namespaces partition kernel resources such that one set of processes perceives a completely different computing environment than another set of processes. When a container runtime initiates a process, it uses a system call with specific flags to isolate various system components.
 
-![image.png](/assets/img/architecture-isolation/image-5.webp)
+![image.png](/assets/img/posts/isolationkernel/image-5.webp)
 
 The PID (Process ID) namespace ensures that a process within a container views itself as PID 1, completely unaware of the myriad of other processes running on the host system. 
 
 To the host kernel, however, this process is just another standard, high-numbered PID. The mnt/ (Mount) namespace provides the process with an isolated view of the filesystem hierarchy, allowing the container to possess its own root directory without conflicting with the host.
 
-![image.png](/assets/img/architecture-isolation/image-6.webp)
+![image.png](/assets/img/posts/isolationkernel/image-6.webp)
 
 The IPC (Inter-Process Communication) namespace ensures that processes in different containers cannot utilize System V IPC or POSIX message queues to communicate with one another, effectively walling off memory-sharing exploits. 
 
-![image.png](/assets/img/architecture-isolation/image-7.webp)
+![image.png](/assets/img/posts/isolationkernel/image-7.webp)
 
 Finally, the UTS namespace isolates kernel and version identifiers, while the NET namespace isolates the network stack, providing the container with a distinct loopback interface, unique routing tables, and isolated firewall rules.
 
-![image.png](/assets/img/architecture-isolation/image-8.webp)
+![image.png](/assets/img/posts/isolationkernel/image-8.webp)
 
-![image.png](/assets/img/architecture-isolation/image-9.webp)
+![image.png](/assets/img/posts/isolationkernel/image-9.webp)
 
 ### Cgroups: The Mechanics of Resource Equity
 
 While namespaces dictate what a process can *see*, Control Groups (cgroups) dictate what a process can *use*. Introduced in the 2.6.24 Linux kernel, cgroups partition physical resources—such as CPU cycles, memory allocation, and block I/O bandwidth—among process groups.
 
-![image.png](/assets/img/architecture-isolation/image-10.webp)
+![image.png](/assets/img/posts/isolationkernel/image-10.webp)
 
 Without cgroups, a poorly written application within a container could consume 100% of the host's CPU, starving all other containers. Modern schedulers, such as the Linux Completely Fair Scheduler (CFS), integrate deeply with cgroups. By utilizing tracking metrics like the `tg->load_avg` attribute, the kernel dynamically accounts for CPU time across multiple cores, ensuring that a highly utilized container is throttled when it exceeds its allocated quota. This CPU accounting, along with memory limit enforcement, adds negligible overhead (typically less than 1%) to the containerized workload, allowing for extreme density on a single host without sacrificing stability.
 
-![image.png](/assets/img/architecture-isolation/image-11.webp)
+![image.png](/assets/img/posts/isolationkernel/image-11.webp)
 
 ### Seccomp: The Ultimate Line of Defense
 
 If a container shares the host kernel, it inherently has access to the kernel's entire system call interface. The Linux kernel exposes over 300 system calls, many of which provide vectors for privilege escalation if manipulated maliciously. This is where Secure Computing Mode (seccomp), specifically seccomp-bpf, acts as the ultimate line of defense for process isolation.
 
-![image.png](/assets/img/architecture-isolation/image-12.webp)
+![image.png](/assets/img/posts/isolationkernel/image-12.webp)
 
 Seccomp-bpf utilizes Berkeley Packet Filter (BPF) programs to restrict exactly which system calls a process is permitted to execute. When a container engine like Docker spawns a process, it injects a default seccomp profile. This profile functions as a strict allowlist. It utilizes the `SCMP_ACT_ERRNO` action to return a "Permission Denied" error whenever a containerized application attempts to invoke an unapproved system call. Out of the 300+ available syscalls, Docker's default profile outright disables approximately 44 of them.
 
@@ -94,11 +94,11 @@ This is not merely a theoretical protection. Historically, critical vulnerabilit
 
 ## Difference : Application Container & System Containers
 
-![image.png](/assets/img/architecture-isolation/image-13.webp)
+![image.png](/assets/img/posts/isolationkernel/image-13.webp)
 
 While **LXC (Linux Containers)** is the OG of system containers, the world of containerization has branched into two main philosophies: **Application Containers** and **System Containers**.
 
-![image.png](/assets/img/architecture-isolation/image-14.webp)
+![image.png](/assets/img/posts/isolationkernel/image-14.webp)
 
 ### 1. Application Containers
 
@@ -126,7 +126,7 @@ If you like LXC, these are its direct cousins. They feel like a full OS, running
 
 ## The Container Engine Divide: LXC, Docker, and Podman
 
-![image.png](/assets/img/architecture-isolation/image-15.webp)
+![image.png](/assets/img/posts/isolationkernel/image-15.webp)
 
 Understanding the kernel primitives is only the first step. The choice of container runtime dictates how an application interacts with these primitives, how it manages persistent storage, and how it handles security contexts. LXC, Docker, and Podman represent three distinct evolutionary stages in OS-level virtualization, each engineered to solve specific operational challenges.
 
@@ -144,11 +144,11 @@ While LXC focused on providing lightweight operating systems for system administ
 
 Docker's overwhelming popularity stems from its developer-centric user experience and its pioneering of the layered image format. Before Docker, migrating a workload required moving entire virtual machine disk images, which were bloated and slow. Docker introduced the concept of packaging the application, its binaries, and its exact dependencies into a standardized, portable artifact.
 
-![image.png](/assets/img/architecture-isolation/image-16.webp)
+![image.png](/assets/img/posts/isolationkernel/image-16.webp)
 
 This layered image format was eventually formalized by the industry as the Open Container Initiative (OCI) Image Specification. An OCI image is not a single, monolithic file; it is a meticulously constructed set of components including an Image Manifest, an Image Index, an Image Configuration, and filesystem changeset layers. The base layer of an image contains the root filesystem (for example, a minimal Alpine Linux distribution). Every subsequent command executed during the build process (such as `RUN apt-get install nginx`) creates a new layer that contains only the variations—the filesystem changeset—compared to the layer below it, packed as a tarball.
 
-![image.png](/assets/img/architecture-isolation/image-17.webp)
+![image.png](/assets/img/posts/isolationkernel/image-17.webp)
 
 This architecture allows the container runtime to heavily optimize storage and network transfer. If ten different containers require the same base Ubuntu layer, the Docker engine only downloads and stores that layer once, utilizing an overlay filesystem (like `overlay2`) to share it across all instances. This drastically reduces storage consumption, enables near-instantaneous container startup times, and provides a level of portability that LXC could never match. Coupled with Docker Hub—a massive, centralized public registry providing thousands of ready-made community images—Docker achieved absolute dominance in the developer ecosystem.
 
@@ -156,7 +156,7 @@ This architecture allows the container runtime to heavily optimize storage and n
 
 Despite its ubiquity, Docker's underlying architecture possesses a fundamental flaw: it relies on a centralized client-server model. When a user executes a `docker run` command, the Docker CLI sends an API request to a background daemon, `dockerd`. This daemon runs continuously, manages the lifecycle of all containers, networks, and volumes, and—most critically—typically requires root privileges to operate.
 
-![image.png](/assets/img/architecture-isolation/image-18.webp)
+![image.png](/assets/img/posts/isolationkernel/image-18.webp)
 
 Podman (Pod Manager), developed primarily by Red Hat, was engineered specifically to dismantle this centralized architecture. Operating on a fork-exec model rather than a client-server model, the Podman CLI directly interacts with the container registry, pulls the OCI image, and interfaces with the Linux kernel to start the container process directly as a child of the executing user's shell.
 
@@ -181,11 +181,11 @@ This evolution produced two primary successors: `containerd` and `CRI-O`.
 
 - **containerd:** Originally a core component of the Docker Engine, `containerd` was spun out as a standalone, general-purpose runtime. It handles the complete container lifecycle, including image transfer, storage execution, and low-level task management via the `runc` shim. It remains highly extensible and is the default in many managed cloud environments like AKS and GKE.
 
-![image.png](/assets/img/architecture-isolation/image-19.webp)
+![image.png](/assets/img/posts/isolationkernel/image-19.webp)
 
 - **CRI-O:** Developed explicitly as a lightweight alternative to Docker for Kubernetes, CRI-O strips away all non-Kubernetes features. It does not attempt to support standalone container management. CRI-O strictly adheres to OCI standards, possessing a minimal attack surface. When the `kubelet` issues a command, CRI-O speaks directly via the CRI to pull the image and launch the low-level runtime (like `runc`), which in turn interfaces with the Linux kernel to establish the namespaces, cgroups, and seccomp filters. For organizations utilizing Red Hat OpenShift or prioritizing absolute minimalism and security, CRI-O is the optimal architectural choice.
 
-![image.png](/assets/img/architecture-isolation/image-20.webp)
+![image.png](/assets/img/posts/isolationkernel/image-20.webp)
 
 ## The Client-Side Sandbox: Mirroring Server Isolation in the Browser
 
