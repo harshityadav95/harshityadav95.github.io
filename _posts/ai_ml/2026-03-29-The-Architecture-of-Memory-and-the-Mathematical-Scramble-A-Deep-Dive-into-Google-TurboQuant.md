@@ -175,7 +175,8 @@ And look at this table on MSE Distortion. *This* is what solidifies everything.
 
 - **4-bit?** 0.009 MSE. Absolute Quality Neutrality. The model is indistinguishable from the high-precision base model, but using 4-bit per channel instead of 16-bit.
 
-<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/63aa7cf7-cacc-4ff2-b42e-c3ec29607e58" />
+![](https://github.com/user-attachments/assets/97f1e61d-7be2-4134-8ecb-1683d082dfca)
+
 
 
 These findings show that we don't need high-precision data to get high-precision attention scores! We can achieve *zero* quality loss for things like KV cache quantization with only around 3.5 bits per channel.
