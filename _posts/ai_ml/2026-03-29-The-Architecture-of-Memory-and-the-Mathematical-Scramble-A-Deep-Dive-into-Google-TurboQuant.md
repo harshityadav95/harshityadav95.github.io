@@ -98,7 +98,7 @@ Let's look at this diagram and decode what is *actually* happening when it says 
 
 ### **The Fundamental Shift: Cartesian vs. Polar**
 
-Look at this diagram, friends. Let's break it down.
+
 
 On the left, we have the "STANDARD CARTESIAN (x, y, z)" coordinate system. This is what we are *all* used to. Every vector—every point in that high-dimensional space—is just a bunch of numbers: an x-value, a y-value, a z-value. If you are a computer trying to compress this, what do you see? You see a massive set of components (the *components* part is key) that are *stored* with full precision. The diagram calls it "(FP16/FP32)". This is how you make a heavy model. You are carrying a lot of redundant information in every axis.
 
@@ -126,11 +126,11 @@ And what does this mean for memory? Look at that storage box: "Low-Bit Angles (q
 
 ### **The Real Engineering Breakthrough: Eliminating the "Normalization Tax"**
 
-Look at this diagram, friends. Let's break it down.
+Let's break it down.
 
-On the left, we have the "BEFORE POLARQUANT" state. Look at what you have to do to make this spiky, Cartesian data usable in an LLM. You have multiple distinct clusters of vectors (the vector groups with the $\Sigma$ sum symbols). To use these, you must *normalize* them.
+On the left, we have the "BEFORE POLARQUANT" state. Look at what you have to do to make this spiky, Cartesian data usable in an LLM. You have multiple distinct clusters of vectors (the vector groups with the Sigma sum symbols). To use these, you must *normalize* them.
 
-And how do you do it? Look at the diagram's label: "TAX" (the red circle with $\Sigma$). This is what engineers call a penalty. For *every single one* of those blocks—for every cluster of data—you must store *expensive, block-wise normalization constants*. Every block needs its own specific constant. This is high overhead! You are paying a heavy memory penalty, carrying all this extra baggage (the "metadata"), just to normalize every little piece of your data before you can use it. That is inefficient. That is a bad design.
+And how do you do it? Look at the diagram's label: "TAX" . This is what engineers call a penalty. For *every single one* of those blocks—for every cluster of data—you must store *expensive, block-wise normalization constants*. Every block needs its own specific constant. This is high overhead! You are paying a heavy memory penalty, carrying all this extra baggage (the "metadata"), just to normalize every little piece of your data before you can use it. That is inefficient. That is a bad design.
 
 ### **The PolarQuant Solution: Uniform Geometry**
 
@@ -148,7 +148,7 @@ Look at that optimization. We eliminated the metadata overhead. Now we can dedic
 
 ![image.png](/assets/img/posts/Google-TurboQuant-Explained/image%2010.webp)
 
-Do you see the elegance? We didn't change *what* the vector is. No. We just changed *how we store it*. And that change allows us to carry almost *no* baggage, dedicating all of our precious resources to preserving the meaning, the purity of the idea. The little robot on the diagram is smiling for a reason, friends. That’s good engineering!
+Do you see the elegance? We didn't change *what* the vector is. No. We just changed *how we store it*. And that change allows us to carry almost *no* baggage, dedicating all of our precious resources to preserving the meaning, the purity of the idea. The little robot on the diagram is smiling for a reason. That’s good engineering!
 
 ### Stage Two: Correcting the Residual with QJL
 
