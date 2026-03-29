@@ -6,6 +6,8 @@ categories: [Dev Kit]
 tags: [Linux, Containers, Virtualization, Architecture, Docker, Podman, Kubernetes]
 ---
 
+{% include embed/youtube.html id='wSdmrPEiRn8' %}
+
 ## The Illusion of Computing and the Philosophy of Systems Engineering
 
 In modern backend engineering, there is a pervasive tendency to hide complexity behind elegant abstractions. We deploy applications with a single command, instantiate databases with a few lines of YAML, and route global traffic through ingress controllers without a second thought. However, hiding complexity does not eliminate it; it merely obscures the underlying mechanics until a catastrophic failure or an inexplicable performance degradation forces an engineer to look under the hood. To achieve ultimate performance, efficiency, and security, an engineer must possess an "A to Z" understanding of their application. They must comprehend the exact lifecycle of a network packet, the precise cost of a context switch, and the immutable laws of kernel resource allocation.
