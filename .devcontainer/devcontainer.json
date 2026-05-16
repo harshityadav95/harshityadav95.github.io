@@ -1,29 +1,70 @@
 {
-  "name": "Jekyll",
-  "image": "mcr.microsoft.com/devcontainers/jekyll:2-bullseye",
-  "onCreateCommand": "git config --global --add safe.directory ${containerWorkspaceFolder}",
+  "name": "Jekyll Blog Dev",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "jekyll",
+  "workspaceFolder": "/workspace",
+
+  // Lifecycle hooks
+  "onCreateCommand": "bash .devcontainer/on-create.sh",
   "postCreateCommand": "bash .devcontainer/post-create.sh",
+  "postStartCommand": "bash .devcontainer/post-start.sh",
+
+  // Forward Jekyll serve (4000) and LiveReload (35729)
+  "forwardPorts": [4000, 35729],
+  "portsAttributes": {
+    "4000": {
+      "label": "Jekyll Site",
+      "onAutoForward": "notify"
+    },
+    "35729": {
+      "label": "LiveReload",
+      "onAutoForward": "silent"
+    }
+  },
+
   "customizations": {
     "vscode": {
       "settings": {
-        "terminal.integrated.defaultProfile.linux": "zsh"
+        "terminal.integrated.defaultProfile.linux": "zsh",
+        "editor.formatOnSave": true,
+        "editor.tabSize": 2,
+        "files.trimTrailingWhitespace": true,
+        "files.insertFinalNewline": true,
+        "[markdown]": {
+          "editor.wordWrap": "on",
+          "files.trimTrailingWhitespace": false
+        }
       },
       "extensions": [
-        // Liquid tags auto-complete
+        // Liquid / Jekyll
         "killalau.vscode-liquid-snippets",
-        // Liquid syntax highlighting and formatting
         "Shopify.theme-check-vscode",
+        // Markdown
+        "yzhang.markdown-all-in-one",
+        "DavidAnson.vscode-markdownlint",
         // Shell
         "timonwong.shellcheck",
         "mkhl.shfmt",
-        // Common formatter
+        // Formatting & Linting
         "EditorConfig.EditorConfig",
         "esbenp.prettier-vscode",
         "stylelint.vscode-stylelint",
-        "yzhang.markdown-all-in-one",
         // Git
-        "mhutchie.git-graph"
+        "mhutchie.git-graph",
+        "eamodio.gitlens",
+        // Docker
+        "ms-azuretools.vscode-docker",
+        // YAML
+        "redhat.vscode-yaml"
       ]
     }
+  },
+
+  // Container user
+  "remoteUser": "vscode",
+
+  // Environment variables available inside the container
+  "remoteEnv": {
+    "JEKYLL_ENV": "development"
   }
 }
