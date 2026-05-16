@@ -11,7 +11,9 @@ echo "🔧 [on-create] Configuring git safe directory..."
 git config --global --add safe.directory /workspace
 
 echo "📦 [on-create] Installing Ruby gem dependencies..."
-bundle install --jobs "$(nproc)" --retry 3
+if [ -f Gemfile ]; then
+  bundle install --jobs "$(nproc)" --retry 3
+fi
 
 # If the theme ships a package.json (Chirpy does for JS assets), install & build
 if [ -f package.json ]; then

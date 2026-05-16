@@ -81,7 +81,7 @@ systemctl restart fail2ban
 # 4. SSH Server Configuration
 # We enable passwords but keep root login secure via the SSO layer
 sed -i 's/^#*PasswordAuthentication.*/PasswordAuthentication yes/' /etc/ssh/sshd_config
-sed -i 's/^#*PermitRootLogin.*/PermitRootLogin yes/' /etc/ssh/sshd_config
+sed -i 's/^#*PermitRootLogin.*/PermitRootLogin no/' /etc/ssh/sshd_config
 systemctl restart ssh
 
 # 5. Cloudflare Tunnel Deployment

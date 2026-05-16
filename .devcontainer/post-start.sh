@@ -10,7 +10,7 @@ set -euo pipefail
 for PORT in 4000 35729; do
   PID=$(lsof -t -i:"$PORT" 2>/dev/null || true)
   if [ -n "$PID" ]; then
-    kill -9 "$PID" 2>/dev/null || true
+    kill $PID 2>/dev/null || kill -9 $PID 2>/dev/null || true
     echo "🧹 [post-start] Killed stale process on port $PORT (PID: $PID)"
   fi
 done
