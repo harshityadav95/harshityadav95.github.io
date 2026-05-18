@@ -1,9 +1,14 @@
 ---
-title: LinkedIn's Fingerprinting
+layout: post
+title: "LinkedIn's Fingerprinting"
 author: harshityadav95
 date: 2026-02-02 00:00:00 +0530
 categories: [Backend Engineering]
 tags: [Security, Browser Extensions, Fingerprinting, Web Security, LinkedIn]
+description: A practical explanation of how LinkedIn can fingerprint browser extensions through web-accessible resources and what the trade-offs look like.
+image:
+  path: /assets/img/posts/linkedin-fingerprints/2.webp
+published: true
 ---
 
 # LinkedIn's Fingerprinting
