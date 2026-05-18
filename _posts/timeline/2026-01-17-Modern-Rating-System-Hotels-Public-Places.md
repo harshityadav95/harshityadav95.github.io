@@ -1,9 +1,14 @@
 ---
-title: A Modern Rating System for Hotels and Public Places in 2026
+layout: post
+title: "A Modern Rating System for Hotels and Public Places in 2026"
 author: harshityadav95
 date: 2026-01-17 00:00:00 +0530
 categories: [Timeline]
 tags: [personal, rating-system, hotels, restaurants, public-places]
+description: A modern venue rating framework for hotels, restaurants, and public places across digital payments, hygiene, accessibility, service, and logistics.
+image:
+  path: "/assets/img/posts/2026-01-20%2020.35.54.webp"
+published: true
 ---
 
 
@@ -55,5 +60,4 @@ To ensure accuracy, the final score is calculated as follows:
 
 ### Why It Matters
 This system moves from subjective "vibes" to **objective utility.** It helps businesses identify service gaps and empowers customers to find spaces that meet their specific functional needs—whether that’s a quiet place to work or a reliable EV charging spot.
-
 

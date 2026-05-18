@@ -1,8 +1,15 @@
 ---
 layout: post
 title: "The Architecture of Memory and the Mathematical Scramble: A Deep Dive into Google TurboQuant"
+author: harshityadav95
+date: 2026-03-29 00:00:00 +0530
 categories: [ai_ml]
 tags: [google, turboquant, ai, architecture]
+description: A deep dive into Google TurboQuant, KV cache pressure, memory movement, and the trade-offs behind faster AI inference.
+image:
+  path: /assets/img/posts/Google-TurboQuant-Explained/image.webp
+  alt: Google TurboQuant Architecture
+published: true
 ---
 
 {% include embed/youtube.html id='MUHpQKYJ7xE' %}
