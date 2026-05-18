@@ -8,6 +8,7 @@ tags: [google, turboquant, ai, architecture]
 description: A deep dive into Google TurboQuant, KV cache pressure, memory movement, and the trade-offs behind faster AI inference.
 image:
   path: /assets/img/posts/Google-TurboQuant-Explained/image.webp
+  alt: Google TurboQuant Architecture
 published: true
 ---
 
