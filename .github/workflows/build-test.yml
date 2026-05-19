@@ -44,7 +44,7 @@ jobs:
 
       - name: Install Playwright and Chromium
         run: |
-          npm ci
+          npm install
           npx playwright install --with-deps chromium
 
       - name: Run smoke test
