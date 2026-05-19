@@ -8,7 +8,7 @@ tags: [Software Development, Design Pattern,Microservices]
 ---
 
 
-![image](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/38bb009b-3dfc-4915-b2df-97d933ad894e)
+![image](/assets/img/posts/2023-08-01-Design-Pattern-Orchestration-&-Choreography/38bb009b-3dfc-4915-b2df-97d933ad894e.png)
 
 
 # Orchestration
@@ -17,17 +17,17 @@ tags: [Software Development, Design Pattern,Microservices]
 - The orchestrator is responsible for invoking and combining the services.
 - The relationship between all the participating services are described by a single endpoint (i.e., the composite service). The orchestration includes the management of transactions between individual services. Orchestration employs a centralized approach for service composition.
 
-![image](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/5063b24b-f0da-44ef-b2aa-f7a95f5589f5)
+![image](/assets/img/posts/2023-08-01-Design-Pattern-Orchestration-&-Choreography/5063b24b-f0da-44ef-b2aa-f7a95f5589f5.png)
 
 
 - Firstly, in orchestration, as you know, a central process is responsible for when and how services are invoked. In the case of a synchronous system where the orchestrator makes HTTP calls to services in series, the communication might look something like the following diagram.
 
-![image](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/893953b5-3d5a-43c7-9d04-f63f4ecd2427)
+![image](/assets/img/posts/2023-08-01-Design-Pattern-Orchestration-&-Choreography/893953b5-3d5a-43c7-9d04-f63f4ecd2427.png)
 
 
 - Alternatively, you might wish to take an asynchronous approach, in which a message broker is used to store the information about jobs that the services must complete. In this case, your communication would look something like the following diagram.
 
-![image](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/80147730-afe9-40f8-b576-726611f9941a)
+![image](/assets/img/posts/2023-08-01-Design-Pattern-Orchestration-&-Choreography/80147730-afe9-40f8-b576-726611f9941a.png)
 
 ### BENEFITS OF MICROSERVICE ORCHESTRATION
 
@@ -45,17 +45,17 @@ tags: [Software Development, Design Pattern,Microservices]
 - Service choreography is a global description of the participating services, which is defined by exchange of messages, rules of interaction and agreements between two or more endpoints. Choreography employs a decentralized approach for service composition.
 - The choreography describes the interactions between multiple services, where as orchestration represents control from one party's perspective. This means that a choreography differs from an orchestration with respect to where the logic that controls the interactions between the services involved should reside.
 
-![image](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/c4099dd7-e045-41d6-b57b-70bd2ec0165f)
+![image](/assets/img/posts/2023-08-01-Design-Pattern-Orchestration-&-Choreography/c4099dd7-e045-41d6-b57b-70bd2ec0165f.png)
 
 
 - This decentralization means that each service is aware of a small piece of the big picture, but only those parts in which the service plays an active role. The services are otherwise unaware of their overall position and relevance concerning the business workflow under execution.
 
-![image](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/c51c72bd-1df3-4dea-9068-fcf15e70bd97)
+![image](/assets/img/posts/2023-08-01-Design-Pattern-Orchestration-&-Choreography/c51c72bd-1df3-4dea-9068-fcf15e70bd97.png)
 
 
 - As you can see, each service is responsible for invoking and responding to any adjacent services as needed. This behavior is also true for asynchronous communication, with the main difference being the inclusion of a message broker instead of direct HTTP calls.
 
-![image](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/2c45d07a-5f0c-471c-a013-f3102c5fc0ef)
+![image](/assets/img/posts/2023-08-01-Design-Pattern-Orchestration-&-Choreography/2c45d07a-5f0c-471c-a013-f3102c5fc0ef.png)
 
 
 - In this asynchronous approach to workflow choreography, each service subscribes to and publishes specific message types directly, rather than an orchestrator being responsible for mediating communication between services.

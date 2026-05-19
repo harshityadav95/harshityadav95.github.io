@@ -12,7 +12,7 @@ tags: [deployment, webdevelopment]
 
 ## TLDR;
 
-![Untitled](https://raw.githubusercontent.com/harshityadav95/staticfiles/main/Notes_Deployment%20_Strategies/Untitled.png)
+![Untitled](/assets/img/posts/2023-05-17-Deployment-Types/Untitled.png)
 
 ## Big Bang Deployment
 
@@ -43,7 +43,7 @@ tags: [deployment, webdevelopment]
 - If the canary group experiences no issues, the new version is gradually rolled out to the remaining
 - Canary + Rolling Deployment ensures the best results
 
-![Untitled](https://raw.githubusercontent.com/harshityadav95/staticfiles/3a10c86582b2593d01d53199d8f85cfe686d18f5/Notes_Deployment%20_Strategies/Untitled%201.png)
+![Untitled](/assets/img/posts/2023-05-17-Deployment-Types/Untitled_1.png)
 
 ## Feature Deployment
 

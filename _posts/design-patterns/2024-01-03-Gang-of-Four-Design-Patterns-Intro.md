@@ -6,7 +6,7 @@ categories: [Design Pattern]
 tags: [Software Development, Design Pattern]
 
 ---
-![image](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/f6e548a9-ad96-4504-a5d5-b54848f27ac3)
+![image](/assets/img/posts/2024-01-03-Gang-of-Four-Design-Patterns-Intro/f6e548a9-ad96-4504-a5d5-b54848f27ac3.png)
 
 ## ****What's a design pattern?****
 

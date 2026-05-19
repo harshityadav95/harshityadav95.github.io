@@ -23,19 +23,19 @@ What? Why? When? Advantages?
 
 ### Synchronous and Blocking
 
-![image](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/8f0cebaa-8ea1-4bb9-9d64-292175a93c78)
+![image](/assets/img/posts/2022-04-11-Reactive-Programming-Java/8f0cebaa-8ea1-4bb9-9d64-292175a93c78.png)
 
 
 - The restaurant is blocked until  the cook completes one dish only then the restaurant takes another order
 
 ## Asynchronous and Non-Blocking
 
-![image](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/5e1ba5c3-a978-4247-b3a6-adbf0b3f220f)
+![image](/assets/img/posts/2022-04-11-Reactive-Programming-Java/5e1ba5c3-a978-4247-b3a6-adbf0b3f220f.png)
 
 
 ## Thread per Request model: Traditional REST API
 
-![image](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/4449b751-e762-4c3e-9ceb-01b02d0484e0)
+![image](/assets/img/posts/2022-04-11-Reactive-Programming-Java/4449b751-e762-4c3e-9ceb-01b02d0484e0.png)
 
 
 - One request one per thread, limited by the thread pool
@@ -46,7 +46,7 @@ What? Why? When? Advantages?
 
 ## Reactive Programming
 
-![image](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/cb3d6d88-057b-40bc-939e-700139696d2f)
+![image](/assets/img/posts/2022-04-11-Reactive-Programming-Java/cb3d6d88-057b-40bc-939e-700139696d2f.png)
 
 
 - The request comes to application and is assigned to thread 1
@@ -58,7 +58,7 @@ What? Why? When? Advantages?
 
 ## Functional Style code Vs Rest Code
 
-![image](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/6141869e-ab81-44bc-824a-3f0ec16b6784)
+![image](/assets/img/posts/2022-04-11-Reactive-Programming-Java/6141869e-ab81-44bc-824a-3f0ec16b6784.png)
 
 - The syntax is similar to JAVA 8 Stream API
 
@@ -71,7 +71,7 @@ What? Why? When? Advantages?
 
 ### Reactive Programming
 
-![image](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/b16edad0-a058-41e7-b4c8-2d4bd64af3bc)
+![image](/assets/img/posts/2022-04-11-Reactive-Programming-Java/b16edad0-a058-41e7-b4c8-2d4bd64af3bc.png)
 
 
 - If there is any change in the database it will immediately publish an event that there is an update in the data, now whoever subscribed to the data will update the data
@@ -83,7 +83,7 @@ Ex : Cricket Live score update
 
 ## Backpressure on Data Streams
 
-![image](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/0a069ddb-de55-4e1f-8ac6-d8cfb4d78f4a)
+![image](/assets/img/posts/2022-04-11-Reactive-Programming-Java/0a069ddb-de55-4e1f-8ac6-d8cfb4d78f4a.png)
 
 
 ### Traditional API

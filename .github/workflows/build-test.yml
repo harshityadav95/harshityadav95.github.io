@@ -37,6 +37,24 @@ jobs:
         env:
           JEKYLL_ENV: "production"
 
+      - name: Setup Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install Playwright and Chromium
+        run: |
+          npm ci
+          npx playwright install --with-deps chromium
+
+      - name: Run smoke test
+        run: |
+          npx serve "_site${{ steps.pages.outputs.base_path }}" -p 4000 &
+          SERVER_PID=$!
+          trap "kill $SERVER_PID 2>/dev/null" EXIT
+          npx wait-on tcp:localhost:4000 --timeout 10000
+          npx playwright test tests/smoke.spec.js
+
       - name: Test site
         run: |
           bundle exec htmlproofer _site \

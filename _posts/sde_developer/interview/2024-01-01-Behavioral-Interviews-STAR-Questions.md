@@ -23,7 +23,7 @@ Slide Deck : [Google Slides](https://docs.google.com/presentation/d/16DNAiuCC_Uo
 
 ## Types of Interviews
 
-![Types of Interviews](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/6e47f37c-ac16-4f3b-a51a-b6168fa22fe0)
+![Types of Interviews](/assets/img/posts/2024-01-01-Behavioral-Interviews-STAR-Questions/6e47f37c-ac16-4f3b-a51a-b6168fa22fe0.png)
 
 
 ## Understanding Behavioral Interviews
@@ -78,11 +78,11 @@ predictor of future performance.
 - How to Research
 - How company values align with personal values
 
-![image](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/7db88f5e-3e1b-431d-9084-8db42e57e8f8)
+![image](/assets/img/posts/2024-01-01-Behavioral-Interviews-STAR-Questions/7db88f5e-3e1b-431d-9084-8db42e57e8f8.png)
 
-![image](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/55d20f73-3338-4d45-afca-95c17a537da5)
+![image](/assets/img/posts/2024-01-01-Behavioral-Interviews-STAR-Questions/55d20f73-3338-4d45-afca-95c17a537da5.png)
 
-![image](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/efc0a836-518e-4ad0-9c92-71076e2ce5b4)
+![image](/assets/img/posts/2024-01-01-Behavioral-Interviews-STAR-Questions/efc0a836-518e-4ad0-9c92-71076e2ce5b4.png)
 
 ## Teamwork & Collaboration
 

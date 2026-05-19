@@ -11,7 +11,7 @@ tags: [SpringBoot, webdevelopment]
 
 # Spring Boot
 
-![harshityadav95](https://raw.githubusercontent.com/harshityadav95/staticfiles/main/springboot1.png)
+![harshityadav95](/assets/img/posts/2021-10-12-Spring-Boot-Notes/springboot1.png)
 
 ## Before Spring
 
@@ -163,7 +163,7 @@ It is also called dependency injection where we let the spring container instant
 
 ### Spring Framework Modules
 
-![harshityadav95](https://raw.githubusercontent.com/harshityadav95/staticfiles/main/springboot2.png)
+![harshityadav95](/assets/img/posts/2021-10-12-Spring-Boot-Notes/springboot2.png)
 
 #### 1. Core Container
 
@@ -320,7 +320,7 @@ Servlets --> JSP --> JSTL (collection of useful JSP tags for common tasks)
 * Run on a Java-enabled web or app server
 * Handle incoming HTTP requests
 
-![harshityadav95](https://raw.githubusercontent.com/harshityadav95/staticfiles/main/springboot3.png)
+![harshityadav95](/assets/img/posts/2021-10-12-Spring-Boot-Notes/springboot3.png)
 
 * Servlet (Java program) runs within the environment of Servlet Engine 
 * Servlet Engine also referred to as Servlet Container
@@ -366,7 +366,7 @@ Servlets --> JSP --> JSTL (collection of useful JSP tags for common tasks)
 * Controller - Dispatcher Servlet
 * useful for classic 3 tier architecture
 
-![harshityadav95](https://raw.githubusercontent.com/harshityadav95/staticfiles/main/springboot4.png)
+![harshityadav95](/assets/img/posts/2021-10-12-Spring-Boot-Notes/springboot4.png)
 
 ### REST based Controller
 

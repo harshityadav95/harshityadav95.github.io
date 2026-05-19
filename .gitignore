@@ -12,8 +12,12 @@ _site
 *.gem
 
 # NPM dependencies
-node_modules
+node_modules/
 package-lock.json
+
+# Playwright
+test-results/
+playwright-report/
 
 # IDE configurations
 .idea
@@ -26,3 +30,4 @@ package-lock.json
 _sass/vendors
 assets/js/dist
 .DS_Store
+.kiro

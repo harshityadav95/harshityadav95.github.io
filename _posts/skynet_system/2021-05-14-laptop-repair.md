@@ -25,7 +25,7 @@ Even with aging hardware specs it still gets the job done until I didn't start i
 
 I had planned to buy a new system in 2020, which got delayed first due to start of covid and shortage of laptop specially thinkpads, later with Work laptop in place and using a cloud VM credit on Azure with college email ID got me further, and Apple's release of Apple Silicon just made me hold longer as seeing my use case ARM-powered mac checked all boxes, fast forward to Summer 2021 the laptop is easily reaching 100 degree with even cooling pad and every trick with even medium workloads and even once failed to boot when overheated, running the laptop at that temp would sooner or later kill the CPU at this rate 
 
-![harshityadav95](https://raw.githubusercontent.com/harshityadav95/staticfiles/main/d1_LI.jpg)
+![harshityadav95](/assets/img/posts/2021-05-14-laptop-repair/d1_LI.jpg)
 
 ## Let it Burndown ?
 

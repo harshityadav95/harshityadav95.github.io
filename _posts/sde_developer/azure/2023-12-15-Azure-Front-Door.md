@@ -7,7 +7,7 @@ tags: [Azure, Cloud Computing]
 
 ---
 
-![harshityadav95](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/236809a6-a602-4266-93a2-1543431cd0b3)
+![harshityadav95](/assets/img/posts/2023-12-15-Azure-Front-Door/236809a6-a602-4266-93a2-1543431cd0b3.png)
 
 
 > Navigating Azure Front Door : [https://learn.microsoft.com/en-us/azure/frontdoor/](https://learn.microsoft.com/en-us/azure/frontdoor/)

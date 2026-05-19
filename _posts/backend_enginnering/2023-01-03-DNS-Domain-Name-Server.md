@@ -13,15 +13,15 @@ tags: [Web Development, Network]
 
 ## 10,000 FT View
 
-![image](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/1402ae58-79f7-435d-bd93-75968d4e21a3)
+![image](/assets/img/posts/2023-01-03-DNS-Domain-Name-Server/1402ae58-79f7-435d-bd93-75968d4e21a3.png)
 
 ## DNS Resolver Providers
 
-![Untitled](https://raw.githubusercontent.com/harshityadav95/staticfiles/main/DNS%20Domain%20Name%20Server%20Note/Untitled%201.png)
+![Untitled](/assets/img/posts/2023-01-03-DNS-Domain-Name-Server/Untitled_1.png)
 
 ## What is Software that makes DNS Server work
 
-![Untitled](https://raw.githubusercontent.com/harshityadav95/staticfiles/main/DNS%20Domain%20Name%20Server%20Note/Untitled%202.png)
+![Untitled](/assets/img/posts/2023-01-03-DNS-Domain-Name-Server/Untitled_2.png)
 
 - [Bind V9](https://www.isc.org/bind/)
 - [NDS](https://www.nlnetlabs.nl/projects/nsd/about/)
@@ -29,7 +29,7 @@ tags: [Web Development, Network]
 
 ## Why only 13 root DNS servers ?
 
-![Untitled](https://raw.githubusercontent.com/harshityadav95/staticfiles/main/DNS%20Domain%20Name%20Server%20Note/Untitled%203.png)
+![Untitled](/assets/img/posts/2023-01-03-DNS-Domain-Name-Server/Untitled_3.png)
 
 - A common misconception is that there are only 13 root servers in the world.
 - In reality, there are many more, but still only 13 IP addresses used to query the different root server networks.
@@ -41,7 +41,7 @@ tags: [Web Development, Network]
 
 ## Types of DNS Servers
 
-![Untitled](https://raw.githubusercontent.com/harshityadav95/staticfiles/main/DNS%20Domain%20Name%20Server%20Note/Untitled%204.png)
+![Untitled](/assets/img/posts/2023-01-03-DNS-Domain-Name-Server/Untitled_4.png)
 
 - **Recursive server**
 - **Root name server**
@@ -52,7 +52,7 @@ Reference : [types of dns servers](https://www.notion.so/The-Benefits-of-the-3-T
 
 ## DNS Query Flow
 
-![Untitled](https://raw.githubusercontent.com/harshityadav95/staticfiles/main/DNS%20Domain%20Name%20Server%20Note/Untitled%205.png)
+![Untitled](/assets/img/posts/2023-01-03-DNS-Domain-Name-Server/Untitled_5.png)
 
 The diagram below illustrates how DNS lookup works under the hood:
 
@@ -69,7 +69,7 @@ DNS lookups on average take between 20-120 milliseconds to complete (according t
 
 ## DNS Caching
 
-![Untitled](https://raw.githubusercontent.com/harshityadav95/staticfiles/main/DNS%20Domain%20Name%20Server%20Note/Untitled%206.png)
+![Untitled](/assets/img/posts/2023-01-03-DNS-Domain-Name-Server/Untitled_6.png)
 
 ## DNS by Cloud Providers
 
@@ -90,7 +90,7 @@ Solution: Oblivious HTTPS over DNS  ODOH
 
 ## Recap 
 
-![Untitled](https://raw.githubusercontent.com/harshityadav95/staticfiles/main/DNS%20Domain%20Name%20Server%20Note/Untitled.png)
+![Untitled](/assets/img/posts/2023-01-03-DNS-Domain-Name-Server/Untitled.png)
 
 ## Video Reference
 

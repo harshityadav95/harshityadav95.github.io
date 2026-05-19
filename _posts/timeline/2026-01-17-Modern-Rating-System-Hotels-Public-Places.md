@@ -7,14 +7,14 @@ categories: [Timeline]
 tags: [personal, rating-system, hotels, restaurants, public-places]
 description: A modern venue rating framework for hotels, restaurants, and public places across digital payments, hygiene, accessibility, service, and logistics.
 image:
-  path: "/assets/img/posts/2026-01-20%2020.35.54.webp"
+  path: "/assets/img/posts/2026-01-20 20.35.54.webp"
 published: true
 ---
 
 
 ## The 2026 Rating Standard: Beyond the Basics
 
-![Modern Rating System Framework](/assets/img/posts/2026-01-20%2020.35.54.webp)
+![Modern Rating System Framework](/assets/img/posts/2026-01-20 20.35.54.webp)
 
 Traditional reviews are outdated. In 2026, a "good" venue isn't just about food or decor; it’s about **seamless integration into a digital and inclusive lifestyle.** This new framework evaluates the complete customer journey across 5 vital pillars.
 

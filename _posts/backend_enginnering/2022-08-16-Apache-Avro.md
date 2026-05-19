@@ -8,7 +8,7 @@ tags: [Web Development, Network]
 ---
 
 
-![image](https://github.com/user-attachments/assets/5c7613ad-2c99-4a2a-9571-8088668fbef9)
+![image](/assets/img/posts/2022-08-16-Apache-Avro/5c7613ad-2c99-4a2a-9571-8088668fbef9.png)
 
 ## **A common problem in streaming applications**
 
@@ -17,7 +17,7 @@ tags: [Web Development, Network]
 - **When Kafka gets data from a producer, it takes bytes as input and publishes them without parsing or even reading the data.**
 - This zero-copy principle reduces the consumption of CPU and memory bandwidth, improving performance especially when the data volumes are huge.
 
-![image](https://github.com/user-attachments/assets/831d0c21-944a-4023-9bb2-c3f18800fe9e)
+![image](/assets/img/posts/2022-08-16-Apache-Avro/831d0c21-944a-4023-9bb2-c3f18800fe9e.png)
 
 
 - One of the major issues is that Kafka takes in bytes as input and publishes them, in this Kafka has no clue of what the data is and does not perform any kind of data verification to it.
@@ -93,7 +93,7 @@ It has some of the common fields often used while defining an avro schema :
 
 ## What is Schema Registry?
 
-![image](https://github.com/user-attachments/assets/896a8f07-a7bb-4ada-b872-0b39df294c6e)
+![image](/assets/img/posts/2022-08-16-Apache-Avro/896a8f07-a7bb-4ada-b872-0b39df294c6e.png)
 
 
 - brokers do not parse or even read data and in return do not consume CPU resources.
@@ -103,7 +103,7 @@ It has some of the common fields often used while defining an avro schema :
 
 ## Avro File Format
 
-![image](https://github.com/user-attachments/assets/7e687cea-cd0b-4f38-981c-4a6a2f421c74)
+![image](/assets/img/posts/2022-08-16-Apache-Avro/7e687cea-cd0b-4f38-981c-4a6a2f421c74.png)
 
 
 ## Reference

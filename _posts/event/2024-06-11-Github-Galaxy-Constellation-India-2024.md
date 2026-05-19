@@ -13,11 +13,11 @@ author: harshityadav95
 
 ## Github Galaxy
 
-![IMG_6601](https://github.com/user-attachments/assets/2d00a7d9-5914-40a8-b566-d558f4fdaa2f)
+![IMG_6601](/assets/img/posts/2024-06-11-Github-Galaxy-Constellation-India-2024/2d00a7d9-5914-40a8-b566-d558f4fdaa2f.jpg)
 
-![IMG_6595](https://github.com/user-attachments/assets/0f986df0-c5af-4f01-92cf-72ddb9224852)
+![IMG_6595](/assets/img/posts/2024-06-11-Github-Galaxy-Constellation-India-2024/0f986df0-c5af-4f01-92cf-72ddb9224852.jpg)
 
-![IMG_6585](https://github.com/user-attachments/assets/9e0f46bc-0edc-4b56-a445-b5fc750834dd)
+![IMG_6585](/assets/img/posts/2024-06-11-Github-Galaxy-Constellation-India-2024/9e0f46bc-0edc-4b56-a445-b5fc750834dd.jpg)
 
 
 ## Industry insight
@@ -57,11 +57,11 @@ Linkedin Advice : [How can you network effectively at meetups? (linkedin.com)](h
 
 Github : https://github.com/nammayatri
 
-![IMG_6636](https://github.com/user-attachments/assets/adc89d06-5220-4296-8f4d-83b002ca64bc)
+![IMG_6636](/assets/img/posts/2024-06-11-Github-Galaxy-Constellation-India-2024/adc89d06-5220-4296-8f4d-83b002ca64bc.jpg)
 
-![IMG_6637](https://github.com/user-attachments/assets/4cb9a9b3-0c38-49c4-9082-e02af73199fa)
+![IMG_6637](/assets/img/posts/2024-06-11-Github-Galaxy-Constellation-India-2024/4cb9a9b3-0c38-49c4-9082-e02af73199fa.jpg)
 
-![IMG_6638](https://github.com/user-attachments/assets/5c1e1a22-652a-44b6-ad48-2be51ccf3ec6)
+![IMG_6638](/assets/img/posts/2024-06-11-Github-Galaxy-Constellation-India-2024/5c1e1a22-652a-44b6-ad48-2be51ccf3ec6.jpg)
 
 ## Thing to Lookup Later
 
@@ -69,13 +69,13 @@ Github : https://github.com/nammayatri
 
 ## Open Health Care Network
 
-![IMG_6643](https://github.com/user-attachments/assets/62b91cf1-c427-489d-99c5-82942aef758b)
+![IMG_6643](/assets/img/posts/2024-06-11-Github-Galaxy-Constellation-India-2024/62b91cf1-c427-489d-99c5-82942aef758b.jpg)
 
 [Bodhish Thomas](https://www.linkedin.com/in/bodhish/) on how [Open Healthcare Network](https://www.linkedin.com/company/ohcn/) talk on how Open Healthcare Network was started during COVID-19 and how far they have come. He shared how they have used copilot to improve developer productivity and are actively using AI in their operations from Llama to GPT-4o. Especially, mind blowing was the final video of an ASHA worker speaking the patient’s details in Malayalam which get autofilled in the form using Whisper and LLM. 
 
 ## Balena
 
-![Untitled](https://github.com/user-attachments/assets/f9ad21ab-b97a-4fd2-81f5-e81274389304)
+![Untitled](/assets/img/posts/2024-06-11-Github-Galaxy-Constellation-India-2024/f9ad21ab-b97a-4fd2-81f5-e81274389304.png)
 
 [Vipul Gupta](https://www.linkedin.com/in/vipulgupta2048/) a Product Owner at Balena, showcased how their company leverages GitHub Actions to streamline the release process for hundreds of embedded operating systems, reducing turnaround time from weeks to hours. Their hardware-in-the-loop (HiTL) pipeline built with GitHub Runners ensures reliability and speed. This pipeline transforms weeks of manual testing into automated processes, utilizing an open hardware test harness (jig) called Autokit. This session highlighted how GitHub can boost productivity for teams regardless of their use case
 

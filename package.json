@@ -1,0 +1,12 @@
+{
+  "name": "harshityadav95-github-io",
+  "version": "1.0.0",
+  "description": "Playwright smoke tests for harshityadav.in",
+  "private": true,
+  "scripts": {
+    "test": "playwright test tests/smoke.spec.js"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.52.0"
+  }
+}

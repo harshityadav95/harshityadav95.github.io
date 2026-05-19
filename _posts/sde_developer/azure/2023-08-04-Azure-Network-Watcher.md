@@ -8,7 +8,7 @@ tags: [Azure, Cloud Computing]
 ---
 
 
-![image](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/139f4eed-1c2b-4309-815b-56fa683c2b78)
+![image](/assets/img/posts/2023-08-04-Azure-Network-Watcher/139f4eed-1c2b-4309-815b-56fa683c2b78.png)
 
 # TLDR;
 
@@ -27,7 +27,7 @@ Azure NSGs control access and manage communication between:
 - Connectivity between on-prem environments and Azure via an Application Gateway, VPN Gateway, Azure Firewall, Azure Bastion service, and Virtual Network Appliances.
 - Connections to and from the Internet.
 
-![image](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/589c2bb9-1be3-411a-b1a2-a8a6d6d5fad3)
+![image](/assets/img/posts/2023-08-04-Azure-Network-Watcher/589c2bb9-1be3-411a-b1a2-a8a6d6d5fad3.png)
 
 
 - You can use an Azure network security group to filter network traffic between Azure resources in an Azure virtual network.

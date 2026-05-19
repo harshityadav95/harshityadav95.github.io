@@ -8,7 +8,7 @@ tags: [Git, Github]
 ---
 
 
-![image](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/e103410f-fe64-4d92-99d2-e8c51396b73d)
+![image](/assets/img/posts/2022-07-30-Setup-Github-SSH-in-Windows/e103410f-fe64-4d92-99d2-e8c51396b73d.png)
 
 
 ### Generate SSH keys
@@ -23,7 +23,7 @@ The process is the same for both Windows and Mac. On Windows, you can use the po
 
 - Replace the email with your own and press enter.
 
-![image](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/80e5d693-2f9b-4a5a-a396-a69c48b215fe)
+![image](/assets/img/posts/2022-07-30-Setup-Github-SSH-in-Windows/80e5d693-2f9b-4a5a-a396-a69c48b215fe.png)
 
 
 - It will prompt to enter a password. Hit enter to skip setting a password and do the same for entering the same passphrase again.
@@ -70,12 +70,12 @@ We now need to add our public key to Github to grant access to the repositories 
 
 **Step 2:** Click on the profile icon in the top right of the screen and select Settings.
 
-![image](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/977eb7dc-eb90-421f-bd7b-e81e455fa34e)
+![image](/assets/img/posts/2022-07-30-Setup-Github-SSH-in-Windows/977eb7dc-eb90-421f-bd7b-e81e455fa34e.png)
 
 
 - Click the New SSH key button in Green on the right-hand side of the screen.
 
-![image](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/aaa9c4f1-6a1b-4a1e-a3b8-5236fddf3fb0)
+![image](/assets/img/posts/2022-07-30-Setup-Github-SSH-in-Windows/aaa9c4f1-6a1b-4a1e-a3b8-5236fddf3fb0.png)
 
 
 - Enter a title and paste in your public key that you copied previously.
@@ -86,7 +86,7 @@ You are now ready to access Github via SSH.
 ## Accessing Repositories
 
 When accessing a repository and using SSH authentication, make sure to always use the SSH address of the repository.
-![harshityadav95](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/8facebb1-87db-47cb-8773-a1e12f140fca)
+![harshityadav95](/assets/img/posts/2022-07-30-Setup-Github-SSH-in-Windows/8facebb1-87db-47cb-8773-a1e12f140fca.png)
 
 
 

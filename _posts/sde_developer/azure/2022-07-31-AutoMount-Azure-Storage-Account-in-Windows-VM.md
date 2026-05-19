@@ -7,7 +7,7 @@ tags: [Azure, Cloud Computing]
 
 ---
 
-![image](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/c3938c94-49de-4ba2-8bc1-6ae3b0d0e923)
+![image](/assets/img/posts/2022-07-31-AutoMount-Azure-Storage-Account-in-Windows-VM/c3938c94-49de-4ba2-8bc1-6ae3b0d0e923.png)
 
 To let the FileShare connection script be autorun at the start of the virtual machine instance and the fileshare be mounted using the same drive letter in VMSS where Talend is deployed
 
@@ -19,9 +19,9 @@ C:\Users\<USER>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
 
 1. With its content as the connection script provided by azure for mounting FileShare, go to the Azure file storage account 
 
-![image](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/30f598ac-cec2-44e9-92c0-5a069de52359)
+![image](/assets/img/posts/2022-07-31-AutoMount-Azure-Storage-Account-in-Windows-VM/30f598ac-cec2-44e9-92c0-5a069de52359.png)
 
-![image](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/f55f8d42-9435-4bb2-9b3e-c2b7a82e7047)
+![image](/assets/img/posts/2022-07-31-AutoMount-Azure-Storage-Account-in-Windows-VM/f55f8d42-9435-4bb2-9b3e-c2b7a82e7047.png)
 
 
 2. In the Same folder create a file startup.bat with the following code
