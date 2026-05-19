@@ -1,12 +1,14 @@
 // @ts-check
+const fs = require('fs');
+const path = require('path');
 const { test, expect } = require('@playwright/test');
 
-const BASE_URL = 'http://localhost:4000';
 const KEYWORD_REGEX = /end\s+of\s+line/i;
+const screenshotPath = process.env.HOMEPAGE_SCREENSHOT_PATH;
 
 test('homepage contains keyword "End of Line"', async ({ page }) => {
   // Navigate and check HTTP status
-  const response = await page.goto(BASE_URL, { timeout: 30000 });
+  const response = await page.goto('/', { timeout: 30000 });
 
   if (!response || response.status() !== 200) {
     const status = response ? response.status() : 'no response';
@@ -18,4 +20,9 @@ test('homepage contains keyword "End of Line"', async ({ page }) => {
     timeout: 30000,
     message: 'Smoke test failed: keyword "End of Line" not found in page body',
   });
+
+  if (screenshotPath) {
+    fs.mkdirSync(path.dirname(screenshotPath), { recursive: true });
+    await page.screenshot({ path: screenshotPath, fullPage: true });
+  }
 });

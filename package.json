@@ -4,9 +4,9 @@
   "description": "Playwright smoke tests for harshityadav.in",
   "private": true,
   "scripts": {
-    "test": "playwright test tests/smoke.spec.js"
+    "test": "playwright test"
   },
   "devDependencies": {
-    "@playwright/test": "1.52.0"
+    "@playwright/test": "1.60.0"
   }
 }

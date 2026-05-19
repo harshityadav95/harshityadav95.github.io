@@ -1,0 +1,68 @@
+name: Optimize Images
+
+on:
+  pull_request:
+    paths:
+      - "**.jpg"
+      - "**.jpeg"
+      - "**.JPG"
+      - "**.JPEG"
+      - "**.png"
+      - "**.PNG"
+      - "**.webp"
+      - "**.WEBP"
+      - "**.avif"
+      - "**.AVIF"
+  push:
+    branches:
+      - main
+    paths:
+      - "**.jpg"
+      - "**.jpeg"
+      - "**.JPG"
+      - "**.JPEG"
+      - "**.png"
+      - "**.PNG"
+      - "**.webp"
+      - "**.WEBP"
+      - "**.avif"
+      - "**.AVIF"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: optimize-images-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  optimize:
+    name: Optimize uploaded images
+    runs-on: ubuntu-latest
+    if: github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == github.repository
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event_name == 'pull_request' && github.head_ref || github.ref_name }}
+
+      - name: Compress images
+        id: calibre
+        uses: calibreapp/image-actions@main
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          compressOnly: ${{ github.event_name != 'pull_request' }}
+
+      - name: Create optimization pull request
+        if: github.event_name != 'pull_request' && steps.calibre.outputs.markdown != ''
+        uses: peter-evans/create-pull-request@v8
+        with:
+          token: ${{ secrets.IMAGE_OPTIMIZER_TOKEN || secrets.GITHUB_TOKEN }}
+          title: Optimize uploaded images
+          commit-message: "chore: optimize uploaded images"
+          branch: codex/optimize-uploaded-images
+          delete-branch: true
+          body: ${{ steps.calibre.outputs.markdown }}
