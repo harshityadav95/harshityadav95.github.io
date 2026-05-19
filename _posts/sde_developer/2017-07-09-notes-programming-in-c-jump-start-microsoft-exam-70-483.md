@@ -116,7 +116,7 @@ Example :
 
 ![](/assets/img/posts/2017-07-09-notes-programming-in-c-jump-start-microsoft-exam-70-483/1_USm99SLzXRs3Ww_FmRWe_A.png)
 
-Link : <http://www.studytonight.com/cpp/virtual-functions.php>
+Link : <https://www.studytonight.com/cpp/virtual-functions.php>
 
 ![](/assets/img/posts/2017-07-09-notes-programming-in-c-jump-start-microsoft-exam-70-483/1_bpA49nEBxZYBgTgbSp1Z2A.png)
 
@@ -315,7 +315,7 @@ Fast (depending on chosen algorithm)
 
 — RSA (most popular)
 
-More Notes from NSM Subject : <http://telegra.ph/Network-Security--Management-Notes-05-28-2>
+More Notes from NSM Subject : <https://telegra.ph/Network-Security--Management-Notes-05-28-2>
 
 Code Snippet For Encryption in C# :<https://gist.github.com/harshityadav95/8f332c8889d93823e79435b110078a0c>
 

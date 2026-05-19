@@ -24,7 +24,7 @@ Project .So i started the windows image tool which ran for about a minute or so
 but kept crashing due to some conflict in Windows Shadow Copy Function 0x8078012D
 
 After an hour of searching i found out that it   due to Less Space in System Reserved
-Partition which I resolved using the tool : <http://www.minitool.com/partition-manager.html>
+Partition which I resolved using the tool : <https://www.minitool.com/partition-manager.html>
 
 With
 1 hour of downloading 2 hours of installation and next 2 hours in system maintenance
@@ -33,4 +33,4 @@ fingerprint reader completely stopped working after the update ). Looking
 Forward to update my Linux Ubuntu to 16.04 LTS update as soon as my Internship
 Project is complete.
 
-[![](/assets/img/posts/2016-08-09-backups-system-updates-partitioning/uyvf.JPG.JPG)](/assets/img/posts/2016-08-09-backups-system-updates-partitioning/uyvf.JPG.JPG)
+[![](/assets/img/posts/2016-08-09-backups-system-updates-partitioning/uyvf.JPG)](/assets/img/posts/2016-08-09-backups-system-updates-partitioning/uyvf.JPG)

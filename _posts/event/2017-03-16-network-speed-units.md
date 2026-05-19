@@ -32,6 +32,6 @@ Hindi : [Link](https://www.youtube.com/watch?v=4i3pmmXuS8s)
 
 English : [Link](https://www.youtube.com/watch?v=EjSO10KTUAE&list=PLUVxsvCWcXjD4pqHOnIE4G9fsMJ17aoAI)
 
-Best Site to check out your Internet Speed : [speedtest.net](http://speedtest.net/)
+Best Site to check out your Internet Speed : [speedtest.net](https://speedtest.net/)
 
-If you want to check only your download speed  in  light weight interface then try [fast.com](http://fast.com/)
+If you want to check only your download speed  in  light weight interface then try [fast.com](https://fast.com/)

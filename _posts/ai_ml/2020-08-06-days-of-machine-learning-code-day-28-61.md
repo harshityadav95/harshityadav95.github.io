@@ -3,7 +3,7 @@ title: "Days of Machine Learning Code Day 28-61"
 author: harshityadav95
 date: 2020-08-06 00:00:00 +0530
 categories: [AI/ML]
-tags: [100daysofMLcode, Harshit Yadav, Ai, machine learning, artificial intelligence, Python]
+tags: [100daysofMLcode, Harshit Yadav, AI, Machine Learning, artificial intelligence, Python]
 description: "Migrated from Blogger."
 published: true
 ---

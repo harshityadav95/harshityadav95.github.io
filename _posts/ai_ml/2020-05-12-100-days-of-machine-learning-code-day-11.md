@@ -3,7 +3,7 @@ title: "100 Days of Machine Learning Code Day 11"
 author: harshityadav95
 date: 2020-05-12 00:00:00 +0530
 categories: [AI/ML]
-tags: [C, 100daysofMLcode, Ai, Hardware, Project and Progress, machine learning, artificial intelligence]
+tags: [C, 100daysofMLcode, AI, Hardware, Project and Progress, Machine Learning, artificial intelligence]
 description: "Migrated from Blogger."
 published: true
 ---

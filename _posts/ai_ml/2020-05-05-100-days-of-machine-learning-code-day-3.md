@@ -3,7 +3,7 @@ title: "100 Days of Machine Learning Code Day 3"
 author: harshityadav95
 date: 2020-05-05 00:00:00 +0530
 categories: [AI/ML]
-tags: [100daysofMLcode, Harshit Yadav, Ai, Project and Progress, machine learning, artificial intelligence, Python]
+tags: [100daysofMLcode, Harshit Yadav, AI, Project and Progress, Machine Learning, artificial intelligence, Python]
 description: "Migrated from Blogger."
 published: true
 ---

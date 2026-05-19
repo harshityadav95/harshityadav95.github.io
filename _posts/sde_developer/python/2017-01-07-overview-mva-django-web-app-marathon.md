@@ -13,13 +13,13 @@ whether it be Qt , C# , and now Django connecting Mysql Client Package to a Pyth
 
 So After many GIT  revert commit and trying multiple  solution was able to fix it by both changing  the Environment 3.4   or by using the same 3.5 version and manually building and linking the package .
 
-Link  :<http://www.lfd.uci.edu/~gohlke/pythonlibs/#mysqlclient>
+Link  :<https://www.lfd.uci.edu/~gohlke/pythonlibs/#mysqlclient>
 
 Once Fixed Deploying and trying the App on both Azure and AWS  was a piece of Cake  ;)
 
 Looking Forward to make few of Small  apps before starting with a project and learning JavaScript and Bootstrap before my College reopens  and continuing my Code practice at hacker-rank  side by side
 
-Web APP  : <http://databasefun20170107035036.azurewebsites.net/>
+Web APP  : <https://databasefun20170107035036.azurewebsites.net/>
 
 
-[![](/assets/img/posts/2017-01-07-overview-mva-django-web-app-marathon/aef.JPG.JPG)](/assets/img/posts/2017-01-07-overview-mva-django-web-app-marathon/aef.JPG.JPG)
+[![](/assets/img/posts/2017-01-07-overview-mva-django-web-app-marathon/aef.JPG)](/assets/img/posts/2017-01-07-overview-mva-django-web-app-marathon/aef.JPG)

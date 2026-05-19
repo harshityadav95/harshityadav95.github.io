@@ -3,7 +3,7 @@ title: "Course Checkpoint : Ai for Everybody by Andrew Ng on Coursera"
 author: harshityadav95
 date: 2020-01-27 00:00:00 +0530
 categories: [AI/ML]
-tags: [Ai, Project and Progress, machine learning, artificial intelligence]
+tags: [AI, Project and Progress, Machine Learning, artificial intelligence]
 description: "Migrated from Blogger."
 published: true
 ---

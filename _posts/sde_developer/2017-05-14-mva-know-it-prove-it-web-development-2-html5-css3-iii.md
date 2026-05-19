@@ -58,9 +58,9 @@ Reset CSS
 
 
 
-A CSS reset is a set of styles you load prior to your other styles, to remove browser built-in styles. One of first and most popular ones was Eric Mayer's [Reset CSS](http://meyerweb.com/eric/tools/css/reset/).
+A CSS reset is a set of styles you load prior to your other styles, to remove browser built-in styles. One of first and most popular ones was Eric Mayer's [Reset CSS](https://meyerweb.com/eric/tools/css/reset/).
 
-Another option is to harmonize browser built-in styles. The most popular tool to achieve this is currently [Normalize.css](http://necolas.github.com/normalize.css/).
+Another option is to harmonize browser built-in styles. The most popular tool to achieve this is currently [Normalize.css](https://necolas.github.com/normalize.css/).
 
 Selectors
 
@@ -122,4 +122,4 @@ Responsive web design (RWD) is an approach to [web design](https://en.wikipedi
 
 Bootstrap is a free and open-source front-end web framework for designing websites and web applications. It contains HTML- and CSS-based design templates for typography, forms, buttons, navigation and other interface components, as well as optional JavaScript extensions. Unlike many web frameworks, it concerns itself with front-end development only.
 
-Link : <https://html5boilerplate.com/> , <http://getbootstrap.com/>
+Link : <https://html5boilerplate.com/> , <https://getbootstrap.com/>

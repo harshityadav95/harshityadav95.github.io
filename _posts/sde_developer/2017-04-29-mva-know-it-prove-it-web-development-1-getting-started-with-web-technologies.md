@@ -40,12 +40,12 @@ MongoDB , SQL Server , MySQL , NoSQL , Oracle .Postgres , Hadoop
 
 
 
-[![](/assets/img/posts/2017-04-29-mva-know-it-prove-it-web-development-1-getting-started-with-web-technologies/2.JPG.JPG)](/assets/img/posts/2017-04-29-mva-know-it-prove-it-web-development-1-getting-started-with-web-technologies/2.JPG.JPG)
+[![](/assets/img/posts/2017-04-29-mva-know-it-prove-it-web-development-1-getting-started-with-web-technologies/2.JPG)](/assets/img/posts/2017-04-29-mva-know-it-prove-it-web-development-1-getting-started-with-web-technologies/2.JPG)
 
 
 
 
-[![](/assets/img/posts/2017-04-29-mva-know-it-prove-it-web-development-1-getting-started-with-web-technologies/3.JPG.JPG)](/assets/img/posts/2017-04-29-mva-know-it-prove-it-web-development-1-getting-started-with-web-technologies/3.JPG.JPG)
+[![](/assets/img/posts/2017-04-29-mva-know-it-prove-it-web-development-1-getting-started-with-web-technologies/3.JPG)](/assets/img/posts/2017-04-29-mva-know-it-prove-it-web-development-1-getting-started-with-web-technologies/3.JPG)
 
 
 Test Driven Development
@@ -54,7 +54,7 @@ Test-driven development (TDD) is a software development process that relies on t
 
 
 
-[![](/assets/img/posts/2017-04-29-mva-know-it-prove-it-web-development-1-getting-started-with-web-technologies/4.JPG.JPG)](/assets/img/posts/2017-04-29-mva-know-it-prove-it-web-development-1-getting-started-with-web-technologies/4.JPG.JPG)
+[![](/assets/img/posts/2017-04-29-mva-know-it-prove-it-web-development-1-getting-started-with-web-technologies/4.JPG)](/assets/img/posts/2017-04-29-mva-know-it-prove-it-web-development-1-getting-started-with-web-technologies/4.JPG)
 
 
 
@@ -72,21 +72,21 @@ Scalability is the capability of a system, network, or process to handle a growi
 
 
 
-[![](/assets/img/posts/2017-04-29-mva-know-it-prove-it-web-development-1-getting-started-with-web-technologies/5.JPG.JPG)](/assets/img/posts/2017-04-29-mva-know-it-prove-it-web-development-1-getting-started-with-web-technologies/5.JPG.JPG)
+[![](/assets/img/posts/2017-04-29-mva-know-it-prove-it-web-development-1-getting-started-with-web-technologies/5.JPG)](/assets/img/posts/2017-04-29-mva-know-it-prove-it-web-development-1-getting-started-with-web-technologies/5.JPG)
 
 
 
-[![](/assets/img/posts/2017-04-29-mva-know-it-prove-it-web-development-1-getting-started-with-web-technologies/6.JPG.JPG)](/assets/img/posts/2017-04-29-mva-know-it-prove-it-web-development-1-getting-started-with-web-technologies/6.JPG.JPG)
+[![](/assets/img/posts/2017-04-29-mva-know-it-prove-it-web-development-1-getting-started-with-web-technologies/6.JPG)](/assets/img/posts/2017-04-29-mva-know-it-prove-it-web-development-1-getting-started-with-web-technologies/6.JPG)
 
-[![](/assets/img/posts/2017-04-29-mva-know-it-prove-it-web-development-1-getting-started-with-web-technologies/7.JPG.JPG)](/assets/img/posts/2017-04-29-mva-know-it-prove-it-web-development-1-getting-started-with-web-technologies/7.JPG.JPG)
-
-
-
-[![](/assets/img/posts/2017-04-29-mva-know-it-prove-it-web-development-1-getting-started-with-web-technologies/8.JPG.JPG)](/assets/img/posts/2017-04-29-mva-know-it-prove-it-web-development-1-getting-started-with-web-technologies/8.JPG.JPG)
+[![](/assets/img/posts/2017-04-29-mva-know-it-prove-it-web-development-1-getting-started-with-web-technologies/7.JPG)](/assets/img/posts/2017-04-29-mva-know-it-prove-it-web-development-1-getting-started-with-web-technologies/7.JPG)
 
 
 
-[![](/assets/img/posts/2017-04-29-mva-know-it-prove-it-web-development-1-getting-started-with-web-technologies/9.JPG.JPG)](/assets/img/posts/2017-04-29-mva-know-it-prove-it-web-development-1-getting-started-with-web-technologies/9.JPG.JPG)
+[![](/assets/img/posts/2017-04-29-mva-know-it-prove-it-web-development-1-getting-started-with-web-technologies/8.JPG)](/assets/img/posts/2017-04-29-mva-know-it-prove-it-web-development-1-getting-started-with-web-technologies/8.JPG)
+
+
+
+[![](/assets/img/posts/2017-04-29-mva-know-it-prove-it-web-development-1-getting-started-with-web-technologies/9.JPG)](/assets/img/posts/2017-04-29-mva-know-it-prove-it-web-development-1-getting-started-with-web-technologies/9.JPG)
 
 Using Json Data , Xml to let different languages communicate each other
 
@@ -94,13 +94,13 @@ Using Json Data , Xml to let different languages communicate each other
 
 
 
-[![](/assets/img/posts/2017-04-29-mva-know-it-prove-it-web-development-1-getting-started-with-web-technologies/1.png0.JPG.JPG)](/assets/img/posts/2017-04-29-mva-know-it-prove-it-web-development-1-getting-started-with-web-technologies/1.png0.JPG.JPG)
+[![](/assets/img/posts/2017-04-29-mva-know-it-prove-it-web-development-1-getting-started-with-web-technologies/1.png)](/assets/img/posts/2017-04-29-mva-know-it-prove-it-web-development-1-getting-started-with-web-technologies/1.png)
 
 Resources :
 
 - > [Microsoft Virtual Academy](https://mva.microsoft.com/)
-- > [Algorithm Coding Dojo](http://algorithm.codingdojo.com/)
-- > [Code Pen](http://codepen.io/)
+- > [Algorithm Coding Dojo](https://algorithm.codingdojo.com/)
+- > [Code Pen](https://codepen.io/)
 
 Learning Backend Frameworks  :
 -> Python and Django (good for Beginners)

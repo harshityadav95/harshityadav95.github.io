@@ -30,7 +30,7 @@ HTML 5 is for structuring the content and CSS is for styling the content
 **Validator**
 A validator is a computer program used to check the validity or syntactical correctness of a fragment of code or document. The term is commonly used in the context of validating HTML,CSS and XML documents or RSS feeds though it can be used for any defined format or language.
 
-Example Link  :  [Validator.nu](http://validator.nu/)
+Example Link  :  [Validator.nu](https://validator.nu/)
 
 **Basic HTML Tags and Explanation**
 

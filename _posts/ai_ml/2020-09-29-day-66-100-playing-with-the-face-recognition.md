@@ -3,7 +3,7 @@ title: "Day 66-100 Playing with the Face Recognition"
 author: harshityadav95
 date: 2020-09-29 00:00:00 +0530
 categories: [AI/ML]
-tags: [100daysofMLcode, Ai, Project and Progress, machine learning]
+tags: [100daysofMLcode, AI, Project and Progress, Machine Learning]
 description: "Migrated from Blogger."
 published: true
 ---

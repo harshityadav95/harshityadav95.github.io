@@ -3,7 +3,7 @@ title: "#100 Days of Code - Initialize....."
 author: harshityadav95
 date: 2020-05-01 00:00:00 +0530
 categories: [AI/ML]
-tags: [Harshit Yadav, Ai, Project and Progress, machine learning]
+tags: [Harshit Yadav, AI, Project and Progress, Machine Learning]
 description: "Migrated from Blogger."
 published: true
 ---
@@ -17,7 +17,7 @@ To Help with students stuck at home due to the pandemic many educational website
 |  |
 | Made this Image a year back for a ppt , when Endgame had released |
 
-So I signed up on [Plurasight](https://www.pluralsight.com/) (for Web Develeopment and C++ 14,17 course), [Progate](https://progate.com/) (to get stared with JS beginner), [Codeacademy](https://www.codecademy.com/) (complete JS and Node.js) , and my college [Coursera](https://www.coursera.org/) acces for Python and ML) , with [Leetcode](https://leetcode.com/) 30 days challenge throught april , built my Notes repo [Notex](http://harshityadav.in/Notex) using github pages , CI/CD build and [Mkdocs](https://www.mkdocs.org/) to collect all those precious code in a searchable portal
+So I signed up on [Plurasight](https://www.pluralsight.com/) (for Web Develeopment and C++ 14,17 course), [Progate](https://progate.com/) (to get stared with JS beginner), [Codeacademy](https://www.codecademy.com/) (complete JS and Node.js) , and my college [Coursera](https://www.coursera.org/) acces for Python and ML) , with [Leetcode](https://leetcode.com/) 30 days challenge throught april , built my Notes repo [Notex](https://harshityadav.in/Notex) using github pages , CI/CD build and [Mkdocs](https://www.mkdocs.org/) to collect all those precious code in a searchable portal
 
 
 [![](/assets/img/posts/2020-05-01-100-days-of-code-initialize/progress.jpg)](/assets/img/posts/2020-05-01-100-days-of-code-initialize/progress.jpg)

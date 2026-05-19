@@ -3,7 +3,7 @@ title: "Difference between AI , Machine Learning and Deep Learning"
 author: harshityadav95
 date: 2017-06-25 00:00:00 +0530
 categories: [Backend Engineering]
-tags: [Ai, machine learning, artificial intelligence, Cloud]
+tags: [AI, Machine Learning, artificial intelligence, Cloud]
 description: "Migrated from Blogger."
 published: true
 ---

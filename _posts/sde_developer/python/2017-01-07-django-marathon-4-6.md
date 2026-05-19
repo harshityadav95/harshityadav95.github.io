@@ -69,10 +69,10 @@ For Specific Choices
 Reference For Lookup:
 
 -
-<http://regexlib.com/?AspxAutoDetectCookieSupport=1>
+<https://regexlib.com/?AspxAutoDetectCookieSupport=1>
 
 -
-<http://www.diveintopython3.net/regular-expressions.html>
+<https://www.diveintopython3.net/regular-expressions.html>
 
 Django Chooses the First pattern that matches
 

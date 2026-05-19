@@ -3,7 +3,7 @@ title: "100 Days of Machine Learning Code Day 14"
 author: harshityadav95
 date: 2020-05-15 00:00:00 +0530
 categories: [AI/ML]
-tags: [100daysofMLcode, Ai, Project and Progress, machine learning, artificial intelligence]
+tags: [100daysofMLcode, AI, Project and Progress, Machine Learning, artificial intelligence]
 description: "Migrated from Blogger."
 published: true
 ---
@@ -14,7 +14,7 @@ Day 14: MNIST dataset for handwriting classification  using Tensorflow
 
 **Q. Whats MNIST Dataset  ?**
 
-A. The MNIST dataset is an image dataset of handwritten digits made available by [Yann LeCun et. al.](http://yann.lecun.com/) [here](http://yann.lecun.com/exdb/mnist/). It has has 60,000 training images and 10,000 test images, each of which are grayscale 28 x 28 sized images. It is a good beginner’s dataset to try learning techniques and pattern recognition methods on real-world data while spending minimal efforts on pre-processing and formatting
+A. The MNIST dataset is an image dataset of handwritten digits made available by [Yann LeCun et. al.](https://yann.lecun.com/) [here](https://yann.lecun.com/exdb/mnist/). It has has 60,000 training images and 10,000 test images, each of which are grayscale 28 x 28 sized images. It is a good beginner’s dataset to try learning techniques and pattern recognition methods on real-world data while spending minimal efforts on pre-processing and formatting
 
 Key Takeaways  :
 
