@@ -8,6 +8,9 @@ on:
 permissions:
   contents: read
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 concurrency:
   group: site-ci-${{ github.ref }}
   cancel-in-progress: true
@@ -24,7 +27,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
 
@@ -50,9 +53,9 @@ jobs:
             --ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/"
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
-          node-version: "20"
+          node-version: "24"
           cache: npm
 
       - name: Install Node dependencies
@@ -71,7 +74,7 @@ jobs:
       - name: Upload homepage screenshot
         if: github.event_name == 'pull_request' && always()
         id: homepage_screenshot
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: homepage-screenshot-pr-${{ github.event.pull_request.number }}
           path: test-results/homepage.png
@@ -80,7 +83,7 @@ jobs:
 
       - name: Comment homepage screenshot on PR
         if: github.event_name == 'pull_request' && always() && github.event.pull_request.head.repo.full_name == github.repository && steps.homepage_screenshot.outputs['artifact-url'] != ''
-        uses: actions/github-script@v7
+        uses: actions/github-script@v8
         with:
           script: |
             const marker = '<!-- homepage-screenshot-artifact -->';
