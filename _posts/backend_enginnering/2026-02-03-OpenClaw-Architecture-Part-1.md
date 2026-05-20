@@ -1,9 +1,14 @@
 ---
-title: OpenClaw Architecture Part 1
+layout: post
+title: "OpenClaw Architecture Part 1"
 author: harshityadav95
 date: 2026-02-03 00:00:00 +0530
 categories: [Backend Engineering]
 tags: [OpenClaw, AI, Architecture, Node.js, WebSockets, SQLite, Docker, Backend]
+description: A backend engineering breakdown of OpenClaw's local-first gateway, state management, WebSocket control plane, and persistence model.
+image:
+  path: /assets/img/posts/OpenClaw-Architecture-Part-1/image.webp
+published: true
 ---
 
 ![](/assets/img/posts/OpenClaw-Architecture-Part-1/image.webp)

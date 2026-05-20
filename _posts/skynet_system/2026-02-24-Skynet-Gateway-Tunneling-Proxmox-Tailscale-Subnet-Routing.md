@@ -119,6 +119,8 @@ Here is your "Skynet" cheat sheet:
 
 ---
 
+{% include embed/youtube.html id='QJzjJozAYJo' %}
+
 ### What's Next?
 
 Now that the plumbing is done, you have a high-performance, encrypted tunnel into your entire Proxmox lab. You can hit your Proxmox GUI at `https://100.x.y.z:8006` or SSH into any container using its internal `192.168.1.x` address.

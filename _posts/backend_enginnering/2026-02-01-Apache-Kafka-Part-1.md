@@ -1,9 +1,14 @@
 ---
-title: Apache Kafka Part 1
+layout: post
+title: "Apache Kafka Part 1"
 author: harshityadav95
 date: 2026-02-01 00:00:00 +0530
 categories: [Backend Engineering]
 tags: [Apache Kafka, Distributed Systems, Message Queue, Event Streaming]
+description: A practical introduction to Apache Kafka architecture, producers, consumers, partitions, brokers, and the networking model behind event streaming.
+image:
+  path: /assets/img/posts/apache-kafka-part1/kafkarch.png
+published: true
 ---
 
 # Apache Kafka Part 1
