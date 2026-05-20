@@ -101,7 +101,7 @@ have made. After they’re done, it’s time to “merge” that branch back wit
   allows you to “check out” a repository that you are not currently inside. This
   is a navigational command that lets you move to the repository you want to
   check. You can use this command as git checkout master to look at the
-  master branch, or git checkout  to look at another
+  check. You can use this command as git checkout master to look at the master branch, or git checkout <branch_name> to look at another branch.
   branch.
 - ·
   **git show
