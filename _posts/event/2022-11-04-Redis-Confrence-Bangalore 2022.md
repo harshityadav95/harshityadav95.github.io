@@ -10,7 +10,7 @@ author: harshityadav95
 
 ![IMG_20221104_163840](/assets/img/posts/2022-11-04-Redis-Confrence-Bangalore 2022/ed9082fc-6918-4c61-b7a3-e2613e2761db.jpg)
 
-![IMG_202![IMG_20221104_163945](/assets/img/posts/2022-11-04-Redis-Confrence-Bangalore 2022/efbd557f-b36f-418e-84f9-26c051b0fc5f.jpg)
+![IMG_20221104_163945](/assets/img/posts/2022-11-04-Redis-Confrence-Bangalore%202022/efbd557f-b36f-418e-84f9-26c051b0fc5f.jpg)
 
 
 ![21104_165354](/assets/img/posts/2022-11-04-Redis-Confrence-Bangalore 2022/e56b0cf1-f407-4e96-9869-dfbb65080943.jpg)
