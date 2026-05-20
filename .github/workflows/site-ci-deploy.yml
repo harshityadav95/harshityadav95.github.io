@@ -52,15 +52,18 @@ jobs:
             --disable-external \
             --ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/"
 
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9.0.0
+          run_install: false
+
       - name: Setup Node.js
         uses: actions/setup-node@v6
         with:
           node-version: "24"
           cache: pnpm
           cache-dependency-path: pnpm-lock.yaml
-
-      - name: Enable Corepack
-        run: corepack enable
 
       - name: Install Node dependencies
         run: pnpm install --frozen-lockfile
