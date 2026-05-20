@@ -183,7 +183,7 @@ This is a personal blog, but if you notice any issues or have suggestions:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-Copyright (c) 2024 Harshit Yadav
+Copyright (c) 2026 Harshit Yadav
 
 ---
 
