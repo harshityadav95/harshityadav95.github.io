@@ -3,6 +3,7 @@ name: Optimize Images
 on:
   pull_request:
     paths:
+      - ".github/workflows/optimize-images.yml"
       - "**.jpg"
       - "**.jpeg"
       - "**.JPG"
@@ -17,6 +18,7 @@ on:
     branches:
       - main
     paths:
+      - ".github/workflows/optimize-images.yml"
       - "**.jpg"
       - "**.jpeg"
       - "**.JPG"
@@ -90,6 +92,7 @@ jobs:
           fi
 
       - name: Compress images
+        if: github.event_name != 'pull_request'
         id: calibre
         uses: calibreapp/image-actions@main
         with:
