@@ -13,12 +13,12 @@ I Never tried using or getting hands on all the features and Options on  Github
 My Take after completing all the courses : It's the best course to learn out all the major essential features and try hands on working with pull requests and other GUI features on Github but the courses were all at surface level and didn't have much in detail depth learning and many tasks were repetitive [was looking for code signing and other Security features but at present non course was there on that]
 
 
-[![](/assets/img/posts/2019-02-19-brush-up-with-github-learning-lab/1.PNG)](/assets/img/posts/2019-02-19-brush-up-with-github-learning-lab/1.PNG)
+[![](/assets/img/posts/2019-02-19-brush-up-with-github-learning-lab/1.png)](/assets/img/posts/2019-02-19-brush-up-with-github-learning-lab/1.png)
 
 
 
-[![](/assets/img/posts/2019-02-19-brush-up-with-github-learning-lab/2.PNG)](/assets/img/posts/2019-02-19-brush-up-with-github-learning-lab/2.PNG)
+[![](/assets/img/posts/2019-02-19-brush-up-with-github-learning-lab/2.png)](/assets/img/posts/2019-02-19-brush-up-with-github-learning-lab/2.png)
 
 
 
-[![](/assets/img/posts/2019-02-19-brush-up-with-github-learning-lab/3.PNG)](/assets/img/posts/2019-02-19-brush-up-with-github-learning-lab/3.PNG)
+[![](/assets/img/posts/2019-02-19-brush-up-with-github-learning-lab/3.png)](/assets/img/posts/2019-02-19-brush-up-with-github-learning-lab/3.png)

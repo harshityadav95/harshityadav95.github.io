@@ -11,7 +11,7 @@ published: true
 Learning Artificial Intelligence and Machine Learning  has been on my To-do-List since end of 2017 and I started it a little back then playing around demo projects and following up step by step DIY posts on Machine Learning for Beginner but that time Block chain got my most of the spare time  ,since then I didn't give time  to advance skill-set on it so fast forward to few weeks backs when I was looking around for how to begin with Machine Learning and among all the online courses to follow up and came across the Udacity - Secure and Private Ai Challenge applied for it and this came in Mail Today 😀🌟
 
 
-[![](/assets/img/posts/2019-06-01-secure-and-private-ai-scholarship-challenge-nanodegree-program/Capture.PNG)](/assets/img/posts/2019-06-01-secure-and-private-ai-scholarship-challenge-nanodegree-program/Capture.PNG)
+[![](/assets/img/posts/2019-06-01-secure-and-private-ai-scholarship-challenge-nanodegree-program/Capture.png)](/assets/img/posts/2019-06-01-secure-and-private-ai-scholarship-challenge-nanodegree-program/Capture.png)
 
 [![](/assets/img/posts/2019-06-01-secure-and-private-ai-scholarship-challenge-nanodegree-program/spaic-scholarship-badge.png)](/assets/img/posts/2019-06-01-secure-and-private-ai-scholarship-challenge-nanodegree-program/spaic-scholarship-badge.png)
 

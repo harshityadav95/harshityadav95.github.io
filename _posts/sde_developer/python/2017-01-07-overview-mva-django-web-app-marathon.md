@@ -22,4 +22,4 @@ Looking Forward to make few of Small  apps before starting with a project and l
 Web APP  : <https://databasefun20170107035036.azurewebsites.net/>
 
 
-[![](/assets/img/posts/2017-01-07-overview-mva-django-web-app-marathon/aef.JPG)](/assets/img/posts/2017-01-07-overview-mva-django-web-app-marathon/aef.JPG)
+[![](/assets/img/posts/2017-01-07-overview-mva-django-web-app-marathon/aef.jpg)](/assets/img/posts/2017-01-07-overview-mva-django-web-app-marathon/aef.jpg)

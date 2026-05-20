@@ -52,6 +52,43 @@ jobs:
         with:
           ref: ${{ github.event_name == 'pull_request' && github.head_ref || github.ref_name }}
 
+      - name: Validate image assets
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          uppercase_images="$(
+            find assets/img/posts -type f \( \
+              -name '*.JPG' -o -name '*.JPEG' -o -name '*.PNG' -o \
+              -name '*.WEBP' -o -name '*.AVIF' \
+            \) -print
+          )"
+
+          if [[ -n "$uppercase_images" ]]; then
+            echo "::error::Image files under assets/img/posts must use lowercase extensions."
+            printf '%s\n' "$uppercase_images"
+            exit 1
+          fi
+
+          invalid_images="$(
+            find assets/img/posts -type f \( \
+              -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' -o \
+              -iname '*.webp' -o -iname '*.avif' \
+            \) -print0 | while IFS= read -r -d '' image; do
+              mime_type="$(file --brief --mime-type "$image")"
+              case "$mime_type" in
+                image/*) ;;
+                *) printf '%s (%s)\n' "$image" "$mime_type" ;;
+              esac
+            done
+          )"
+
+          if [[ -n "$invalid_images" ]]; then
+            echo "::error::Files with image extensions must contain image data."
+            printf '%s\n' "$invalid_images"
+            exit 1
+          fi
+
       - name: Compress images
         id: calibre
         uses: calibreapp/image-actions@main

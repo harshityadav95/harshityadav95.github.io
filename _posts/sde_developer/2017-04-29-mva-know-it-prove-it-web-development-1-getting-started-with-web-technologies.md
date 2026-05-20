@@ -40,12 +40,12 @@ MongoDB , SQL Server , MySQL , NoSQL , Oracle .Postgres , Hadoop
 
 
 
-[![](/assets/img/posts/2017-04-29-mva-know-it-prove-it-web-development-1-getting-started-with-web-technologies/2.JPG)](/assets/img/posts/2017-04-29-mva-know-it-prove-it-web-development-1-getting-started-with-web-technologies/2.JPG)
+[![](/assets/img/posts/2017-04-29-mva-know-it-prove-it-web-development-1-getting-started-with-web-technologies/2.jpg)](/assets/img/posts/2017-04-29-mva-know-it-prove-it-web-development-1-getting-started-with-web-technologies/2.jpg)
 
 
 
 
-[![](/assets/img/posts/2017-04-29-mva-know-it-prove-it-web-development-1-getting-started-with-web-technologies/3.JPG)](/assets/img/posts/2017-04-29-mva-know-it-prove-it-web-development-1-getting-started-with-web-technologies/3.JPG)
+[![](/assets/img/posts/2017-04-29-mva-know-it-prove-it-web-development-1-getting-started-with-web-technologies/3.jpg)](/assets/img/posts/2017-04-29-mva-know-it-prove-it-web-development-1-getting-started-with-web-technologies/3.jpg)
 
 
 Test Driven Development
@@ -54,7 +54,7 @@ Test-driven development (TDD) is a software development process that relies on t
 
 
 
-[![](/assets/img/posts/2017-04-29-mva-know-it-prove-it-web-development-1-getting-started-with-web-technologies/4.JPG)](/assets/img/posts/2017-04-29-mva-know-it-prove-it-web-development-1-getting-started-with-web-technologies/4.JPG)
+[![](/assets/img/posts/2017-04-29-mva-know-it-prove-it-web-development-1-getting-started-with-web-technologies/4.jpg)](/assets/img/posts/2017-04-29-mva-know-it-prove-it-web-development-1-getting-started-with-web-technologies/4.jpg)
 
 
 
@@ -72,21 +72,21 @@ Scalability is the capability of a system, network, or process to handle a growi
 
 
 
-[![](/assets/img/posts/2017-04-29-mva-know-it-prove-it-web-development-1-getting-started-with-web-technologies/5.JPG)](/assets/img/posts/2017-04-29-mva-know-it-prove-it-web-development-1-getting-started-with-web-technologies/5.JPG)
+[![](/assets/img/posts/2017-04-29-mva-know-it-prove-it-web-development-1-getting-started-with-web-technologies/5.jpg)](/assets/img/posts/2017-04-29-mva-know-it-prove-it-web-development-1-getting-started-with-web-technologies/5.jpg)
 
 
 
-[![](/assets/img/posts/2017-04-29-mva-know-it-prove-it-web-development-1-getting-started-with-web-technologies/6.JPG)](/assets/img/posts/2017-04-29-mva-know-it-prove-it-web-development-1-getting-started-with-web-technologies/6.JPG)
+[![](/assets/img/posts/2017-04-29-mva-know-it-prove-it-web-development-1-getting-started-with-web-technologies/6.jpg)](/assets/img/posts/2017-04-29-mva-know-it-prove-it-web-development-1-getting-started-with-web-technologies/6.jpg)
 
-[![](/assets/img/posts/2017-04-29-mva-know-it-prove-it-web-development-1-getting-started-with-web-technologies/7.JPG)](/assets/img/posts/2017-04-29-mva-know-it-prove-it-web-development-1-getting-started-with-web-technologies/7.JPG)
-
-
-
-[![](/assets/img/posts/2017-04-29-mva-know-it-prove-it-web-development-1-getting-started-with-web-technologies/8.JPG)](/assets/img/posts/2017-04-29-mva-know-it-prove-it-web-development-1-getting-started-with-web-technologies/8.JPG)
+[![](/assets/img/posts/2017-04-29-mva-know-it-prove-it-web-development-1-getting-started-with-web-technologies/7.jpg)](/assets/img/posts/2017-04-29-mva-know-it-prove-it-web-development-1-getting-started-with-web-technologies/7.jpg)
 
 
 
-[![](/assets/img/posts/2017-04-29-mva-know-it-prove-it-web-development-1-getting-started-with-web-technologies/9.JPG)](/assets/img/posts/2017-04-29-mva-know-it-prove-it-web-development-1-getting-started-with-web-technologies/9.JPG)
+[![](/assets/img/posts/2017-04-29-mva-know-it-prove-it-web-development-1-getting-started-with-web-technologies/8.jpg)](/assets/img/posts/2017-04-29-mva-know-it-prove-it-web-development-1-getting-started-with-web-technologies/8.jpg)
+
+
+
+[![](/assets/img/posts/2017-04-29-mva-know-it-prove-it-web-development-1-getting-started-with-web-technologies/9.jpg)](/assets/img/posts/2017-04-29-mva-know-it-prove-it-web-development-1-getting-started-with-web-technologies/9.jpg)
 
 Using Json Data , Xml to let different languages communicate each other
 

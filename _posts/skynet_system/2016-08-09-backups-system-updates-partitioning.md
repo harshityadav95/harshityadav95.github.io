@@ -33,4 +33,4 @@ fingerprint reader completely stopped working after the update ). Looking
 Forward to update my Linux Ubuntu to 16.04 LTS update as soon as my Internship
 Project is complete.
 
-[![](/assets/img/posts/2016-08-09-backups-system-updates-partitioning/uyvf.JPG)](/assets/img/posts/2016-08-09-backups-system-updates-partitioning/uyvf.JPG)
+[![](/assets/img/posts/2016-08-09-backups-system-updates-partitioning/uyvf.jpg)](/assets/img/posts/2016-08-09-backups-system-updates-partitioning/uyvf.jpg)

@@ -14,7 +14,7 @@ As novice at AWS I planned to start on by simply hosting a simple static web pag
 
 After Just one View of the tutorial I was up and running my static website in [Amazon S3](https://en.wikipedia.org/wiki/Amazon_S3) with me setting manual permission of file settings rather than using the script .
 
-[![](/assets/img/posts/2016-09-10-using-aws-for-first-time/Capture.JPG)](/assets/img/posts/2016-09-10-using-aws-for-first-time/Capture.JPG)
+[![](/assets/img/posts/2016-09-10-using-aws-for-first-time/Capture.jpg)](/assets/img/posts/2016-09-10-using-aws-for-first-time/Capture.jpg)
 
 Having tried out Simple website Hosting On Both Microsoft Azure and Amazon Web Service ..I think that for First time Users Azure is more easier and fun  to use than AWS as when I used it,
 
