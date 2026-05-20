@@ -59,8 +59,8 @@ Topics To be Covered
 ### **#4: How do I Make a Texbox that Only Accepts Numbers?**
 
 - Use NumericUp Down
-- Handel the KeyPress Event(Text.isDigit )
-- Handel the Text\_Changed Event (Not recommended)
+- Handle the KeyPress Event(Text.isDigit )
+- Handle the Text_Changed Event (Not recommended)
 
 ### **#5: How Does One Parse XML Files?**
 
