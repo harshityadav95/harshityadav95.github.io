@@ -45,7 +45,7 @@ Forms Tag
 The HTML  tag is used to create an HTML form and it has following syntax:
 
 ```
- action="Script URL" method="GET|POST">
+<form action="Script URL" method="GET|POST">
     form elements like input, textarea etc.
 ```
 
