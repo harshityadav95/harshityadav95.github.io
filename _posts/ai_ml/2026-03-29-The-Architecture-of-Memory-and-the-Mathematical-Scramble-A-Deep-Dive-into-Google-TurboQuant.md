@@ -27,7 +27,7 @@ In the architecture of a transformer-based model, the inference process is inher
 {% include embed/youtube.html id='gpp57x_z_Jg' %}
 
 This look-back is facilitated by the KV cache, which stores the mathematical representations (keys and values) of every token processed in a session. Conceptually, the KV cache acts as a high-speed "digital cheat sheet," allowing the computer to retrieve information instantly without recomputing the entire history of a conversation for every new word generated.
-
+![image.png](/assets/img/posts/Google-TurboQuant-Explained/image%201.webp)
 ![image.png](/assets/img/posts/Google-TurboQuant-Explained/image 1.webp)
 
 However, this architecture introduces a linear scaling problem. As the context window grows—whether in a long chatbot conversation, a narrative scene generation, or a complex video transformer sequence—the memory required to store these KV pairs expands proportionally. This growth places immense pressure on the GPU's Video Random Access Memory (VRAM), a resource that is significantly more scarce and expensive than standard system RAM. When the VRAM is exhausted, the system experiences a "memory wall," leading to slowdowns, higher latency, or total system crashes.
