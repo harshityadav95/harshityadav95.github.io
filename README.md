@@ -47,7 +47,7 @@ This is the source code for my personal tech blog, where I share insights, proje
 - **Hosting:** GitHub Pages
 - **Comments:** [Giscus](https://giscus.app/) (GitHub Discussions)
 - **Containerization:** Docker
-- **Version Control:** Git & GitHub
+
 
 ---
 
