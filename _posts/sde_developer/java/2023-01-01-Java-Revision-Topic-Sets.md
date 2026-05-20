@@ -146,7 +146,7 @@ tags: [Software Development, Interview Preparation]
 
 5. Webservices
 
-![Untitled](https://raw.githubusercontent.com/harshityadav95/staticfiles/main/Java%20RoadMap%20313b68f6b13844cd9a6317100afdf6c8/Untitled%201.png)
+![Untitled](/assets/img/posts/2023-01-01-Java-Revision-Topic-Sets/Untitled_1.png)
 
 ## Some Java Motivation Video :
 

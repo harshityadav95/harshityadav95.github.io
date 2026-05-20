@@ -9,7 +9,7 @@ tags: [Backend Development, Database]
 
 {% include embed/youtube.html id='uHvR7nOu5m4' %}
 
-![image](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/314731f6-260d-492a-bb0d-a20095639d8a)
+![image](/assets/img/posts/2024-01-04-Redo-Undo-WAL-Write-ahead-logs-in-Database/314731f6-260d-492a-bb0d-a20095639d8a.png)
 
 
 Database logs are a critical part of any database system to ensure 
@@ -31,7 +31,7 @@ Whatever data is stored in the DB which lies on the page right now should persis
 
 If we have written a lot of data it will take a long time also to write the data back into the memory, the cost is not the writing time back to the disk but what if the database crash and the data is not written back successfully to the disk or is half-written, should follow and adhere to the ACID transaction (ACIDITY complete or non )
 
-![image](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/681502ed-9fea-4146-8714-0982bb3b98a8)
+![image](/assets/img/posts/2024-01-04-Redo-Undo-WAL-Write-ahead-logs-in-Database/681502ed-9fea-4146-8714-0982bb3b98a8.png)
 
 ### Solution
 
@@ -58,7 +58,7 @@ It is disabled by default  the changes go to the cache but if it enables all and
 
 ## Undo Log
 
-![image](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/849f1584-6bd4-4aed-8dab-ff48ec394e1c)
+![image](/assets/img/posts/2024-01-04-Redo-Undo-WAL-Write-ahead-logs-in-Database/849f1584-6bd4-4aed-8dab-ff48ec394e1c.png)
 
 
 Not every database has it, Postgresql does not have it. It gives the state of the transaction before the change started like another transaction needed the state before we changed it (Oracle and MYSQL have this model, Postgres does not have it since it uses versioning ie when an update happens a new row lies on top of the older row and the old data is present in page) so in  this model, if someone needs older value we read this log and undo the changes on the value to see the older state (more work to see older transaction) all this on a transaction that is not committed 
@@ -69,7 +69,7 @@ Is the opposite of Undo Log, it contains the newer  state to be restored in case
 
 Why do we have to undo it if we have to redo it?  Answer because it does not store which transaction did what change on the value so traveling back to a certain transaction is not possible 
 
-![image](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/e1a8fcd9-578c-458f-ac8e-028b77b30e66)
+![image](/assets/img/posts/2024-01-04-Redo-Undo-WAL-Write-ahead-logs-in-Database/e1a8fcd9-578c-458f-ac8e-028b77b30e66.png)
 
 
 

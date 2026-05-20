@@ -7,7 +7,7 @@ tags: [Web Development, Network]
 ---
 
 
-![harshityadav95](https://raw.githubusercontent.com/harshityadav95/staticfiles/main/Load%20Balancing%20Layer%204%20vs%20Layer%207/Untitled.png)
+![harshityadav95](/assets/img/posts/2022-06-06-Load-Balancing-Layer-4-vs-Layer-7/Untitled.png)
 
 ## What is Load Balancing
 
@@ -15,7 +15,7 @@ Load balancing is the process of balancing incoming requests to multiple machine
 
 ## Layer 4 vs Layer 7
 
-![harshityadav95](https://raw.githubusercontent.com/harshityadav95/staticfiles/main/Load%20Balancing%20Layer%204%20vs%20Layer%207/Untitled%201.png)
+![harshityadav95](/assets/img/posts/2022-06-06-Load-Balancing-Layer-4-vs-Layer-7/Untitled_1.png)
 
 to get started start thinking let's work on this understanding
 
@@ -23,13 +23,13 @@ to get started start thinking let's work on this understanding
 - Layer 3 and 4 is where TCP/UDP or IPV4 or IPv6 takes place
 - Layer 7 is where the HTTP , SMTP , FTP , Headers , Cookies are
 
-![harshityadav95](https://raw.githubusercontent.com/harshityadav95/staticfiles/main/Load%20Balancing%20Layer%204%20vs%20Layer%207/Untitled%202.png)
+![harshityadav95](/assets/img/posts/2022-06-06-Load-Balancing-Layer-4-vs-Layer-7/Untitled_2.png)
 
 - Load Balancer can be a dedicated machine or virtual machine or software  on a desktop
 
 ## Layer 4 Load Balancer
 
-![harshityadav95](https://raw.githubusercontent.com/harshityadav95/staticfiles/main/Load%20Balancing%20Layer%204%20vs%20Layer%207/Untitled%203.png)
+![harshityadav95](/assets/img/posts/2022-06-06-Load-Balancing-Layer-4-vs-Layer-7/Untitled_3.png)
 
 In Layer 4 load balancer we know only the IP address or the port number so that is the only data visible to us, we don't know the data only the certain segments are visible to us
 
@@ -59,7 +59,7 @@ Cons
 
 ## Layer 7 Load Balancer
 
-![harshityadav95](https://raw.githubusercontent.com/harshityadav95/staticfiles/main/Load%20Balancing%20Layer%204%20vs%20Layer%207/Untitled%204.png)
+![harshityadav95](/assets/img/posts/2022-06-06-Load-Balancing-Layer-4-vs-Layer-7/Untitled_4.png)
 
 - Can decrypt the data and use it to make the decision to forward the data
 - Same Reverse Proxy concept to hide the backend

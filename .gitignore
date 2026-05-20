@@ -11,9 +11,12 @@ _site
 # RubyGems
 *.gem
 
-# NPM dependencies
-node_modules
-package-lock.json
+# pnpm dependencies
+node_modules/
+
+# Playwright
+test-results/
+playwright-report/
 
 # IDE configurations
 .idea
@@ -26,3 +29,4 @@ package-lock.json
 _sass/vendors
 assets/js/dist
 .DS_Store
+.kiro

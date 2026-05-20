@@ -7,7 +7,7 @@ tags: [Software Development, Design Pattern]
 
 ---
 
-![image](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/8db5763f-e307-42bf-9096-881a0804f898)
+![image](/assets/img/posts/2024-04-17-HLD-vs-LLD-System-Design-Intro/8db5763f-e307-42bf-9096-881a0804f898.png)
 
 
 # High-Level Design
@@ -92,7 +92,7 @@ The main aim of LLD is to deliver a comprehensive, step-by-step implementation p
 
 ## Why are LLD and HLD important for developers?
 
-![image](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/3bf6feb8-deff-4307-b25a-31f742e22f7a)
+![image](/assets/img/posts/2024-04-17-HLD-vs-LLD-System-Design-Intro/3bf6feb8-deff-4307-b25a-31f742e22f7a.png)
 
 ### Collaboration:
 
@@ -122,7 +122,7 @@ Both these steps help catch and fix issues early, making the overall software de
 
 ## Summary
 
-![image](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/569d605c-fa4b-4bcf-93b0-5a95be8b71c6)
+![image](/assets/img/posts/2024-04-17-HLD-vs-LLD-System-Design-Intro/569d605c-fa4b-4bcf-93b0-5a95be8b71c6.png)
 
 ## Reference
 

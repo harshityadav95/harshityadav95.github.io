@@ -9,7 +9,7 @@ tags: [Software Development, Interview Preparation]
 
 # Class Loader in Java: Notes
 
-![Untitled](https://raw.githubusercontent.com/harshityadav95/staticfiles/main/Class%20Loader%20in%20Java%20Notes/Untitled.png)
+![Untitled](/assets/img/posts/2023-01-02-Java-JVM-ClassLoader/Untitled.png)
 
 The Java ClassLoader is a part of the Java Runtime Environment that dynamically loads Java classes into the Java Virtual Machine.
 
@@ -25,7 +25,7 @@ Java classes aren’t loaded into memory all at once, but when required by an ap
 - When we request to load a class, it delegates the class to its parent.
 - In this way, uniqueness is maintained in the runtime environment. It is essential to execute a Java program.
 
-![Untitled](https://raw.githubusercontent.com/harshityadav95/staticfiles/main/Class%20Loader%20in%20Java%20Notes/Untitled%201.png)
+![Untitled](/assets/img/posts/2023-01-02-Java-JVM-ClassLoader/Untitled_1.png)
 
 Java ClassLoader is based on three principles: **Delegation**, **Visibility**, and **Uniqueness**.
 
@@ -81,7 +81,7 @@ However, we can see that for the ArrayList, it displays null in the output. This
 
 As a result, the behavior of the bootstrap class loader will differ across JVMs.
 
-![Untitled](https://raw.githubusercontent.com/harshityadav95/staticfiles/main/Class%20Loader%20in%20Java%20Notes/Untitled%202.png)
+![Untitled](/assets/img/posts/2023-01-02-Java-JVM-ClassLoader/Untitled_2.png)
 
 ## 1. **Bootstrap Class Loader:**
 
@@ -126,7 +126,7 @@ As a result, the behavior of the bootstrap class loader will differ across JVMs.
 
 The following diagram shows how ClassLoader loads class in Java using delegation.
 
-![Untitled](https://raw.githubusercontent.com/harshityadav95/staticfiles/main/Class%20Loader%20in%20Java%20Notes/Untitled%203.png)
+![Untitled](/assets/img/posts/2023-01-02-Java-JVM-ClassLoader/Untitled_3.png)
 
 ### Example of Class Loader Working
 

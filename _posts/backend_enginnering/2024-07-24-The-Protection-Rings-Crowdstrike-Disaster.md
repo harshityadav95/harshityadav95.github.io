@@ -21,7 +21,7 @@ tags: [Development, Operating System]
 
 Processes are executed in layered “rings”, where each ring has different access rights to resources. The central ring has the highest privileges, and each subsequent layer has decreased access. A common implementation of a protection ring for x86 processors (a common type of CPU) has four rings, numbered from 0 through to 3, as described below.
 
-![image](https://github.com/user-attachments/assets/3304b149-5066-4e42-ae88-f772406a1f97)
+![image](/assets/img/posts/2024-07-24-The-Protection-Rings-Crowdstrike-Disaster/3304b149-5066-4e42-ae88-f772406a1f97.png)
 
 
 ## **Modes of Protection Ring :**

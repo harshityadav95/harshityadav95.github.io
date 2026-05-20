@@ -7,7 +7,7 @@ tags: [Git, Github]
 
 ---
 
-![Image](https://raw.githubusercontent.com/harshityadav95/staticfiles/refs/heads/main/Picking%20Format%20for%20External%20Drives/image.png)  
+![Image](/assets/img/posts/2025-05-04-Picking-Storage-Format/image.png)  
 
 ## TL;DR – Best File System Choices by Use Case
 
@@ -41,7 +41,7 @@ tags: [Git, Github]
     - Examples: FAT32, exFAT, ext2.
 
 
-![Image](https://raw.githubusercontent.com/harshityadav95/staticfiles/refs/heads/main/Picking%20Format%20for%20External%20Drives/image%201.png)
+![Image](/assets/img/posts/2025-05-04-Picking-Storage-Format/image_1.png)
 
 **Analogy:**
 A journaled file system is like following a recipe with checkmarks for each step, so you always know where you left off after an interruption. Non-journaled is like cooking from memory—if interrupted, you might forget what you’ve done, risking mistakes.

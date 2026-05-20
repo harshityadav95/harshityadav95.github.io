@@ -12,7 +12,7 @@ author: harshityadav95
 
 - [Satya Nadella on Stage](https://en.wikipedia.org/wiki/Satya_Nadella)
 
-![image](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/4afe79ca-089d-485a-998b-a056a1186186)
+![image](/assets/img/posts/2024-02-08-Microsoft-Ai-Tour-Bengaluru-2024/4afe79ca-089d-485a-998b-a056a1186186.png)
 
 
 ## MS Ai LLM Prompt Flow Workshop
@@ -39,27 +39,27 @@ author: harshityadav95
 
 
 
-![image](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/e74d2ef5-e056-4979-8a29-45249313797d)
+![image](/assets/img/posts/2024-02-08-Microsoft-Ai-Tour-Bengaluru-2024/e74d2ef5-e056-4979-8a29-45249313797d.png)
 
-![image](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/c4105856-53c3-4df6-b69a-43a8c0c6d6f3)
+![image](/assets/img/posts/2024-02-08-Microsoft-Ai-Tour-Bengaluru-2024/c4105856-53c3-4df6-b69a-43a8c0c6d6f3.png)
 
-![image](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/a64e90d9-c87c-4fe0-a1d6-df1f37b7b2c8)
+![image](/assets/img/posts/2024-02-08-Microsoft-Ai-Tour-Bengaluru-2024/a64e90d9-c87c-4fe0-a1d6-df1f37b7b2c8.png)
 
-![image](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/c4773c8a-205d-4318-a07f-e7faf275d443)
+![image](/assets/img/posts/2024-02-08-Microsoft-Ai-Tour-Bengaluru-2024/c4773c8a-205d-4318-a07f-e7faf275d443.png)
 
-![image](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/ed9e54aa-b89b-436e-90c3-59452a90a94f)
+![image](/assets/img/posts/2024-02-08-Microsoft-Ai-Tour-Bengaluru-2024/ed9e54aa-b89b-436e-90c3-59452a90a94f.png)
 
-![image](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/2dee6688-cd20-4bf9-94be-ab04a66b5001)
+![image](/assets/img/posts/2024-02-08-Microsoft-Ai-Tour-Bengaluru-2024/2dee6688-cd20-4bf9-94be-ab04a66b5001.png)
 
-![image](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/d89ebc99-065d-4159-8d5e-fb95330ddb6c)
+![image](/assets/img/posts/2024-02-08-Microsoft-Ai-Tour-Bengaluru-2024/d89ebc99-065d-4159-8d5e-fb95330ddb6c.png)
 
 
 ## Post Event Exploration
-![image](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/205b0529-62d1-4eaa-8c45-d0a5ed928e91)
+![image](/assets/img/posts/2024-02-08-Microsoft-Ai-Tour-Bengaluru-2024/205b0529-62d1-4eaa-8c45-d0a5ed928e91.png)
 
-![image](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/3c605c04-58d5-4e92-89b5-96a259f9704a)
+![image](/assets/img/posts/2024-02-08-Microsoft-Ai-Tour-Bengaluru-2024/3c605c04-58d5-4e92-89b5-96a259f9704a.png)
 
-![image](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/92c70bcb-f6a8-49e8-9094-b7d8425ceef2)
+![image](/assets/img/posts/2024-02-08-Microsoft-Ai-Tour-Bengaluru-2024/92c70bcb-f6a8-49e8-9094-b7d8425ceef2.png)
 
 
 

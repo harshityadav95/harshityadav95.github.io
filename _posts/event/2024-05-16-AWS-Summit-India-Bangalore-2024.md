@@ -13,11 +13,11 @@ author: harshityadav95
 
 ## Theme of the Day : Generative AI
 
-![image](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/b848a51c-879e-414b-a9f0-be2f8ed894fb)
+![image](/assets/img/posts/2024-05-16-AWS-Summit-India-Bangalore-2024/b848a51c-879e-414b-a9f0-be2f8ed894fb.png)
 
-![7FBB3FF8-EB7D-4837-B013-93D1F7C81AFB](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/c904fcb6-60c6-48d9-b04c-f2f0dfda8388)
+![7FBB3FF8-EB7D-4837-B013-93D1F7C81AFB](/assets/img/posts/2024-05-16-AWS-Summit-India-Bangalore-2024/c904fcb6-60c6-48d9-b04c-f2f0dfda8388.jpg)
 
-![IMG_6312](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/026a2c8c-dbac-4032-9043-fe91e81b27ad)
+![IMG_6312](/assets/img/posts/2024-05-16-AWS-Summit-India-Bangalore-2024/026a2c8c-dbac-4032-9043-fe91e81b27ad.jpg)
 
 
 ## Startup that Caught my eye
@@ -43,4 +43,4 @@ author: harshityadav95
 
 ## The only Decision you have to make is AWS 😛
 
-![IMG_6322](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/af99f50f-a612-4f96-bb21-368d0a9f8ace)
+![IMG_6322](/assets/img/posts/2024-05-16-AWS-Summit-India-Bangalore-2024/af99f50f-a612-4f96-bb21-368d0a9f8ace.jpg)

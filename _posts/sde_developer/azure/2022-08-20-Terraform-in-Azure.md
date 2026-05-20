@@ -15,7 +15,7 @@ tags: [Terraform]
 
 ## Terraform Installation
 
-![image](https://github.com/user-attachments/assets/467872bc-84cb-4b79-b30b-38f87d9b5767)
+![image](/assets/img/posts/2022-08-20-Terraform-in-Azure/467872bc-84cb-4b79-b30b-38f87d9b5767.png)
 
 
 Tried official installation instructions but faced some dependency issue on my machine so ended up installing using the brew recipe 
@@ -37,22 +37,22 @@ brew install terraform
 
 ## Terraform Providers
 
-![image](https://github.com/user-attachments/assets/97ae881f-1382-4182-a480-3c82b7bc0a28)
+![image](/assets/img/posts/2022-08-20-Terraform-in-Azure/97ae881f-1382-4182-a480-3c82b7bc0a28.png)
 
 
 ## Teraform Configuration Files
 
-![image](https://github.com/user-attachments/assets/36cd1d50-3212-4ffa-a463-c5c63b5c78c9)
+![image](/assets/img/posts/2022-08-20-Terraform-in-Azure/36cd1d50-3212-4ffa-a463-c5c63b5c78c9.png)
 
 
 ## Importing Existing Infrastructure
 
-![image](https://github.com/user-attachments/assets/0239ea29-e064-4378-ac2c-3b171a533f0a)
+![image](/assets/img/posts/2022-08-20-Terraform-in-Azure/0239ea29-e064-4378-ac2c-3b171a533f0a.png)
 
 
 ## Terraform Stages
 
-![image](https://github.com/user-attachments/assets/9603a019-f085-4b83-8ddf-9d0dba8493c6)
+![image](/assets/img/posts/2022-08-20-Terraform-in-Azure/9603a019-f085-4b83-8ddf-9d0dba8493c6.png)
 
 
 ## Commands

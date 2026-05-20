@@ -6,7 +6,7 @@ categories: [Timeline]
 tags: [iOS,Apple,iPhone]
 ---
 
-![image](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/0c12493c-0e69-4afc-bcde-c8ee0c7a5d7a)
+![image](/assets/img/posts/2023-05-16-iPhone-in-India-2023/0c12493c-0e69-4afc-bcde-c8ee0c7a5d7a.png)
 
 One small post for the biggest tech fanboy moment Android vs iOS
 

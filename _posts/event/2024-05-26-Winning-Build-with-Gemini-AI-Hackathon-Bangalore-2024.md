@@ -11,7 +11,7 @@ author: harshityadav95
 
 ## Step 1 : Pick Delicious Team Name
 
-![image](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/863a2fc2-de6b-4a42-bbf5-345fe4a05d66)
+![image](/assets/img/posts/2024-05-26-Winning-Build-with-Gemini-AI-Hackathon-Bangalore-2024/863a2fc2-de6b-4a42-bbf5-345fe4a05d66.png)
 
 ## Step 2: Get Free Credits
 
@@ -19,11 +19,11 @@ author: harshityadav95
 
 ## Step 3: Hack on with your winning Team : Jalebi
 
-![IMG_6471](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/ee611c4f-6e48-47c2-a982-e33458f60f0b)
+![IMG_6471](/assets/img/posts/2024-05-26-Winning-Build-with-Gemini-AI-Hackathon-Bangalore-2024/ee611c4f-6e48-47c2-a982-e33458f60f0b.jpg)
 
-![IMG_6466](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/5e86dfb1-0bef-439a-b386-6d70f71dd5b4)
+![IMG_6466](/assets/img/posts/2024-05-26-Winning-Build-with-Gemini-AI-Hackathon-Bangalore-2024/5e86dfb1-0bef-439a-b386-6d70f71dd5b4.jpg)
 
-![IMG_6459](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/6e861add-83aa-4e47-80e2-d2feb5b38cfe)
+![IMG_6459](/assets/img/posts/2024-05-26-Winning-Build-with-Gemini-AI-Hackathon-Bangalore-2024/6e861add-83aa-4e47-80e2-d2feb5b38cfe.jpg)
 
 - Team Member 1 : [Harshit Yadav](https://www.linkedin.com/in/harshityadav95)
 
@@ -59,6 +59,6 @@ author: harshityadav95
 
 {% include embed/youtube.html id='F76dio0Zfxo' %}
 
-![Untitled 1](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/c98fc6bf-e5f3-41e6-9085-e95259263010)
+![Untitled 1](/assets/img/posts/2024-05-26-Winning-Build-with-Gemini-AI-Hackathon-Bangalore-2024/c98fc6bf-e5f3-41e6-9085-e95259263010.png)
 
 PS : If you are looking for what we exactly build , well I will be continue building it further so “ This aint the project you are looking for

@@ -7,7 +7,7 @@ tags: [Azure, LDAP]
 
 ---
 
-![image](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/c3a2817d-90b3-4808-ae7a-f12eb5c036ee)
+![image](/assets/img/posts/2024-01-02-LDAP-Lightweight-Directory-Access-Protocol-LDAP/c3a2817d-90b3-4808-ae7a-f12eb5c036ee.png)
 
 **Lightweight directory access protocol (LDAP**) is a protocol that makes it possible for applications to query user information rapidly.
 
@@ -17,7 +17,7 @@ Someone within your office wants to do two things: Send an email to a recent hir
 
 ## What is LDAP ?
 
-![image](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/9acd0108-e693-4eb0-b727-e25fdeeec291)
+![image](/assets/img/posts/2024-01-02-LDAP-Lightweight-Directory-Access-Protocol-LDAP/9acd0108-e693-4eb0-b727-e25fdeeec291.png)
 
 - Companies store usernames, passwords, email addresses, printer connections, and other static data within directories.
 - LDAP is an open, vendor-neutral application protocol for accessing and maintaining that data.
@@ -56,7 +56,7 @@ Before any search commences, the LDAP must authenticate the user. Two methods ar
 
  Most LDAP communication is sent without scrambling or encryption, and that could cause security problems. Most companies use Transport Layer Security (TLS) to ensure the safety of LDAP messages.
 
-![image](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/09e0beea-286d-4da4-91ac-61f2254ea230)
+![image](/assets/img/posts/2024-01-02-LDAP-Lightweight-Directory-Access-Protocol-LDAP/09e0beea-286d-4da4-91ac-61f2254ea230.png)
 
 
 People can tackle all sorts of operations with LDAP. They can:
@@ -69,7 +69,7 @@ People can tackle all sorts of operations with LDAP. They can:
 
 ## **LDAP Terms to Understand**
 
-![image](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/57b783e5-62c0-4b2b-ad7b-25f91161d706)
+![image](/assets/img/posts/2024-01-02-LDAP-Lightweight-Directory-Access-Protocol-LDAP/57b783e5-62c0-4b2b-ad7b-25f91161d706.png)
 
 - **Distinguished name (DN).** This is a unique identifier of each entry that also describes location within the information tree.
 - **Modifications.** These are requests LDAP users make to alter the data associated with an entry. [Defined modification types](https://ldap.com/basic-ldap-concepts/) include adding, deleting, replacing, and increasing.
@@ -79,7 +79,7 @@ People can tackle all sorts of operations with LDAP. They can:
 - Organizational unit (OU). a container for other objects in LDAP
 - Common Name (CN) . [CN stands for common name, an attribute that identifies the name of an entry in LDAP](https://stackoverflow.com/questions/18756688/what-are-cn-ou-dc-in-an-ldap-search)
 
-![image](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/ee59c930-d648-4ecc-8815-08e28daf927a)
+![image](/assets/img/posts/2024-01-02-LDAP-Lightweight-Directory-Access-Protocol-LDAP/ee59c930-d648-4ecc-8815-08e28daf927a.png)
 
 
 ## LDAP 2024 ?
@@ -110,7 +110,7 @@ So LDAP and Active Directory work together to help users. But they don't compete
 
 ## Lightweight Directory Service DS
 
-![image](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/d0421b3e-d912-418e-878d-c6a93241bb1a)
+![image](/assets/img/posts/2024-01-02-LDAP-Lightweight-Directory-Access-Protocol-LDAP/d0421b3e-d912-418e-878d-c6a93241bb1a.png)
 
 
 - AD LDS stands for Active Directory Lightweight Directory Services, which is a directory service that supports directory-enabled applications without the dependencies and limitations of AD DS.

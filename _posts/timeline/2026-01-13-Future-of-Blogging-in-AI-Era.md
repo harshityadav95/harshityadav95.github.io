@@ -3,7 +3,7 @@ title: The Future of Blogging in the AI Era (2026)
 author: harshityadav95
 date: 2026-01-13 00:00:00 +0530
 categories: [Timeline]
-tags: [personal, AI, blogging, content-creation, reflection]
+tags: [personal, AI, Blogging, content-creation, reflection]
 ---
 
 ## The Shift in How We Consume Information

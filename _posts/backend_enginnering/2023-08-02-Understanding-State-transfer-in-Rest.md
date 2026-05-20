@@ -28,7 +28,7 @@ We assume the server to be dumb and stateless with no prior knowledge of us and 
 - Payload is Heavier as we have to transfer state data also which may become heavier over time as compared to the stateful model
 - Stateless is better than Stateful, as stateful is hard to scale
 
-![image](https://github.com/harshityadav95/harshityadav95.github.io/assets/14792490/42ee6eb9-148f-48db-8eeb-eab6a00e907e)
+![image](/assets/img/posts/2023-08-02-Understanding-State-transfer-in-Rest/42ee6eb9-148f-48db-8eeb-eab6a00e907e.png)
 
 
 - The token is used for future requests

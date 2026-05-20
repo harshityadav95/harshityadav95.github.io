@@ -12,12 +12,16 @@ Git repository: https://github.com/harshityadav95/harshityadav95.github.io
 ```bash
 # Install dependencies
 bundle install
+pnpm install
 
 # Run local development server (preferred)
 ./tools/run.sh
 
 # Build the site
 bundle exec jekyll build
+
+# Run Playwright smoke tests
+pnpm test
 ```
 
 ## Project Structure

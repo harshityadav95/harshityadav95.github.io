@@ -47,7 +47,7 @@ This is the source code for my personal tech blog, where I share insights, proje
 - **Hosting:** GitHub Pages
 - **Comments:** [Giscus](https://giscus.app/) (GitHub Discussions)
 - **Containerization:** Docker
-- **Version Control:** Git & GitHub
+
 
 ---
 
@@ -59,6 +59,7 @@ This is the source code for my personal tech blog, where I share insights, proje
 - RubyGems
 - GCC and Make
 - Bundler
+- pnpm
 
 ### Installation
 
@@ -71,6 +72,7 @@ This is the source code for my personal tech blog, where I share insights, proje
 2. **Install dependencies**
    ```bash
    bundle install
+   pnpm install
    ```
 
 3. **Serve locally**
@@ -137,6 +139,15 @@ tags: [tag1, tag2, tag3]
 4. Write your content in Markdown
 5. Test locally before committing
 
+## 🧪 Smoke Tests
+
+JavaScript tooling is managed with pnpm across the repo:
+
+```bash
+pnpm install
+pnpm test
+```
+
 ---
 
 ## 🔧 Configuration
@@ -172,7 +183,7 @@ This is a personal blog, but if you notice any issues or have suggestions:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-Copyright (c) 2024 Harshit Yadav
+Copyright (c) 2026 Harshit Yadav
 
 ---
 

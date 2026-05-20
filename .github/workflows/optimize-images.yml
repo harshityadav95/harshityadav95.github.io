@@ -1,0 +1,111 @@
+name: Optimize Images
+
+on:
+  pull_request:
+    paths:
+      - ".github/workflows/optimize-images.yml"
+      - "**.jpg"
+      - "**.jpeg"
+      - "**.JPG"
+      - "**.JPEG"
+      - "**.png"
+      - "**.PNG"
+      - "**.webp"
+      - "**.WEBP"
+      - "**.avif"
+      - "**.AVIF"
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/optimize-images.yml"
+      - "**.jpg"
+      - "**.jpeg"
+      - "**.JPG"
+      - "**.JPEG"
+      - "**.png"
+      - "**.PNG"
+      - "**.webp"
+      - "**.WEBP"
+      - "**.avif"
+      - "**.AVIF"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+concurrency:
+  group: optimize-images-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  optimize:
+    name: Optimize uploaded images
+    runs-on: ubuntu-latest
+    if: github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == github.repository
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+        with:
+          ref: ${{ github.event_name == 'pull_request' && github.head_ref || github.ref_name }}
+
+      - name: Validate image assets
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          uppercase_images="$(
+            find assets/img/posts -type f \( \
+              -name '*.JPG' -o -name '*.JPEG' -o -name '*.PNG' -o \
+              -name '*.WEBP' -o -name '*.AVIF' \
+            \) -print
+          )"
+
+          if [[ -n "$uppercase_images" ]]; then
+            echo "::error::Image files under assets/img/posts must use lowercase extensions."
+            printf '%s\n' "$uppercase_images"
+            exit 1
+          fi
+
+          invalid_images="$(
+            find assets/img/posts -type f \( \
+              -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' -o \
+              -iname '*.webp' -o -iname '*.avif' \
+            \) -print0 | while IFS= read -r -d '' image; do
+              mime_type="$(file --brief --mime-type "$image")"
+              case "$mime_type" in
+                image/*) ;;
+                *) printf '%s (%s)\n' "$image" "$mime_type" ;;
+              esac
+            done
+          )"
+
+          if [[ -n "$invalid_images" ]]; then
+            echo "::error::Files with image extensions must contain image data."
+            printf '%s\n' "$invalid_images"
+            exit 1
+          fi
+
+      - name: Compress images
+        if: github.event_name != 'pull_request'
+        id: calibre
+        uses: calibreapp/image-actions@main
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          compressOnly: ${{ github.event_name != 'pull_request' }}
+
+      - name: Create optimization pull request
+        if: github.event_name != 'pull_request' && steps.calibre.outputs.markdown != ''
+        uses: peter-evans/create-pull-request@v8
+        with:
+          token: ${{ secrets.IMAGE_OPTIMIZER_TOKEN || secrets.GITHUB_TOKEN }}
+          title: Optimize uploaded images
+          commit-message: "chore: optimize uploaded images"
+          branch: codex/optimize-uploaded-images
+          delete-branch: true
+          body: ${{ steps.calibre.outputs.markdown }}
