@@ -56,16 +56,20 @@ jobs:
         uses: actions/setup-node@v6
         with:
           node-version: "24"
-          cache: npm
+          cache: pnpm
+          cache-dependency-path: pnpm-lock.yaml
+
+      - name: Enable Corepack
+        run: corepack enable
 
       - name: Install Node dependencies
-        run: npm ci
+        run: pnpm install --frozen-lockfile
 
       - name: Install Playwright Chromium
-        run: npx playwright install --with-deps chromium
+        run: pnpm exec playwright install --with-deps chromium
 
       - name: Run Playwright smoke test
-        run: npm test
+        run: pnpm test
         env:
           SITE_DIR: "_site${{ steps.pages.outputs.base_path }}"
           PLAYWRIGHT_BASE_URL: "http://127.0.0.1:4000"
