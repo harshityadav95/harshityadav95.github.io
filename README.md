@@ -59,6 +59,7 @@ This is the source code for my personal tech blog, where I share insights, proje
 - RubyGems
 - GCC and Make
 - Bundler
+- pnpm
 
 ### Installation
 
@@ -71,6 +72,7 @@ This is the source code for my personal tech blog, where I share insights, proje
 2. **Install dependencies**
    ```bash
    bundle install
+   pnpm install
    ```
 
 3. **Serve locally**
@@ -136,6 +138,15 @@ tags: [tag1, tag2, tag3]
 
 4. Write your content in Markdown
 5. Test locally before committing
+
+## 🧪 Smoke Tests
+
+JavaScript tooling is managed with pnpm across the repo:
+
+```bash
+pnpm install
+pnpm test
+```
 
 ---
 

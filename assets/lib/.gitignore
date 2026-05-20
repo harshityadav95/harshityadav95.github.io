@@ -3,6 +3,5 @@
 !.git*
 !.editorconfig
 
-# NPM
+# pnpm
 node_modules
-package-lock.json

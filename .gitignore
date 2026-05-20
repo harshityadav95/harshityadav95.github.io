@@ -11,7 +11,7 @@ _site
 # RubyGems
 *.gem
 
-# NPM dependencies
+# pnpm dependencies
 node_modules/
 
 # Playwright

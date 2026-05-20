@@ -4,7 +4,7 @@ updates:
     directory: "/"
     versioning-strategy: increase
     groups:
-      npm:
+      pnpm:
         dependency-type: "production"
     schedule:
       interval: "monthly"
