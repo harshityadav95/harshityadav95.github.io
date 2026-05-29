@@ -112,6 +112,7 @@ Crucial for visualizing system design. Add `mermaid: true` to front matter.
 ```markdown
 ```mermaid
 sequenceDiagram
+    autonumber
     participant Client
     participant Proxy
     participant Backend
@@ -121,6 +122,7 @@ sequenceDiagram
     Proxy->>Backend: SYN
 ```
 ```
+Use `autonumber` in Mermaid sequence diagrams when the diagram explains an ordered request, packet, or delivery flow.
 
 ### Front Matter Template
 
@@ -175,6 +177,7 @@ mermaid: true
 ```markdown
 ![Architecture flow showing TCP connections](/assets/img/posts/post-slug/arch.png){: .shadow w="700" h="400" }
 ```
+If a post should not use a thumbnail, omit the front matter `image:` field entirely. Inline body images are still acceptable when requested.
 
 **Internal Links (SEO):**
 Every post should include minimum 2-3 contextual links using Jekyll's `post_url` tag:

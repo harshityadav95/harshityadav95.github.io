@@ -28,5 +28,6 @@ playwright-report/
 # Misc
 _sass/vendors
 assets/js/dist
+/temp/
 .DS_Store
 .kiro
