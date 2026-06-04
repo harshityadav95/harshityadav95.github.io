@@ -41,7 +41,7 @@ When our IL compiled code needs to be executed, CLR invokes JIT compilers which 
 - -> are two main fn possible in C# :[https://stackoverflow.com/questions/17607951/is-it-possible-to-have-more-than-one-main-method-in-a-c-sharp-program](https://stackoverflow.com/questions/17607951/is-it-possible-to-have-more-than-one-main-method-in-a-c-sharp-program)
 - Java :[https://stackoverflow.com/questions/13399836/can-there-exist-two-main-methods-in-a-java-program](https://stackoverflow.com/questions/13399836/can-there-exist-two-main-methods-in-a-java-program)
 
-## .NET Framework, .NET Standard and .NET Core ([link1](http://www.c-sharpcorner.com/article/difference-between-net-framework-and-net-core/),[link2](https://stackoverflow.com/questions/42939454/what-is-the-difference-between-net-core-and-net-standard-class-library-project/44861621))
+## .NET Framework, .NET Standard and .NET Core ([link1](https://www.c-sharpcorner.com/article/difference-between-net-framework-and-net-core/),[link2](https://stackoverflow.com/questions/42939454/what-is-the-difference-between-net-core-and-net-standard-class-library-project/44861621))
 
 ## **.net assemblies**
 
@@ -79,7 +79,7 @@ The`bin`folder holds**binary files**, which are the actual executable code for y
 
 **Managed Unmanaged code**
 
-- [> http://www.c-sharpcorner.com/uploadfile/puranindia/managed-code-and-unmanaged-code-in-net/](http://www.c-sharpcorner.com/uploadfile/puranindia/managed-code-and-unmanaged-code-in-net/)
+- [> https://www.c-sharpcorner.com/uploadfile/puranindia/managed-code-and-unmanaged-code-in-net/](https://www.c-sharpcorner.com/uploadfile/puranindia/managed-code-and-unmanaged-code-in-net/)
 
 ## **DataTypes:**
 

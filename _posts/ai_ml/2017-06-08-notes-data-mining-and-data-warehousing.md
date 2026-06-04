@@ -20,7 +20,7 @@ Several core techniques that are used in data mining describe the type of mining
 
 **Association rule learning**is a[rule-based machine learning](https://en.wikipedia.org/wiki/Rule-based_machine_learning)method for discovering interesting relations between variables in large databases
 
-Association rules are if/then statements that help uncover relationships between seemingly unrelated data in a[relational database](http://searchsqlserver.techtarget.com/definition/relational-database)or other information repository. An example of an association rule would be “If a customer buys a dozen eggs, he is 80% likely to also purchase milk.”
+Association rules are if/then statements that help uncover relationships between seemingly unrelated data in a[relational database](https://searchsqlserver.techtarget.com/definition/relational-database)or other information repository. An example of an association rule would be “If a customer buys a dozen eggs, he is 80% likely to also purchase milk.”
 
 Such information can be used as the basis for decisions about marketing activities such as, e.g., promotional[pricing](https://en.wikipedia.org/wiki/Pricing)or[product placements](https://en.wikipedia.org/wiki/Product_placement).
 
@@ -130,11 +130,11 @@ Here is the Tree Pruning Approaches listed below −
 
 ## **Neural Network**
 
-In information technology, a neural network is a system of hardware and/or software patterned after the operation of neurons in the human brain. Neural networks — also called artificial neural networks — are a variety of[deep learning](http://searchbusinessanalytics.techtarget.com/definition/deep-learning)technologies. Commercial applications of these technologies generally focus on solving complex
+In information technology, a neural network is a system of hardware and/or software patterned after the operation of neurons in the human brain. Neural networks — also called artificial neural networks — are a variety of[deep learning](https://searchbusinessanalytics.techtarget.com/definition/deep-learning)technologies. Commercial applications of these technologies generally focus on solving complex
 
-A neural network usually involves a large number of[processors](http://whatis.techtarget.com/definition/processor)operating in parallel and arranged in tiers. The first tier receives the raw input information — analogous to optic nerves in human visual processing. Each successive tier receives the output from the tier preceding it, rather than from the raw input — in the same way neurons further from the optic nerve receive signals from those closer to it. The last tier produces the output of the system
+A neural network usually involves a large number of[processors](https://whatis.techtarget.com/definition/processor)operating in parallel and arranged in tiers. The first tier receives the raw input information — analogous to optic nerves in human visual processing. Each successive tier receives the output from the tier preceding it, rather than from the raw input — in the same way neurons further from the optic nerve receive signals from those closer to it. The last tier produces the output of the system
 
-Each processing[node](http://searchnetworking.techtarget.com/definition/node)has its own small sphere of knowledge, including what it has seen and any rules it was originally programmed with or developed for itself. The tiers are highly interconnected, which means each node in[tier*n*](http://searchnetworking.techtarget.com/definition/n-tier)will be connected to many nodes in tier*n-1* — its inputs — and in tier*n+1,*which provides input for those nodes. There may be one or multiple nodes in the output layer, from which the answer it produces can be read.
+Each processing[node](https://searchnetworking.techtarget.com/definition/node)has its own small sphere of knowledge, including what it has seen and any rules it was originally programmed with or developed for itself. The tiers are highly interconnected, which means each node in[tier*n*](https://searchnetworking.techtarget.com/definition/n-tier)will be connected to many nodes in tier*n-1* — its inputs — and in tier*n+1,*which provides input for those nodes. There may be one or multiple nodes in the output layer, from which the answer it produces can be read.
 
 Typically, a neural network is initially trained, or fed large amounts of data. Training consists of providing input and telling the network what the output should be. For example, to build a network to identify the faces of actors, initial training might be a series of pictures of actors, non-actors, masks, statuary, animal faces and so on. Each input is accompanied by the matching identification, such as actors’ names, “not actor” or “not human” information. Providing the answers allows the model to adjust its internal weightings to learn how to do its job better.
 
@@ -144,7 +144,7 @@ Typically, a neural network is initially trained, or fed large amounts of data. 
 
 ## **Fuzzy Logic**
 
-Fuzzy logic is an approach to computing based on “degrees of truth” rather than the usual “true or false” (1 or 0)[Boolean](http://searchcio-midmarket.techtarget.com/definition/Boolean)logic on which the modern computer is based.
+Fuzzy logic is an approach to computing based on “degrees of truth” rather than the usual “true or false” (1 or 0)[Boolean](https://searchcio-midmarket.techtarget.com/definition/Boolean)logic on which the modern computer is based.
 
 ![Medium article image](/assets/img/posts/notes-data-mining-and-data-warehousing/medium-image-013.jpg)
 
@@ -257,10 +257,10 @@ ________________________________________________________________________
 
 **Step 1: Handling of incomplete data**
 
-Incomplete data affects classification accuracy and hinders[effective data mining](http://searchbusinessanalytics.techtarget.com/feature/An-introduction-to-data-mining). The following techniques are effective for working with incomplete data.
+Incomplete data affects classification accuracy and hinders[effective data mining](https://searchbusinessanalytics.techtarget.com/feature/An-introduction-to-data-mining). The following techniques are effective for working with incomplete data.
 
 1. **multi-task learning (MTL)**: the learning of a problem in relation to others) for pattern classification, with missing inputs, can be compared with representative procedures used for handling incomplete data on two well-known data sets.
-2. Another[data mining technique](http://searchbusinessanalytics.techtarget.com/tip/Most-businesses-think-small-when-it-comes-to-data-mining-techniques)is based on the evolution of strategies built using**parametric and non-parametric imputation methods**
+2. Another[data mining technique](https://searchbusinessanalytics.techtarget.com/tip/Most-businesses-think-small-when-it-comes-to-data-mining-techniques)is based on the evolution of strategies built using**parametric and non-parametric imputation methods**
 3. The ISOM-DH model handles incomplete data using independent component analysis (ICA) and self-organizing maps (SOM). It uses existing data to estimate the missing data and visualize the handled high-dimensional data.
 
 **Step 2: Ensure efficiency and scalability of data mining algorithms\**
@@ -268,7 +268,7 @@ Incomplete data affects classification accuracy and hinders[effective data minin
 A great deal of expertise and effort is currently required for the implementation, maintenance, and performance-tuning of a parallel data mining application
 
 1. Ensure parallel and scalable execution of data mining algorithms.
-2. Opt for scalable data mining instead of mere[associations](http://searchbusinessanalytics.techtarget.com/definition/association-rules-in-data-mining)when mining market basket data.
+2. Opt for scalable data mining instead of mere[associations](https://searchbusinessanalytics.techtarget.com/definition/association-rules-in-data-mining)when mining market basket data.
 3. Remove barriers to the widespread adoption of support vector machines.
 
 **Step 3: Mining of large databases**
@@ -280,7 +280,7 @@ A great deal of expertise and effort is currently required for the implementatio
 
 **Step 4: Handling of relational and complex data types**
 
-Its critical to develop a system to support the mining of multiple-level knowledge in large relational databases and data warehouses. This requires tight integration of**online analytical processing (**[**OLAP**](http://searchbusinessintelligence.techtarget.in/news/2240024045/OLAP-and-data-mining-Whats-the-difference)**)**with a wide spectrum of data mining functions including characterization, association, classification, prediction, and clustering.
+Its critical to develop a system to support the mining of multiple-level knowledge in large relational databases and data warehouses. This requires tight integration of**online analytical processing (**[**OLAP**](https://searchbusinessintelligence.techtarget.in/news/2240024045/OLAP-and-data-mining-Whats-the-difference)**)**with a wide spectrum of data mining functions including characterization, association, classification, prediction, and clustering.
 
 1. OLAP-based induction
 2. Multidimensional statistical analysis
@@ -291,7 +291,7 @@ Its critical to develop a system to support the mining of multiple-level knowled
 
 Heterogeneous database systems play a vital role in the information industry in 2011. Data warehouses must support data extraction from multiple databases to keep up with the trend.
 
-Example : three[heterogeneous data mining](http://searchoracle.techtarget.com/tip/Successful-data-mining-requires-work)programs are needed to model the behavior of telecom organizations
+Example : three[heterogeneous data mining](https://searchoracle.techtarget.com/tip/Successful-data-mining-requires-work)programs are needed to model the behavior of telecom organizations
 
 1. Client Attribute model
 2. Client Characteristics and Usage model

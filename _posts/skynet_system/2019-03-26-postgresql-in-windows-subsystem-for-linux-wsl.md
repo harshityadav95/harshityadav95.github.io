@@ -87,7 +87,7 @@ There are GUI Clients which specially designed for PgAdmin4 or some general mana
 3. Table Plus [[https://tableplus.io](https://tableplus.io)]
 4. heidisql [[https://www.heidisql.com/](https://www.heidisql.com/)]
 5. OmniDB [[https://omnidb.org/en/](https://omnidb.org/en/)
-6. [squirrelsql](http://www.squirrelsql.org)[[http://www.squirrelsql.org](http://www.squirrelsql.org)]
+6. [squirrelsql](https://www.squirrelsql.org)[[https://www.squirrelsql.org](https://www.squirrelsql.org)]
 
 Among all the one with stable release and portable package to run without installation I chose Table Plus now to connect Launch the .exe
 

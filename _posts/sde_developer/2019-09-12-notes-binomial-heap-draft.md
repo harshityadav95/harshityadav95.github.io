@@ -9,7 +9,7 @@ tags: [data-structures, binomial-heap, notes]
 ## Notes :Binomial Heap [Draft]
 
 - A binomial*heap*is made up of a list of binomial*trees*
-- The main application of[Binary Heap](http://geeksquiz.com/binary-heap/)is as implement priority queue Binomial Heap is an extension of[Binary Heap](http://geeksquiz.com/binary-heap/)that provides faster union or merge operation together with other operations provided by Binary Heap
+- The main application of[Binary Heap](https://geeksquiz.com/binary-heap/)is as implement priority queue Binomial Heap is an extension of[Binary Heap](https://geeksquiz.com/binary-heap/)that provides faster union or merge operation together with other operations provided by Binary Heap
 
 ![Medium article image](/assets/img/posts/notes-binomial-heap-draft/medium-image-ff378a0a480e.jpg)
 

@@ -32,7 +32,7 @@ Suppose there were no services the pods would have to connect with other pods or
 
 ## **How does pod communicate ?**
 
-Let’s say we deployed a pod that is hosting an application. Can one directly talk to the pod using its IP address? Something like[http://10.264.0.2?](http://10.x.x.x/?)
+Let’s say we deployed a pod that is hosting an application. Can one directly talk to the pod using its IP address? Something like `http://10.264.0.2?`
 
 Well, not really , as the pod IP is local IP , issued by the network or machine the pods is running on similar to what you run when you run your local machine localhost while making a website , your friend cannot open the website you are running on your localhost.
 

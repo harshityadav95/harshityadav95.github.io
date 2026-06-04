@@ -237,7 +237,7 @@ There are two approaches to work with XML and ADO. First, you can use ADO.NET to
 
 In ADO.NET, you can access the data using the DataSet class. The DataSet class implements methods and properties to work with XML documents. The following sections discuss methods that read XML data.
 
-Link :[http://www.c-sharpcorner.com/uploadfile/mahesh/ado-net-and-xml/](http://www.c-sharpcorner.com/uploadfile/mahesh/ado-net-and-xml/)
+Link :[https://www.c-sharpcorner.com/uploadfile/mahesh/ado-net-and-xml/](https://www.c-sharpcorner.com/uploadfile/mahesh/ado-net-and-xml/)
 
 ## **Unit -7**
 

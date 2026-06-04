@@ -214,6 +214,8 @@ exclude:
   - README.md
   - LICENSE
   - assets/lib/node_modules
+  - temp
+  - test-results
   - purgecss.js
   - rollup.config.js
   - "package*.json"

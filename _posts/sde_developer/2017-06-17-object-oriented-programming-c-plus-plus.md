@@ -74,9 +74,9 @@ _Namespace Example_
 
 **Object Oriented Programming Language :**
 
-***O****bject-****o****riented****p****rogramming*(**OOP**) refers to a type of computer programming (software design) in which[programmers](http://www.webopedia.com/TERM/P/programmer.html)define not only the[data type](http://www.webopedia.com/TERM/D/data_type.html)of a[data structure](http://www.webopedia.com/TERM/D/data_structure.html), but also the types of operations ([functions](http://www.webopedia.com/TERM/F/function.html)) that can be applied to the data structure.
+***O****bject-****o****riented****p****rogramming*(**OOP**) refers to a type of computer programming (software design) in which[programmers](https://www.webopedia.com/TERM/P/programmer.html)define not only the[data type](https://www.webopedia.com/TERM/D/data_type.html)of a[data structure](https://www.webopedia.com/TERM/D/data_structure.html), but also the types of operations ([functions](https://www.webopedia.com/TERM/F/function.html)) that can be applied to the data structure.
 
-In this way, the data structure becomes an[object](http://www.webopedia.com/TERM/O/object.html)that includes both[data](http://www.webopedia.com/TERM/D/data.html)and functions. In addition, programmers can create relationships between one object and another. For example, objects can inherit characteristics from other objects
+In this way, the data structure becomes an[object](https://www.webopedia.com/TERM/O/object.html)that includes both[data](https://www.webopedia.com/TERM/D/data.html)and functions. In addition, programmers can create relationships between one object and another. For example, objects can inherit characteristics from other objects
 
 **Is c++ Object oreinted …Object based or what ?**
 
@@ -118,7 +118,7 @@ Method Overriding:
 
 **Comparison with Java**  
 In Java, a class can be made abstract by using abstract keyword. Similarly a function can be made pure virtual or abstract by using abstract keyword. See  
-[Abstract Classes in Java](http://www.geeksforgeeks.org/abstract-classes-in-java/)for more details.
+[Abstract Classes in Java](https://www.geeksforgeeks.org/abstract-classes-in-java/)for more details.
 
 **Interface vs Abstract Classes:**  
 An interface does not have implementation of any of its methods, it can be considered as a collection of method declarations. In C++, an interface can be simulated by making all methods as pure virtual. In Java, there is a separate keyword for interface.
@@ -167,7 +167,7 @@ double Box::getVolume(void) {   return length * breadth * height;}
 
 A very common coding practice is to separate the interface of a class from the implementation of its member functions through the use of`.h`and`.cpp`files on a per-class basis. So`class Foo`would be realised with a`Foo.h`header file and a corresponding`Foo.cpp`file.
 
-This is often thrown out of the window in the special case of generic classes and instead[header-only](http://en.wikipedia.org/wiki/Header-only)libraries are used to keep the compiler happy even though it does clutter the interface file with implementation details.
+This is often thrown out of the window in the special case of generic classes and instead[header-only](https://en.wikipedia.org/wiki/Header-only)libraries are used to keep the compiler happy even though it does clutter the interface file with implementation details.
 
 This has the advantage of better separating interface and implementation coupled with the further benefit of actually compiling
 
@@ -208,7 +208,7 @@ Link :[Friend Function and class documentation](https://msdn.microsoft.com/en-us
 The ‘this’ pointer is passed as a hidden argument to all nonstatic member function calls and is available as a local variable within the body of all nonstatic functions. ‘this’ pointer is a constant pointer that holds the memory address of the current object. ‘this’ pointer is not available in static member functions as static member functions can be called without any object (with class name).  
 For a class X, the type of this pointer is ‘X* const’.
 
-Link :[Geeks for geeks reference document](http://www.geeksforgeeks.org/this-pointer-in-c/)
+Link :[Geeks for geeks reference document](https://www.geeksforgeeks.org/this-pointer-in-c/)
 
 ## **Dynamic Memory Allocation**
 
@@ -227,7 +227,7 @@ Classes can contain static member data and member functions. When a data member 
 
 ## **Proxy Classes**
 
-A proxy class in C++ is used to implement the[Proxy Pattern](http://en.wikipedia.org/wiki/Proxy_pattern)in which an object is an interface or a mediator for some other object.
+A proxy class in C++ is used to implement the[Proxy Pattern](https://en.wikipedia.org/wiki/Proxy_pattern)in which an object is an interface or a mediator for some other object.
 
 A typical use of a proxy class in C++ is implementing the [] operator since the [] operator may be used to get data or to set data within an object. The idea is to provide a proxy class which allows for the detection of a get data use of the [] operator versus the set data use of the [] operator. The [] operator of a class uses the proxy object to assist
 
@@ -392,7 +392,7 @@ Link :[**Detailed explnation to upcasting and down casting**](https://www.tutori
 ## **Virtual functions**
 
 Consider the following simple program which is an example of runtime polymorphism.  
-The main thing to note about the program is, derived class function is called using a base class pointer. The idea is,[virtual functions](http://en.wikipedia.org/wiki/Virtual_function)are called according to the type of object pointed or referred, not according to the type of pointer or reference. In other words, virtual functions are resolved late, at runtime.
+The main thing to note about the program is, derived class function is called using a base class pointer. The idea is,[virtual functions](https://en.wikipedia.org/wiki/Virtual_function)are called according to the type of object pointed or referred, not according to the type of pointer or reference. In other words, virtual functions are resolved late, at runtime.
 
 **What is the use?**  
 Virtual functions allow us to create a list of base class pointers and call methods of any of the derived classes without even knowing kind of derived class object. For example, consider a employee management software for an organization, let the code has a simple base class*Employee*, the class contains virtual functions like*raiseSalary()*,*transfer()*,*promote()*,.. etc. Different types of employees like*Manager*,*Engineer*, ..etc may have their own implementations of the virtual functions present in base class*Employee*. In our complete software, we just need to pass a list of employees everywhere and call appropriate functions without even knowing the type of employee. For example, we can easily raise salary of all employees by iterating through list of employees. Every type of employee may have its own logic in its class, we don’t need to worry because if*raiseSalary()*is present for a specific employee type, only that function would be called.
@@ -402,8 +402,8 @@ Compiler maintains two things to this magic:
 
 ![Medium article image](/assets/img/posts/object-oriented-programming-c-plus-plus/medium-image-2bd0dd07f274.png)
 
-[***vtable:***](http://en.wikipedia.org/wiki/Virtual_method_table)A table of function pointers. It is maintained per class.  
-[***vptr:***](http://en.wikipedia.org/wiki/Virtual_method_table#Implementation)A pointer to vtable. It is maintained per object (See[this](http://geeksquiz.com/c-virtual-functions-question-12/)for an example).
+[***vtable:***](https://en.wikipedia.org/wiki/Virtual_method_table)A table of function pointers. It is maintained per class.  
+[***vptr:***](https://en.wikipedia.org/wiki/Virtual_method_table#Implementation)A pointer to vtable. It is maintained per object (See[this](https://geeksquiz.com/c-virtual-functions-question-12/)for an example).
 
 Compiler adds additional code at two places to maintain and use*vptr*.  
 **1)**Code in every constructor. This code sets vptr of the object being created. This code sets*vptr*to point to*vtable*of the class.  
@@ -412,7 +412,7 @@ Compiler adds additional code at two places to maintain and use*vptr*.
 **Is this a standard way for implementation of run-time polymorphism in C++?**  
 The C++ standards do not mandate exactly how runtime polymophism must be implemented, but compilers generally use minor variations on the same basic model.
 
-Link :[Virtual function on geeks for geeks](http://www.geeksforgeeks.org/virtual-functions-and-runtime-polymorphism-in-c-set-1-introduction/)
+Link :[Virtual function on geeks for geeks](https://www.geeksforgeeks.org/virtual-functions-and-runtime-polymorphism-in-c-set-1-introduction/)
 
 ## **Abstract vs Concrete Class**
 
@@ -772,7 +772,7 @@ Templates may be used in many combinations with inheritance. It is possible to c
 - a template class that inherits from a non-template class, and
 - a template class that uses multiple inheritance.
 
-Link :[Elaboration of above points](http://www.prenhall.com/divisions/esm/app/kafura/secure/chapter7/html/7.5_inheritance.htm)
+Link :[Elaboration of above points](https://www.prenhall.com/divisions/esm/app/kafura/secure/chapter7/html/7.5_inheritance.htm)
 
 Link :[Template & Inheritance](https://blog.feabhas.com/2014/06/template-inheritance/)
 
@@ -806,7 +806,7 @@ Link :[IBM Knowledge center](https://www.ibm.com/support/knowledgecenter/en/SSLT
 **Function templates and static variables:**  
 Each instantiation of function template has its own copy of local static variables. For example, in the following program there are two instances:*void fun(int )*and*void fun(double )*. So two copies of static variable*i*exist.
 
-Link :[Geeks for geeks](http://www.geeksforgeeks.org/templates-and-static-variables-in-c/)
+Link :[Geeks for geeks](https://www.geeksforgeeks.org/templates-and-static-variables-in-c/)
 
 ## **Exception Handling in C++**
 
@@ -829,7 +829,7 @@ In C++, a function can specify the exceptions that it throws using the throw key
 
 ***3)****Grouping of Error Types:*In C++, both basic types and objects can be thrown as exception. We can create a hierarchy of exception objects, group exceptions in namespaces or classes, categorize them according to types.
 
-Link :[Exception handling from geeks from geeks](http://www.geeksforgeeks.org/exception-handling-c/)
+Link :[Exception handling from geeks from geeks](https://www.geeksforgeeks.org/exception-handling-c/)
 
 ## **Rethrowing Exception in C++**
 
@@ -871,9 +871,9 @@ Link :[MSDN](https://msdn.microsoft.com/en-us/library/awbt5tew.aspx)
 
 ## **Stack Unwinding In C++**
 
-The process of removing function entries from function call stack at run time is called[Stack Unwinding](http://en.wikipedia.org/wiki/Call_stack#Unwinding). Stack Unwinding is generally related to Exception Handling. In C++, when an exception occurs, the function call stack is linearly searched for the exception handler, and all the entries before the function with exception handler are removed from the function call stack. So exception handling involves Stack Unwinding if exception is not handled in same function (where it is thrown).
+The process of removing function entries from function call stack at run time is called[Stack Unwinding](https://en.wikipedia.org/wiki/Call_stack#Unwinding). Stack Unwinding is generally related to Exception Handling. In C++, when an exception occurs, the function call stack is linearly searched for the exception handler, and all the entries before the function with exception handler are removed from the function call stack. So exception handling involves Stack Unwinding if exception is not handled in same function (where it is thrown).
 
-Link :[Geeks for Geeks](http://www.geeksforgeeks.org/stack-unwinding-in-c/)
+Link :[Geeks for Geeks](https://www.geeksforgeeks.org/stack-unwinding-in-c/)
 
 Link :[IBM Knowledge Center](https://www.ibm.com/support/knowledgecenter/en/SSB27U_6.3.0/com.ibm.zos.r12.cbclx01/cplr155.htm)
 
@@ -907,7 +907,7 @@ If both base and derived classes are caught as exceptions then catch block of de
 
 If we put base class first then the derived class catch block will never be reached. For example, following C++ code prints*“Caught Base Exception”*
 
-Link :[Geeks for geeks](http://www.geeksforgeeks.org/g-fact-60/)
+Link :[Geeks for geeks](https://www.geeksforgeeks.org/g-fact-60/)
 
 ## Reference
 
