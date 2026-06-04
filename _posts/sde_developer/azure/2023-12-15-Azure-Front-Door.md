@@ -79,3 +79,7 @@ Dynamic Site Acceleration (DSA) is a technique used to improve the performance a
 ## Reference :
 
 - [https://learn.microsoft.com/en-us/azure/frontdoor/front-door-overview](https://learn.microsoft.com/en-us/azure/frontdoor/front-door-overview)
+
+## Source
+
+- [Original Medium article](https://medium.com/@harshityadav95/notes-azure-front-door-35a2d38da921)

@@ -762,3 +762,7 @@ in Spring. : dependency is with the interface
 
 * [https://docs.spring.io/spring-framework/docs/2.5.x/reference/aop.html](https://docs.spring.io/spring-framework/docs/2.5.x/reference/aop.html)
 * [https://medium.com/engineering-zemoso/when-not-to-autowire-in-spring-spring-boot-93e6a01cb793](https://medium.com/engineering-zemoso/when-not-to-autowire-in-spring-spring-boot-93e6a01cb793)
+
+## Reference
+
+- [Original Medium article](https://medium.com/@harshityadav95/notes-spring-boot-4402daf369c0)

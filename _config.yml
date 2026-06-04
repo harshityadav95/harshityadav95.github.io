@@ -213,6 +213,7 @@ exclude:
   - tools
   - README.md
   - LICENSE
+  - assets/lib/node_modules
   - purgecss.js
   - rollup.config.js
   - "package*.json"
