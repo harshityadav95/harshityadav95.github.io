@@ -46,6 +46,9 @@ jobs:
         env:
           JEKYLL_ENV: production
 
+      - name: Verify generated homepage
+        run: bash tools/verify-built-site.sh "_site${{ steps.pages.outputs.base_path }}"
+
       - name: Run HTMLProofer
         run: |
           bundle exec htmlproofer _site \
@@ -159,6 +162,27 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Verify Pages publish mode
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          build_type="$(gh api "repos/${GITHUB_REPOSITORY}/pages" --jq '.build_type')"
+
+          if [[ "$build_type" != "workflow" ]]; then
+            echo "GitHub Pages build_type must be workflow, got: $build_type" >&2
+            echo "Legacy branch publishing can serve raw Jekyll source before the custom deploy finishes." >&2
+            exit 1
+          fi
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
+
+      - name: Verify live homepage
+        run: |
+          bash tools/verify-live-site.sh \
+            "${{ steps.deployment.outputs.page_url }}" \
+            "https://harshityadav.in"
