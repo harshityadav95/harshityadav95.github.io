@@ -18,7 +18,7 @@ concurrency:
 jobs:
   build:
     name: Build, prove, and smoke test
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04-arm
     permissions:
       actions: read
       contents: read
@@ -146,7 +146,7 @@ jobs:
   deploy:
     name: Deploy to GitHub Pages
     if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04-arm
     needs: build
 
     permissions:
