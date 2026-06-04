@@ -93,3 +93,7 @@ It’s important to note that once an order is placed, these next three tasks do
 - [https://softobiz.com/microservice-orchestration-vs-choreography/](https://softobiz.com/microservice-orchestration-vs-choreography/)
 - [https://theburningmonk.com/2020/08/choreography-vs-orchestration-in-the-land-of-serverless/](https://theburningmonk.com/2020/08/choreography-vs-orchestration-in-the-land-of-serverless/)
 - [https://blog.sparkfabrik.com/en/orchestration-vs-choreography](https://blog.sparkfabrik.com/en/orchestration-vs-choreography)
+
+## Source
+
+- [Original Medium article](https://medium.com/@harshityadav95/design-pattern-orchestration-choreography-3025a23b5b4d)

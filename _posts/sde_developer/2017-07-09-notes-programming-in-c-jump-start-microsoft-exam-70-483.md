@@ -482,3 +482,7 @@ Jump-Start-with-CSharp- - C# Jump Start ( Microsoft Exam-70-483)github.com](http
 
 [C# Beginner
 Unit -1medium.com](https://medium.com/@harshityadav95/c-beginner-d115a3df706b "https://medium.com/@harshityadav95/c-beginner-d115a3df706b")
+
+## Reference
+
+- [Original Medium article](https://medium.com/@harshityadav95/notes-programming-in-c-jump-start-microsoft-exam-70-483-a5c11c98669f)
