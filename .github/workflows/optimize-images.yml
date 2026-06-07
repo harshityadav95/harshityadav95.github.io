@@ -46,7 +46,12 @@ jobs:
   optimize:
     name: Optimize uploaded images
     runs-on: ubuntu-24.04-arm
-    if: github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == github.repository
+    if: >
+      (github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == github.repository) &&
+      (github.event_name != 'push' ||
+        (!contains(github.event.head_commit.message, '[ImgBot] Optimize images') &&
+         !contains(github.event.head_commit.message, 'Optimize uploaded images') &&
+         !contains(github.event.head_commit.message, 'chore: optimize uploaded images')))
 
     steps:
       - name: Checkout repository
