@@ -14,8 +14,6 @@ Google just dropped Gemma 4 12B, and they are heavily promoting its "unified, en
 
 Why should we, as software engineers and systems architects, care?
 
-Because this is not just another model announcement. This is an architectural shift in how multimodal inputs move through a model. Images, audio, and text are no longer treated like separate systems glued together with adapters. They are pushed into a single decoder-only transformer pipeline.
-
 Let's think about this from first principles.
 
 If you want a model to reason over an image, the naive question is: "Can the LLM see?"
@@ -31,6 +29,8 @@ If you have read my deep dive on [Google TurboQuant]({% post_url ai_ml/2026-03-2
 Traditionally, if you wanted a Large Language Model (LLM) to understand an image or an audio file, you could not just throw raw bytes at the text model. The LLM core understood text tokens and their embeddings. Pixels and waveforms lived in a completely different world.
 
 So what did the industry do?
+
+![Raster-scan image patches](/assets/img/posts/gemma-4-12b-encoder-free-architecture/image-1.png){: .shadow w="700" h="400" }
 
 We did what engineers always do when two systems do not speak the same language: we inserted a translation layer.
 
@@ -135,7 +135,7 @@ flowchart LR
 
 Now the image is a token stream. The transformer can attend across the sequence. It can learn that two adjacent patches in the sequence are horizontally related, and that patches separated by a row width are vertically related.
 
-![Raster-scan image patches](/assets/img/posts/gemma-4-12b-encoder-free-architecture/image-1.png){: .shadow w="700" h="400" }
+
 
 ## Positional Embeddings: Baking Space into Tokens
 
@@ -263,7 +263,6 @@ If you have built backend systems, you know the difference. A bad abstraction hi
 
 Gemma 4 12B is interesting because it removes a major boundary: the external multimodal encoder. That reduces the number of components, lowers memory pressure, and makes local inference more realistic.
 
- ear in front of the model, and started teaching the transformer to consume the world as one sequence.
 
 ## References
 
