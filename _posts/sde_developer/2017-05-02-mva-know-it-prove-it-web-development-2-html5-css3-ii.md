@@ -29,7 +29,7 @@ The relative URL, on the other hand, does not use the full address. It assumes t
 
 Why Choose Absolute URL  ?
 
-#### – FOILS SCRAPERS An absolute URL makes it harder for people to scrape information from your website using scraper programs. If you have all of your internal links as relative URLs, it would be very easy for a scraper to simply scrape your entire website and put it up on a new domain.](http://www.example.com/xyz.html)
+#### – FOILS SCRAPERS An absolute URL makes it harder for people to scrape information from your website using scraper programs. If you have all of your internal links as relative URLs, it would be very easy for a scraper to simply scrape your entire website and put it up on a new domain.](https://www.example.com/xyz.html)
 
 #### – DISALLOWS DUPLICATE CONTENT It’s very important to have absolute URLs in order to avoid duplicate content issue. Imagine you have multiple versions of root domains that are indexed in Google without a canonical tag point to correct version of the site.
 
