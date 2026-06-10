@@ -269,7 +269,7 @@ The flow becomes:
 3. Let the remote assemble or finalize the object.
 4. Verify metadata where the backend supports it.
 
-![Rclone multipart upload flow](/assets/img/posts/rclone-architecture/multipart-upload.png){: .shadow w="467" h="700" }
+![Rclone multipart upload flow](/assets/img/posts/rclone-architecture/multipart-upload.png){: .shadow width="467" height="700" }
 
 This is great for throughput, but again, there is a trade-off.
 
