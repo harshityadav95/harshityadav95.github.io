@@ -87,7 +87,7 @@ It uses interface-driven architecture. In the rclone source, the `fs` package de
 
 This is the architectural trick. When you configure `s3:`, rclone loads the S3 backend. When you configure `drive:`, it loads the Google Drive backend. Both backends implement the same core interface shape, but the implementation underneath is completely different.
 
-![Rclone VFS abstraction layer](/assets/img/posts/rclone-architecture/vfs-abstraction.png){: .shadow w="700" h="467" }
+![Rclone VFS abstraction layer](/assets/img/posts/rclone-architecture/vfs-abstraction.png){: .shadow width="700" height="467" }
 
 For S3, `Put` eventually becomes object-storage API calls over HTTP. For local disk, it becomes filesystem operations. For SFTP, it becomes SSH-backed file operations.
 
