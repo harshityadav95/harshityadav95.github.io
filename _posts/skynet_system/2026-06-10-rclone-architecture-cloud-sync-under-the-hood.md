@@ -145,7 +145,7 @@ Rclone compares the cheap signals first:
 3. **Modification time:** If the backend supports usable mod-times, compare them.
 4. **Hash:** If both sides expose a compatible hash, compare it.
 
-![Rclone march sync algorithm](/assets/img/posts/rclone-architecture/march-algorithm.png){: .shadow w="467" h="700" }
+![Rclone march sync algorithm](/assets/img/posts/rclone-architecture/march-algorithm.png){: .shadow width="467" height="700" }
 
 This is why backend capability matters. S3 ETags may look like MD5 hashes for simple uploads, but multipart uploads change that behavior. Google Drive may expose different checksum metadata. SFTP might not have a cloud-style object hash at all.
 
