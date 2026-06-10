@@ -175,7 +175,7 @@ Because metadata checks and data transfers have different bottlenecks. A metadat
 
 If you mix those two workloads carelessly, one large file can stall the discovery of smaller changes. By separating them, rclone can keep scanning while transfer workers move data in parallel.
 
-![Rclone checkers and transfers](/assets/img/posts/rclone-architecture/checkers-transfers.png){: .shadow w="467" h="700" }
+![Rclone checkers and transfers](/assets/img/posts/rclone-architecture/checkers-transfers.png){: .shadow width="467" height="700" }
 
 This is the producer-consumer model:
 
