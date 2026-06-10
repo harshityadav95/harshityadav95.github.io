@@ -209,7 +209,7 @@ Repeat that thousands of times and your throughput dies before storage becomes t
 
 For HTTP-based backends, rclone relies on Go's HTTP transport behavior: keep connections alive, reuse them where possible, and use HTTP/2 when supported unless disabled. This means multiple API calls can reuse warm TCP/TLS sessions instead of paying the handshake cost again and again.
 
-![Rclone HTTP I/O and connection reuse](/assets/img/posts/rclone-architecture/http-io.png){: .shadow w="467" h="700" }
+![Rclone HTTP I/O and connection reuse](/assets/img/posts/rclone-architecture/http-io.png){: .shadow width="467" height="700" }
 
 The packet-level story looks like this:
 
