@@ -87,7 +87,7 @@ It uses interface-driven architecture. In the rclone source, the `fs` package de
 
 This is the architectural trick. When you configure `s3:`, rclone loads the S3 backend. When you configure `drive:`, it loads the Google Drive backend. Both backends implement the same core interface shape, but the implementation underneath is completely different.
 
-![Rclone VFS abstraction layer](/assets/img/posts/rclone-architecture/vfs-abstraction.png){: .shadow w="700" h="467" }
+![Rclone VFS abstraction layer](/assets/img/posts/rclone-architecture/vfs-abstraction.png){: .shadow width="700" height="467" }
 
 For S3, `Put` eventually becomes object-storage API calls over HTTP. For local disk, it becomes filesystem operations. For SFTP, it becomes SSH-backed file operations.
 
@@ -145,7 +145,7 @@ Rclone compares the cheap signals first:
 3. **Modification time:** If the backend supports usable mod-times, compare them.
 4. **Hash:** If both sides expose a compatible hash, compare it.
 
-![Rclone march sync algorithm](/assets/img/posts/rclone-architecture/march-algorithm.png){: .shadow w="467" h="700" }
+![Rclone march sync algorithm](/assets/img/posts/rclone-architecture/march-algorithm.png){: .shadow width="467" height="700" }
 
 This is why backend capability matters. S3 ETags may look like MD5 hashes for simple uploads, but multipart uploads change that behavior. Google Drive may expose different checksum metadata. SFTP might not have a cloud-style object hash at all.
 
@@ -175,7 +175,7 @@ Because metadata checks and data transfers have different bottlenecks. A metadat
 
 If you mix those two workloads carelessly, one large file can stall the discovery of smaller changes. By separating them, rclone can keep scanning while transfer workers move data in parallel.
 
-![Rclone checkers and transfers](/assets/img/posts/rclone-architecture/checkers-transfers.png){: .shadow w="467" h="700" }
+![Rclone checkers and transfers](/assets/img/posts/rclone-architecture/checkers-transfers.png){: .shadow width="467" height="700" }
 
 This is the producer-consumer model:
 
@@ -209,7 +209,7 @@ Repeat that thousands of times and your throughput dies before storage becomes t
 
 For HTTP-based backends, rclone relies on Go's HTTP transport behavior: keep connections alive, reuse them where possible, and use HTTP/2 when supported unless disabled. This means multiple API calls can reuse warm TCP/TLS sessions instead of paying the handshake cost again and again.
 
-![Rclone HTTP I/O and connection reuse](/assets/img/posts/rclone-architecture/http-io.png){: .shadow w="467" h="700" }
+![Rclone HTTP I/O and connection reuse](/assets/img/posts/rclone-architecture/http-io.png){: .shadow width="467" height="700" }
 
 The packet-level story looks like this:
 
@@ -269,7 +269,7 @@ The flow becomes:
 3. Let the remote assemble or finalize the object.
 4. Verify metadata where the backend supports it.
 
-![Rclone multipart upload flow](/assets/img/posts/rclone-architecture/multipart-upload.png){: .shadow w="467" h="700" }
+![Rclone multipart upload flow](/assets/img/posts/rclone-architecture/multipart-upload.png){: .shadow width="467" height="700" }
 
 This is great for throughput, but again, there is a trade-off.
 
