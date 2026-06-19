@@ -1,5 +1,7 @@
 # CLAUDE.md: Architecture & Style Guide
 
+Claude should treat `AGENTS.md` as the source of truth for repository instructions. If this file and `AGENTS.md` differ, follow `AGENTS.md`.
+
 This file provides the technical standards and architectural guidance for Claude Code when working in this repository. It defines the "Harshit Writing Style Guide" modeled after Hussein Nasser's pragmatic, "no-nonsense" system design explainer style.
 
 ## About the Blog
