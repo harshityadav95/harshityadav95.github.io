@@ -2,7 +2,7 @@
 title: "[Notes] Ai- For Everyone by Deeplearning.ai on Coursera by Andrew Ng"
 author: harshityadav95
 date: 2020-01-26 00:00:00 +0530
-categories: [AI ML]
+categories: [AI/ML]
 tags: [ai, coursera, andrew-ng, notes]
 ---
 

@@ -2,7 +2,7 @@
 title: "Notes :Programming in C# Jump Start ( Microsoft Exam-70-483)"
 author: harshityadav95
 date: 2017-07-09 00:00:00 +0530
-categories: [SDE]
+categories: [SDE Developer]
 tags: [C, Microsoft Virtual Academy]
 description: "Migrated from Blogger."
 published: true

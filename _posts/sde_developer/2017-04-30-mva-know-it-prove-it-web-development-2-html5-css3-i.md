@@ -2,7 +2,7 @@
 title: "MVA Know it prove it- Web Development  -2 HTML5 & CSS3 - i"
 author: harshityadav95
 date: 2017-04-30 00:00:00 +0530
-categories: [SDE]
+categories: [SDE Developer]
 tags: [Cloud, Web Devlopment]
 description: "Migrated from Blogger."
 published: true

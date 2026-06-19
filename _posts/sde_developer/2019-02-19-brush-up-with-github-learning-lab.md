@@ -2,7 +2,7 @@
 title: "Brush up With GitHub Learning Lab"
 author: harshityadav95
 date: 2019-02-19 00:00:00 +0530
-categories: [SDE]
+categories: [SDE Developer]
 tags: [Git, Harshit Yadav]
 description: "Migrated from Blogger."
 published: true

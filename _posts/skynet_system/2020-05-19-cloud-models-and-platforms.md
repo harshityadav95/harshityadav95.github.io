@@ -2,7 +2,7 @@
 title: "Cloud Models and Platforms"
 author: harshityadav95
 date: 2020-05-19 00:00:00 +0530
-categories: [Cloud]
+categories: [Skynet System, Cloud]
 tags: [cloud, iaas, paas, saas]
 ---
 

@@ -2,7 +2,7 @@
 title: Understanding Package Manager Version Symbols - A Complete Guide
 author: harshityadav95
 date: 2026-01-17 00:00:00 +0530
-categories: [Software Development]
+categories: [SDE Developer, Interview]
 tags: [Software Development, Package Management, Dependency Management, Version Control]
 
 ---

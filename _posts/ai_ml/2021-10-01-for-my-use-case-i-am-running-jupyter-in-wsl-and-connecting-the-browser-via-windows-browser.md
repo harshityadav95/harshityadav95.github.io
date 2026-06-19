@@ -2,7 +2,7 @@
 title: "For my use case i am running Jupyter in WSL and connecting the browser via windows browser , for…"
 author: harshityadav95
 date: 2021-10-01 00:00:00 +0530
-categories: [AI ML]
+categories: [AI/ML]
 tags: [jupyter, wsl, python, notebook]
 ---
 

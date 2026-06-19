@@ -2,7 +2,7 @@
 title: Picking Storage Format
 author: harshityadav95
 date: 2025-05-04 00:00:00 +0530
-categories: [Dev Kit]
+categories: [Skynet System, Dev Kit]
 tags: [Git, Github]
 
 ---

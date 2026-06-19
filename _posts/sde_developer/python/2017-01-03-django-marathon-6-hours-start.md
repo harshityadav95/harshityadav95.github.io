@@ -2,7 +2,7 @@
 title: "Django - Marathon 6 Hours (Start)"
 author: harshityadav95
 date: 2017-01-03 00:00:00 +0530
-categories: [SDE]
+categories: [SDE Developer, Python]
 tags: [Django, Python]
 description: "Migrated from Blogger."
 published: true

@@ -3,7 +3,7 @@ layout: post
 title: "Securely SSH my Machine from Anywhere in the World"
 author: harshityadav95
 date: 2026-05-16 00:00:00 +0530
-categories: [Dev Kit]
+categories: [Skynet System, Dev Kit]
 tags: [Linux, Homelab, Cloudflare, SSH, Networking, Zero Trust, Security]
 description: A practical deep dive into using Cloudflare Tunnel and Zero Trust to reach an SSH machine securely without opening port 22.
 image:

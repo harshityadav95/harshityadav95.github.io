@@ -2,7 +2,7 @@
 title: "Setting up Spring Application Specifying Application Context using XML Part 3"
 author: harshityadav95
 date: 2021-07-17 00:00:00 +0530
-categories: [Spring Boot]
+categories: [SDE Developer, Spring Boot]
 tags: [spring, xml, java, application-context]
 ---
 

@@ -2,7 +2,7 @@
 title: "Installing MySQL in Ubuntu|Linux|Windows Subsystem for Linux from Scratch"
 author: harshityadav95
 date: 2019-07-04 00:00:00 +0530
-categories: [Dev Kit]
+categories: [Skynet System, Dev Kit]
 tags: [mysql, ubuntu, wsl, linux]
 ---
 

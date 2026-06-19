@@ -2,7 +2,7 @@
 title: "[Notes] Essence of Calculus : 3Blue1Brown"
 author: harshityadav95
 date: 2020-02-05 00:00:00 +0530
-categories: [AI ML]
+categories: [AI/ML]
 tags: [calculus, math, 3blue1brown, notes]
 ---
 

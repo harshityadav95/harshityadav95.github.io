@@ -3,7 +3,7 @@ layout: post
 title: "Rclone Architecture: How Cloud Sync Works Under the Hood"
 author: harshityadav95
 date: 2026-06-10 00:00:00 +0530
-categories: [DevOps]
+categories: [Skynet System, DevOps]
 tags: [rclone, storage, sync, backups, object-storage, networking, go]
 description: "A pragmatic breakdown of how rclone maps many storage backends into one sync engine, and what happens at the filesystem and network layers."
 published: true

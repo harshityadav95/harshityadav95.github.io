@@ -2,7 +2,7 @@
 title: Setup Github SSH in Windows
 author: harshityadav95
 date: 2023-07-30 00:00:00 +0530
-categories: [Dev Kit]
+categories: [Skynet System, Dev Kit]
 tags: [Git, Github]
 
 ---

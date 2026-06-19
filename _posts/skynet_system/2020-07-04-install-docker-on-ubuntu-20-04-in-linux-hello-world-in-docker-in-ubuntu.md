@@ -2,7 +2,7 @@
 title: "Install Docker on Ubuntu 20.04 in Linux || Hello world in Docker in Ubuntu"
 author: harshityadav95
 date: 2020-07-04 00:00:00 +0530
-categories: [Dev Kit]
+categories: [Skynet System, Dev Kit]
 tags: [docker, ubuntu, linux]
 ---
 

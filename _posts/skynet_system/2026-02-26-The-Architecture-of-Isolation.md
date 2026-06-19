@@ -3,7 +3,7 @@ layout: post
 title: "The Architecture of Isolation: A Narrative Journey Through Kernels, Containers, and Network Topologies"
 author: harshityadav95
 date: 2026-02-26 00:00:00 +0530
-categories: [Dev Kit]
+categories: [Skynet System, Dev Kit]
 tags: [Linux, Containers, Virtualization, Architecture, Docker, Podman, Kubernetes]
 description: A systems-level walkthrough of kernels, containers, virtual machines, and network isolation from the hardware boundary upward.
 image:

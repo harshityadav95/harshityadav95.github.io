@@ -2,7 +2,7 @@
 title: "Setting up a Maven Project on Eclipse in Linux Ubuntu Part 1"
 author: harshityadav95
 date: 2021-07-11 00:00:00 +0530
-categories: [Java]
+categories: [SDE Developer, Java]
 tags: [java, maven, eclipse, ubuntu]
 ---
 

@@ -2,7 +2,7 @@
 title: Azure Network Watcher
 author: harshityadav95
 date: 2023-08-05 00:00:00 +0530
-categories: [Azure]
+categories: [SDE Developer, Azure]
 tags: [Azure, Cloud Computing]
 
 ---

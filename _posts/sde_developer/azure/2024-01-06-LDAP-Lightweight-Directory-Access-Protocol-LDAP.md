@@ -2,7 +2,7 @@
 title: Lightweight directory access protocol LDAP
 author: harshityadav95
 date: 2024-01-06 00:00:00 +0530
-categories: [Azure]
+categories: [SDE Developer, Azure]
 tags: [Azure, LDAP]
 
 ---

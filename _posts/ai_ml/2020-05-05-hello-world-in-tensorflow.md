@@ -2,7 +2,7 @@
 title: "Hello World in TensorFLow"
 author: harshityadav95
 date: 2020-05-05 00:00:00 +0530
-categories: [AI ML]
+categories: [AI/ML]
 tags: [tensorflow, machine-learning, python]
 ---
 

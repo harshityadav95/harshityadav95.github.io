@@ -2,7 +2,7 @@
 title: "The Angular Day -3/9/17"
 author: harshityadav95
 date: 2017-09-04 00:00:00 +0530
-categories: [SDE]
+categories: [SDE Developer]
 tags: [Workshop  Confrence]
 description: "Migrated from Blogger."
 published: true

@@ -2,7 +2,7 @@
 title: "The Cost of Abstraction: Why Your Homelab Performance Dies at the Kernel"
 author: harshityadav95
 date: 2026-02-20 00:00:00 +0530
-categories: [Dev Kit]
+categories: [Skynet System, Dev Kit]
 tags: [Linux, Homelab, Proxmox, LXC, Virtualization, Kernel, Hypervisor]
 
 ---
