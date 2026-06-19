@@ -2,7 +2,7 @@
 title: "Setup Spring Boot in Maven Project in Eclipse Part 2"
 author: harshityadav95
 date: 2021-07-16 00:00:00 +0530
-categories: [Spring Boot]
+categories: [SDE Developer, Spring Boot]
 tags: [spring-boot, maven, eclipse, java]
 ---
 

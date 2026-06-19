@@ -2,7 +2,7 @@
 title: "Overview MVA Django Web  App Marathon"
 author: harshityadav95
 date: 2017-01-07 00:00:00 +0530
-categories: [SDE]
+categories: [SDE Developer, Python]
 tags: [Django, Cloud, Python]
 description: "Migrated from Blogger."
 published: true

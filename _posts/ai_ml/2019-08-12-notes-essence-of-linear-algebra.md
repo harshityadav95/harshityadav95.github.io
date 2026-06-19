@@ -2,7 +2,7 @@
 title: "Notes : Essence of Linear Algebra"
 author: harshityadav95
 date: 2019-08-12 00:00:00 +0530
-categories: [AI ML]
+categories: [AI/ML]
 tags: [linear-algebra, math, notes]
 ---
 

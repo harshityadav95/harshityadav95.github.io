@@ -2,7 +2,7 @@
 title: "Day 1: Starting  Python"
 author: harshityadav95
 date: 2016-09-05 00:00:00 +0530
-categories: [SDE]
+categories: [SDE Developer, Python]
 tags: [Python]
 description: "Migrated from Blogger."
 published: true

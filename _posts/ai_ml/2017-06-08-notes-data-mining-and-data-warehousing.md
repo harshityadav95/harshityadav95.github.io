@@ -2,7 +2,7 @@
 title: "[Notes]Data Mining and Data Warehousing"
 author: harshityadav95
 date: 2017-06-08 00:00:00 +0530
-categories: [AI ML]
+categories: [AI/ML]
 tags: [data-mining, data-warehousing, notes]
 ---
 

@@ -2,7 +2,7 @@
 title: "Beginners Concepts in Kubernetes"
 author: harshityadav95
 date: 2021-09-27 00:00:00 +0530
-categories: [DevOps]
+categories: [Skynet System, DevOps]
 tags: [kubernetes, containers, devops]
 ---
 

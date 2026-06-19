@@ -2,7 +2,7 @@
 title: "Spring REST Template in Spring STS Part 2"
 author: harshityadav95
 date: 2021-07-19 00:00:00 +0530
-categories: [Spring Boot]
+categories: [SDE Developer, Spring Boot]
 tags: [spring, rest-template, java]
 ---
 

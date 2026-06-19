@@ -2,7 +2,7 @@
 title:  Notes FreeCodeCamp Master Behavioral Interviews
 author: harshityadav95
 date: 2024-01-04 00:00:00 +0530
-categories: [Interview]
+categories: [SDE Developer, Interview]
 tags: [Behavioral Interviews, STAR]
 
 ---

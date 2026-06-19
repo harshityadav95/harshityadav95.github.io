@@ -2,7 +2,7 @@
 title: "Setting Up Nodejs + Yarn on WSL (Windows Subsystem for Linux)"
 author: harshityadav95
 date: 2019-04-10 00:00:00 +0530
-categories: [Dev Kit]
+categories: [Skynet System, Dev Kit]
 tags: [nodejs, yarn, wsl, windows]
 ---
 

@@ -2,7 +2,7 @@
 title: "Connecting to Linux|Ubuntu running in Virtual Machine to Terminal in Windows |WSL"
 author: harshityadav95
 date: 2019-07-03 00:00:00 +0530
-categories: [Dev Kit]
+categories: [Skynet System, Dev Kit]
 tags: [linux, ubuntu, virtual-machine, wsl]
 ---
 

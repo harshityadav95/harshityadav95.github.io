@@ -2,7 +2,7 @@
 title: Reactive Programming Java
 author: harshityadav95
 date: 2024-01-06 00:00:00 +0530
-categories: [Java]
+categories: [SDE Developer, Spring Boot]
 tags: [SpringBoot, webdevelopment]
 
 ---

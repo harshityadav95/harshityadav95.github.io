@@ -2,7 +2,7 @@
 title: "Using Annotation for Bean Specification Part 4"
 author: harshityadav95
 date: 2021-07-18 00:00:00 +0530
-categories: [Spring Boot]
+categories: [SDE Developer, Spring Boot]
 tags: [spring, annotations, beans, java]
 ---
 

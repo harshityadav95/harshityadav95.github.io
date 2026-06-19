@@ -2,7 +2,7 @@
 title: "Struts in Java"
 author: harshityadav95
 date: 2017-06-04 00:00:00 +0530
-categories: [Java]
+categories: [SDE Developer, Java]
 tags: [java, struts, web-development, notes]
 ---
 

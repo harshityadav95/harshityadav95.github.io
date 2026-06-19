@@ -2,7 +2,7 @@
 title: "Django -Marathon 3/6"
 author: harshityadav95
 date: 2017-01-07 00:00:00 +0530
-categories: [SDE]
+categories: [SDE Developer, Python]
 tags: [Django, Cloud]
 description: "Migrated from Blogger."
 published: true

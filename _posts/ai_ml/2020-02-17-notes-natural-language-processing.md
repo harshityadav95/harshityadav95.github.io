@@ -2,7 +2,7 @@
 title: "[Notes] Natural Language Processing"
 author: harshityadav95
 date: 2020-02-17 00:00:00 +0530
-categories: [AI ML]
+categories: [AI/ML]
 tags: [nlp, machine-learning, notes]
 ---
 

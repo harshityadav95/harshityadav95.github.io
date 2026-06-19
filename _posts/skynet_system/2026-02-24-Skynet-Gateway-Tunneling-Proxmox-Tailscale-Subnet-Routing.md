@@ -2,7 +2,7 @@
 title: "The Skynet Gateway: Tunneling into Proxmox with Tailscale Subnet Routing"
 author: harshityadav95
 date: 2026-02-24 00:00:00 +0530
-categories: [Dev Kit]
+categories: [Skynet System, Dev Kit]
 tags: [Linux, Homelab, Proxmox, Tailscale, Networking, WireGuard, LXC]
 
 ---

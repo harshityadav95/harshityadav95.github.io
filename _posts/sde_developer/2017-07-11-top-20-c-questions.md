@@ -2,7 +2,7 @@
 title: "Top 20 C#  Questions"
 author: harshityadav95
 date: 2017-07-11 00:00:00 +0530
-categories: [SDE]
+categories: [SDE Developer]
 tags: [C, Microsoft Virtual Academy]
 description: "Migrated from Blogger."
 published: true

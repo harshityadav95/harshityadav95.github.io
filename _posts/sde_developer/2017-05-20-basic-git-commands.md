@@ -2,7 +2,7 @@
 title: "Basic Git Commands"
 author: harshityadav95
 date: 2017-05-20 00:00:00 +0530
-categories: [SDE]
+categories: [SDE Developer]
 tags: [Project and Progress, Git]
 description: "Migrated from Blogger."
 published: true

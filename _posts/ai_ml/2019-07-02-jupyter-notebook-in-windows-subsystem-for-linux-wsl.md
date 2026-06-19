@@ -2,7 +2,7 @@
 title: "Jupyter Notebook in Windows Subsystem for Linux |WSL"
 author: harshityadav95
 date: 2019-07-02 00:00:00 +0530
-categories: [AI ML]
+categories: [AI/ML]
 tags: [jupyter, wsl, python, notebook]
 ---
 

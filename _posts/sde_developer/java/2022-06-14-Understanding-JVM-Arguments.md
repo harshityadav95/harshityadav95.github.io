@@ -2,7 +2,7 @@
 title: Understanding JVM Arguments 
 author: harshityadav95
 date: 2022-06-14 00:00:00 +0530
-categories: [Java]
+categories: [SDE Developer, Java]
 tags: [Software Development, Interview Preparation]
 
 ---

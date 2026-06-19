@@ -2,7 +2,7 @@
 title: "Course 1/4 : Introduction to Machine Learning in Production , Coursera Notes"
 author: harshityadav95
 date: 2021-05-30 00:00:00 +0530
-categories: [AI ML]
+categories: [AI/ML]
 tags: [mlops, machine-learning, coursera, notes]
 ---
 

@@ -2,7 +2,7 @@
 title: "IMAD Hasura — 8 Weeks Course"
 author: harshityadav95
 date: 2017-08-06 00:00:00 +0530
-categories: [SDE]
+categories: [SDE Developer]
 tags: [Hasura, Project and Progress, Web Devlopment]
 description: "Migrated from Blogger."
 published: true

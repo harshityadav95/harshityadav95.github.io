@@ -2,7 +2,7 @@
 title: "How to Sign git Commits with GPG in Github in Windows 10"
 author: harshityadav95
 date: 2019-02-28 00:00:00 +0530
-categories: [Dev Kit]
+categories: [Skynet System, Dev Kit]
 tags: [git, github, gpg, windows]
 ---
 

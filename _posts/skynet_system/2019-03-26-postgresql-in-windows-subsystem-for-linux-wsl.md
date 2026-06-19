@@ -2,7 +2,7 @@
 title: "PostgreSQL In Windows Subsystem for Linux (WSL)"
 author: harshityadav95
 date: 2019-03-26 00:00:00 +0530
-categories: [Dev Kit]
+categories: [Skynet System, Dev Kit]
 tags: [postgresql, wsl, windows, linux]
 ---
 

@@ -2,7 +2,7 @@
 title: "101-Beginners Guide on Genome Sequencing"
 author: harshityadav95
 date: 2019-04-22 00:00:00 +0530
-categories: [AI ML]
+categories: [AI/ML]
 tags: [genomics, bioinformatics, sequencing]
 ---
 

@@ -2,7 +2,7 @@
 title: "Skil-set Progress : Python"
 author: harshityadav95
 date: 2016-10-02 00:00:00 +0530
-categories: [SDE]
+categories: [SDE Developer, Python]
 tags: [Project and Progress]
 description: "Migrated from Blogger."
 published: true

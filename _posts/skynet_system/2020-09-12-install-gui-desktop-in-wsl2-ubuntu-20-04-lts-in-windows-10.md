@@ -2,7 +2,7 @@
 title: "Install GUI Desktop in WSL2 Ubuntu 20.04 LTS in Windows 10"
 author: harshityadav95
 date: 2020-09-12 00:00:00 +0530
-categories: [Dev Kit]
+categories: [Skynet System, Dev Kit]
 tags: [wsl2, ubuntu, windows, desktop]
 ---
 

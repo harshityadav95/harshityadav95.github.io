@@ -2,7 +2,7 @@
 title: Terraform in Azure
 author: harshityadav95
 date: 2022-08-20 00:00:00 +0530
-categories: [Azure]
+categories: [SDE Developer, Azure]
 tags: [Terraform]
 
 ---

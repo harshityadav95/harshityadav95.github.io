@@ -2,7 +2,7 @@
 title: How Variable Memory works inside Python
 author: harshityadav95
 date: 2024-06-01 00:00:00 +0530
-categories: [Python]
+categories: [SDE Developer, Python]
 tags: [Software Development, Interview Preparation]
 
 ---

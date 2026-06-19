@@ -2,7 +2,7 @@
 title: "How to publish Django app on Heroku"
 author: harshityadav95
 date: 2017-08-15 00:00:00 +0530
-categories: [Python]
+categories: [SDE Developer, Python]
 tags: [python, django, heroku, deployment]
 ---
 

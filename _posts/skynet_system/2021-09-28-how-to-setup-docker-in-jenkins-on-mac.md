@@ -2,7 +2,7 @@
 title: "How to Setup Docker in Jenkins on Mac"
 author: harshityadav95
 date: 2021-09-28 00:00:00 +0530
-categories: [DevOps]
+categories: [Skynet System, DevOps]
 tags: [docker, jenkins, mac, ci-cd]
 ---
 
