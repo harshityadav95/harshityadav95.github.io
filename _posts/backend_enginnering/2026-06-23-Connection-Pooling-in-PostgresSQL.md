@@ -1,5 +1,5 @@
 ---
-title: "Connection Pooling in PostgresSQL"
+title: "Why You Should Stop Creating Database Connections on Every Request"
 author: harshityadav95
 date: 2026-06-23 00:00:00 +0800
 categories: [Backend Engineering]
@@ -9,10 +9,6 @@ image:
   alt: Connection pooling architecture diagram
 published: true
 ---
-
-# Connection Pooling in PostgresSQL
-
-# Why You Should Stop Creating Database Connections on Every Request
 
 Connection pooling is one of those foundational backend architecture patterns that sounds basic, but still gets ignored in many real-world systems.
 
