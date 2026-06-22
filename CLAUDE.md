@@ -1,6 +1,6 @@
 # CLAUDE.md: Architecture & Style Guide
 
-Claude should treat `AGENTS.md` as the source of truth for repository instructions. If this file and `AGENTS.md` differ, follow `AGENTS.md`.
+Claude should treat this file as the source of truth for repository instructions. `AGENTS.md` is a short pointer back to this file.
 
 This file provides the technical standards and architectural guidance for Claude Code when working in this repository. It defines the "Harshit Writing Style Guide" modeled after Hussein Nasser's pragmatic, "no-nonsense" system design explainer style.
 
@@ -60,14 +60,33 @@ This section captures the strict engineering communication style for Harshit's b
 - **Protocol-Level Focus:** Reference TCP handshakes, TLS termination, HTTP headers, WebSockets, or packet flow when relevant.
 - **Emphasize Trade-offs:** Every architectural choice has pros and cons. Discuss latency, throughput, memory, stateful vs. stateless, and connection pooling.
 - **Progressive Disclosure:** Start with the bare-bones foundation (e.g., a simple client-server), introduce a failure mode (e.g., server dies under load), and then introduce the architectural solution (e.g., load balancer).
+- **First Principles Over Tools:** Tools, frameworks, and languages change. The fundamentals underneath them rarely do. Prefer explaining the shared mechanism before naming the product.
+- **Messy Reality Over Clean Paths:** Do not frame engineering as a neat checklist. Good backend engineering comes from experiments, failures, constraints, and debugging real systems.
+
+### Backend Fundamentals Lens
+
+When writing backend, networking, infrastructure, database, or system design posts, anchor the post in the fundamentals underneath the tool. A reader should leave understanding the mechanism, not just the command.
+
+**Core domains to consider:**
+- **Communication protocols:** Explain whether the system rides on TCP, UDP, HTTP/1.1, HTTP/2, HTTP/3, WebSockets, gRPC, or raw sockets. Discuss connection setup, reliability, multiplexing, head-of-line blocking, retransmission, and CPU overhead where relevant.
+- **Web servers:** Explain how the server accepts connections, handles concurrency, serves static or dynamic content, supports HTTP versions, and interacts with CDNs, gateways, or origin services.
+- **Database engineering:** Explain ACID, schema design, indexes, B+Trees, LSM trees, disk I/O, durability, isolation, cache behavior, and workload shape instead of only naming the database.
+- **Proxies:** Distinguish Layer 4 from Layer 7, forward proxy from reverse proxy, and client-visible from backend-visible behavior. Discuss TLS termination, routing, connection reuse, caching, authentication, API gateways, service meshes, and load balancing.
+- **Messaging systems:** Explain publish-subscribe, push vs. pull or long polling, delivery guarantees, ordering, retries, dead letters, consumer offsets, and the practical cost of "exactly once" claims.
+- **Message formats:** Explain serialization and deserialization cost, on-wire bytes, schema evolution, human-readable formats such as JSON/XML, and binary formats such as Protocol Buffers.
+- **Security:** Explain TLS, authentication, authorization, firewalls, DDoS protection, Layer 7 inspection, XSS, SQL injection, and the difference between encrypting traffic and trusting input.
+
+**Writing rule:** Do not say a technology is better in isolation. TCP is not "better" than UDP, HTTP/2 is not automatically faster, Redis is not simply "less durable," and Kafka is not always the right queue. Tie the claim to the workload, failure mode, latency budget, state model, and operational cost.
 
 ### Quick Reference Checklist
 
 - [ ] Opens with the fundamental problem (The "Why").
+- [ ] Identifies the first principle underneath the tool, framework, or protocol.
 - [ ] Breaks down the architecture visually (Mermaid diagram mandatory for systems).
 - [ ] Explains the flow of a request/packet step-by-step.
 - [ ] Avoids "magic" — shows raw configs, headers, CLI commands, or OS-level behavior.
 - [ ] Explicitly discusses trade-offs (Pros/Cons, latency, memory implications).
+- [ ] Calls out workload fit: concurrency pattern, request volume, fan-out, state, durability, and failure behavior.
 - [ ] Conversational interjections: "Right?", "At the end of the day", "Let's see how this works."
 - [ ] Complete working code examples/configs (not snippets).
 - [ ] 5-8 specific tags in front matter.
@@ -81,6 +100,7 @@ Standard flow for system design and technical posts:
 1. THE PROBLEM (The "Why")
    - What are we trying to solve? 
    - Why did the previous or naive architecture fail?
+   - Which fundamental property creates the constraint: reliability, latency, durability, ordering, state, throughput, or security?
    - "Let's think about this..."
 
 2. THE ARCHITECTURE (The "How")
@@ -91,10 +111,12 @@ Standard flow for system design and technical posts:
    - Step-by-step technical implementation.
    - CLI commands, NGINX configs, Docker compose files.
    - What happens at the network/protocol layer?
+   - What happens to bytes, connections, disk pages, messages, or locks under the hood?
 
 4. TRADE-OFFS & LIMITATIONS
    - "Nothing is free in software engineering."
    - Pros and Cons. What are the latency and state implications?
+   - What did we trade for reliability, speed, durability, throughput, or simplicity?
 
 5. CONCLUSION & CALL TO ACTION
    - Summary and final thoughts.
@@ -114,6 +136,7 @@ Crucial for visualizing system design. Add `mermaid: true` to front matter.
 ```markdown
 ```mermaid
 sequenceDiagram
+    autonumber
     participant Client
     participant Proxy
     participant Backend
@@ -123,6 +146,7 @@ sequenceDiagram
     Proxy->>Backend: SYN
 ```
 ```
+Use `autonumber` in Mermaid sequence diagrams when the diagram explains an ordered request, packet, or delivery flow.
 
 ### Front Matter Template
 
@@ -177,6 +201,7 @@ mermaid: true
 ```markdown
 ![Architecture flow showing TCP connections](/assets/img/posts/post-slug/arch.png){: .shadow w="700" h="400" }
 ```
+If a post should not use a thumbnail, omit the front matter `image:` field entirely. Inline body images are still acceptable when requested.
 
 **Internal Links (SEO):**
 Every post should include minimum 2-3 contextual links using Jekyll's `post_url` tag:
