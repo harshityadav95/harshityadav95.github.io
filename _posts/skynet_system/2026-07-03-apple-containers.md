@@ -13,7 +13,6 @@ published: true
 mermaid: true
 ---
 
-![Apple Containers Architecture](/assets/img/posts/apple-containers/image.png){: .shadow w="1024" h="559" }
 
 Apple’s new `container` tool is not "Docker Desktop with an Apple logo." That is the wrong mental model.
 
