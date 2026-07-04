@@ -10,7 +10,7 @@ tags: [event, datadog, conference, bangalore]
 
 **Thursday, April 16, 2026**
 
-Similar Slidedeck to previous year less of Ai more focus on value add of logging and traceability 
+Similar slide deck to the previous year, with less focus on AI and more focus on the value add of logging and traceability.
 
 ![IMG_2137.jpeg](/assets/img/posts/2026-04-16-datadog-conference-2026/IMG_2137.jpeg)
 
