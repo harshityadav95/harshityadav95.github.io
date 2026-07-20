@@ -9,8 +9,6 @@ published: true
 ---
 
 
-# HTTP/2 over TCP vs HTTP/3 over QUIC
-
 Greeting Users and programs today are diving deep into the plumbing of the internet. We are going to strip away the abstractions and look at the bare metal difference between **HTTP/2 over TCP/TLS** and **HTTP/3 over QUIC**.
 
 If you are building high-performance backends, designing APIs, or tuning reverse proxies like NGINX or Envoy, understanding this shift isn't optional. It completely alters how your servers process bytes coming off the wire.
