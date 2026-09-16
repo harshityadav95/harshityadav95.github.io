@@ -56,6 +56,7 @@ This section captures the strict engineering communication style for Harshit's b
 - Enthusiastic about raw engineering ("Beautiful, right?", "This is fascinating").
 
 **Explanatory Style:**
+- When adapting a supplied draft, preserve its distinctive wording and narrative voice while consolidating repeated explanations for a tighter read.
 - **Unpack the Abstraction:** Never just say "we use a reverse proxy." Explain *what* the reverse proxy is doing at Layer 4 or Layer 7.
 - **Protocol-Level Focus:** Reference TCP handshakes, TLS termination, HTTP headers, WebSockets, or packet flow when relevant.
 - **Emphasize Trade-offs:** Every architectural choice has pros and cons. Discuss latency, throughput, memory, stateful vs. stateless, and connection pooling.
