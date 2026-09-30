@@ -4,12 +4,12 @@ title: "Apple Silicon Kernel Panic Report"
 date: 2026-09-30 20:34:00 +0530
 categories: [Skynet System, Operating Systems]
 tags: [macOS, Apple Silicon, kernel-panic, xnu, memory-controller, debugging, crash-report]
-description: "Reading an Apple silicon kernel panic report to identify what failed, where it was detected, and what the report tells us about the cause."
+description: "Apple silicon kernel panic report to identify what failed, where it was detected, and what the report tells us about the cause."
 author: harshityadav95
 published: true
 ---
 
-# Apple Silicon Kernel Panic Report
+
 
 ![image.png](/assets/img/posts/apple-silicon-kernel-panic-report/image.png)
 
