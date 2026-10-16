@@ -190,6 +190,13 @@ mermaid: true
 
 ### Jekyll Formatting & Linking
 
+**YouTube Videos (Chirpy theme):**
+Embed YouTube videos in Markdown using Chirpy's include instead of bare URLs or Markdown links. This applies to `youtu.be/<id>`, `youtube.com/watch?v=<id>`, and `youtube.com/shorts/<id>` URLs. Extract the video ID and omit sharing parameters such as `feature=share`.
+```liquid
+{% include embed/youtube.html id='BfnQUKDmQIw' %}
+```
+Use the same include for Shorts. When importing an article without rephrasing, converting video links to embeds is a formatting change; preserve the surrounding wording.
+
 **Prompt Boxes** (Chirpy theme):
 ```markdown
 > Remember, DNS caching can completely bypass your load balancing if not configured correctly.

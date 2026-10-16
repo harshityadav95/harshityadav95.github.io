@@ -6,15 +6,16 @@ categories: [AI/ML]
 tags: [llm, prompt-caching, kv-cache, transformers, ai-agents, inference, distributed-systems]
 description: "Prompt caching reuses model computation."
 author: harshityadav95
+image:
+  path: /assets/img/posts/prompt-caching-in-llms/image.png
+  alt: Prompt caching in LLMs
 published: true
 math: true
 ---
 
-![image.png](/assets/img/posts/prompt-caching-in-llms/image.png)
-
 # TLDR;
 
-[https://youtu.be/BfnQUKDmQIw](https://youtu.be/BfnQUKDmQIw)
+{% include embed/youtube.html id='BfnQUKDmQIw' %}
 
 ## Engineering Deep Dive: Why Are We Paying for the Same Computation Again?
 
@@ -133,7 +134,7 @@ Two AI agents can use the same model and tools while having dramatically differe
 
 ## Summary : Short
 
-[https://www.youtube.com/shorts/mqnscMx8mUo?feature=share](https://www.youtube.com/shorts/mqnscMx8mUo?feature=share)
+{% include embed/youtube.html id='mqnscMx8mUo' %}
 
 ### Further Reading
 
